@@ -488,116 +488,145 @@
 "CHAT.PrivateRollContent": "{user}は秘密裏にメッセージ（ロール）を送信した",
 "CHAT.UnknownUser": "非公開ユーザ",
 
-"COMBAT.NavLabel": "戦闘ナビゲーション",
-"COMBAT.Begin": "戦闘開始",
-"COMBAT.Create": "戦闘作成",
-"COMBAT.Delete": "戦闘を削除",
-"COMBAT.Encounter": "戦闘",
-"COMBAT.EncounterPrevious": "前の戦闘に移動",
-"COMBAT.EncounterNext": "次の戦闘に移動",
-"COMBAT.End": "終了",
-"COMBAT.InitiativeRoll": "行動順判定",
-"COMBAT.InitiativeReset": "行動順をリセット",
-"COMBAT.ClearMovementHistories": "移動履歴をクリア",
-"COMBAT.InitiativeScore": "イニシアチブスコア",
-"COMBAT.EndTitle": "戦闘終了？",
-"COMBAT.EndConfirmation": "この戦闘を終了して、行動順を空にしますか？",
-"COMBAT.Linked": "シーンにリンクされている戦闘、クリックで解除",
-"COMBAT.None": "戦闘はありません",
-"COMBAT.NoneActive": "現在表示されているシーンに有効な戦闘はありません。",
-"COMBAT.NoneRemaining": "この戦闘で敗北していない戦闘参加キャラはいません。",
-"COMBAT.NotStarted": "-",
-"COMBAT.PanToCombatant": "戦闘参加キャラにカメラ移動",
-"COMBAT.PingCombatant": "戦闘参加キャラに注目",
-"COMBAT.WarnNonVisibleToken": "その戦闘参加キャラを見る権限がありません。",
-"COMBAT.Round": "{round}ラウンド",
-"COMBAT.Rounds": "ラウンド",
-"COMBAT.RoundPrev": "前のラウンド",
-"COMBAT.RoundNext": "次のラウンド",
-"COMBAT.RollNPC": "NPCをロール",
-"COMBAT.RollAll": "全てロール",
-"COMBAT.RollsInitiative": "{name} の行動順が決まった！",
-"COMBAT.Settings": "戦闘タブの設定",
-"COMBAT.SettingsSave": "変更内容を保存",
-"COMBAT.SidebarTitle": "行動順表",
-"COMBAT.Sounds.Epic": "エピック",
-"COMBAT.Sounds.MC": "戦闘コメンテータ",
-"COMBAT.ToggleVis": "可視/不可視の切替",
-"COMBAT.ToggleDead": "敗北マーク",
-"COMBAT.Turn": "ターン",
-"COMBAT.Turns": "ターン",
-"COMBAT.TurnEnd": "ターン終了",
-"COMBAT.TurnNext": "次のターン",
-"COMBAT.TurnPrev": "前のターン",
-"COMBAT.UnknownCombatant": "不明な戦闘参加キャラ",
-"COMBAT.Unlinked": "戦闘にリンク/シーンにリンク",
-"COMBAT.CannotLinkToScene": "この戦闘に参加しているすべての参加者を含まないシーンにこの戦闘を紐づけることはできません。",
-
-"COMBAT.CombatantActor": "リンクされたキャラ",
-"COMBAT.CombatantCreate": "参戦",
-"COMBAT.CombatantDefeated": "敗北",
-"COMBAT.CombatantHidden": "透明化",
-"COMBAT.CombatantImage": "サムネイル画像",
-"COMBAT.CombatantInitiative": "イニシアチブ値",
-"COMBAT.CombatantStatus": "戦闘参加キャラのステータス",
-"COMBAT.CombatantUpdate": "戦闘参加キャラを更新",
-"COMBAT.CombatantUpdateNamed": "戦闘参加キャラ更新: {name}",
-"COMBAT.CombatantName": "表示名",
-"COMBAT.CombatantRemove": "戦闘参加キャラを削除",
-"COMBAT.CombatantClear": "イニシアチブをクリア",
-"COMBAT.CombatantReroll": "イニシアチブを再ロール",
-"COMBAT.CombatantClearMovementHistory": "移動履歴をクリア",
-"COMBAT.CombatantMovementHistoryCleared": "コマ \"{name}\" の移動履歴がクリアされました。",
-"COMBAT.CombatantToken": "リンク中のコマ",
-"COMBAT.CombatantScene": "戦闘参加キャラシーン",
-"COMBAT.CombatantNotInScene": "{name}は、現在表示されているシーンに存在しません",
-
-"COMBAT.FIELDS": {
-  "round.label": "ラウンド",
-  "turn.label": "ターン"
-},
-
-"COMBAT.TURN_MARKERS": {
-  "ANIMATIONS": {
-    "SPIN": "回転",
-    "SPIN_PULSE": "回転パルス",
-    "PULSE": "パルス"
-  }
-},
-"COMBAT.CONFIG": {
-  "SHEET": {
-    "TURN_MARKERS": "コマのターンマーカー"
+"COMBAT": {
+  "NavLabel": "戦闘ナビゲーション",
+  "Begin": "戦闘開始",
+  "Create": "戦闘作成",
+  "Delete": "戦闘を削除",
+  "Encounter": "戦闘",
+  "EncounterPrevious": "前の戦闘に移動",
+  "EncounterNext": "次の戦闘に移動",
+  "End": "終了",
+  "InitiativeRoll": "行動順判定",
+  "InitiativeReset": "行動順をリセット",
+  "ClearMovementHistories": "移動履歴をクリア",
+  "InitiativeScore": "イニシアチブスコア",
+  "EndTitle": "戦闘終了？",
+  "EndConfirmation": "この戦闘を終了して、行動順を空にしますか？",
+  "None": "戦闘はありません",
+  "NoneActive": "現在表示されているシーンに有効な戦闘はありません。",
+  "NoneRemaining": "この戦闘で敗北していない戦闘参加キャラはいません。",
+  "NotStarted": "-",
+  "PanToCombatant": "戦闘参加キャラにカメラ移動",
+  "PingCombatant": "コマに注目",
+  "WarnNonVisibleToken": "その戦闘参加キャラを見る権限がありません。",
+  "Round": "{round}ラウンド",
+  "Rounds": "ラウンド",
+  "RoundPrev": "前のラウンド",
+  "RoundNext": "次のラウンド",
+  "RollNPC": "NPCをロール",
+  "RollAll": "全てロール",
+  "RollsInitiative": "{name} の行動順が決まった！",
+  "Settings": "戦闘タブの設定",
+  "SettingsSave": "変更内容を保存",
+  "SidebarTitle": "行動順表",
+  "Sounds": {
+    "Epic": "エピック",
+    "MC": "戦闘コメンテータ"
+  },
+  "ToggleVis": "可視/不可視の切替",
+  "ToggleDead": "敗北マーク",
+  "Turn": "ターン",
+  "Turns": "ターン",
+  "TurnEnd": "ターン終了",
+  "TurnNext": "次のターン",
+  "TurnPrev": "前のターン",
+  "UnknownCombatant": "不明な戦闘参加キャラ",
+  "CannotLinkToScene": "この戦闘に参加しているすべての参加者を含まないシーンにこの戦闘を紐づけることはできません。",
+  "CombatantActor": "リンクされたキャラ",
+  "CombatantCreate": "参戦",
+  "CombatantDefeated": "敗北",
+  "CombatantHidden": "透明化",
+  "CombatantImage": "サムネイル画像",
+  "CombatantInitiative": "イニシアチブ値",
+  "CombatantStatus": "戦闘参加キャラのステータス",
+  "CombatantUpdate": "戦闘参加キャラを更新",
+  "CombatantUpdateNamed": "戦闘参加キャラ更新: {name}",
+  "CombatantName": "表示名",
+  "CombatantRemove": "戦闘参加キャラを削除",
+  "CombatantClear": "イニシアチブをクリア",
+  "CombatantReroll": "イニシアチブを再ロール",
+  "CombatantClearMovementHistory": "移動履歴をクリア",
+  "CombatantMovementHistoryCleared": "コマ \"{name}\" の移動履歴がクリアされました。",
+  "CombatantToken": "リンク中のコマ",
+  "CombatantScene": "戦闘参加キャラシーン",
+  "CombatantNotInScene": "{name}は、現在表示されているシーンに存在しません",
+  "ACTIONS": {
+    "LinkToScene": "表示シーンにリンク",
+    "UnlinkFromScene": "シーンからリンク解除"
+  },
+  "DURATION": {
+    "ROUNDS": {
+      "one": "ラウンド",
+      "two": "ラウンド",
+      "few": "ラウンド",
+      "many": "ラウンド",
+      "other": "ラウンド"
+    },
+    "TURNS": {
+      "one": "ターン",
+      "two": "ターン",
+      "few": "ターン",
+      "many": "ターン",
+      "other": "ターン"
+    },
+    "None": "なし"
   },
   "FIELDS": {
-    "core.combatTrackerConfig": {
-      "skipDefeated": {
-        "label": "敗北者をスキップ",
-        "hint": "敗北マーク付きの戦闘参加キャラを自動的にスキップします。"
-      },
-      "resource": {
-        "label": "データの表示",
-        "hint": "追跡する各戦闘参加キャラのデータを選択してください。"
-      },
-      "turnMarker": {
-        "enabled": {
-          "label": "マーカーを有効化",
-          "hint": "すべてのコマの戦闘ターンマーカーをデフォルトで有効にします。"
+    "round": {
+      "label": "ラウンド"
+    },
+    "turn": {
+      "label": "ターン"
+    }
+  },
+  "TURN_MARKERS": {
+    "ANIMATIONS": {
+      "SPIN": "回転",
+      "SPIN_PULSE": "回転パルス",
+      "PULSE": "パルス"
+    }
+},
+  "CONFIG": {
+    "SHEET": {
+      "TURN_MARKERS": "コマのターンマーカー"
+    },
+    "FIELDS": {
+      "core.combatTrackerConfig": {
+        "skipDefeated": {
+          "label": "敗北者をスキップ",
+          "hint": "敗北マーク付きの戦闘参加キャラを自動的にスキップします。"
         },
-        "src": {
-          "label": "メディアソース",
-          "hint": "コマのターンマーカーとしてデフォルトで使用される画像またはビデオファイル。"
+        "resource": {
+          "label": "データの表示",
+          "hint": "追跡する各戦闘参加キャラのデータを選択してください。"
         },
-        "animation": {
-          "label": "アニメーション",
-          "hint": "各コマのターンマーカーにデフォルトで使用されるアニメーションタイプ。"
-        },
-        "disposition": {
-          "label": "関係性の色合い",
-          "hint": "コマの関係性に応じてターンマーカーに色合いを適用します。"
+        "turnMarker": {
+          "enabled": {
+            "label": "マーカーを有効化",
+            "hint": "すべてのコマの戦闘ターンマーカーをデフォルトで有効にします。"
+          },
+          "src": {
+            "label": "メディアソース",
+            "hint": "コマのターンマーカーとしてデフォルトで使用される画像またはビデオファイル。"
+          },
+          "animation": {
+            "label": "アニメーション",
+            "hint": "各コマのターンマーカーにデフォルトで使用されるアニメーションタイプ。"
+          },
+          "disposition": {
+            "label": "関係性の色合い",
+            "hint": "コマの関係性に応じてターンマーカーに色合いを適用します。"
+          }
         }
       }
     }
-  }
+  },
+  "PingInvisibleToken": "この参加キャラのコマは表示できません。",
+  "ResourceHint": "追跡する各戦闘参加キャラのデータを選択してください。",
+  "SkipDefeatedHint": "敗北マーク付きの戦闘参加キャラを自動的にスキップしますか？",
+  "TargetedBy": "{list}によりターゲットされた",
+  "ToggleTargeting": "ターゲット状態切り替え"
 },
 
 "COMPENDIUM.Name": "辞典名",
@@ -629,6 +658,10 @@
 },
 "COMPENDIUM.ImportEntry": "インポート",
 "COMPENDIUM.Locked": "{title} [ロック]",
+"COMPENDIUM.Migration": {
+  "Begin": "辞典 {collection} の移行を開始します、しばらくお待ちください。",
+  "Complete": "辞典 {collection} が正常に移行されました。"
+},
 "COMPENDIUM.SidebarTitle": "辞典",
 "COMPENDIUM.Type": "辞典の種別",
 "COMPENDIUM.TypeHint": "各辞典には、特定の種別のデータが含まれます。",
@@ -1354,6 +1387,7 @@
   "UNLOCK": "ホットバーをアンロック",
   "PAGE_NEXT": "次ページ",
   "PAGE_PREV": "前ページ",
+  "EMPTY": "空",
   "CLEAR": "ホットバーをクリア",
   "CLEAR_CONFIRM": "ホットバーに割り当てられたマクロをすべてクリアしますか？"
 },
