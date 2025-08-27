@@ -629,7 +629,7 @@
 },
 "COMPENDIUM.ImportEntry": "インポート",
 "COMPENDIUM.Locked": "{title} [ロック]",
-"COMPENDIUM.SidebarTitle": "辞典一覧",
+"COMPENDIUM.SidebarTitle": "辞典",
 "COMPENDIUM.Type": "辞典の種別",
 "COMPENDIUM.TypeHint": "各辞典には、特定の種別のデータが含まれます。",
 "COMPENDIUM.ToggleLocked": {
@@ -702,11 +702,11 @@
   "WallTerrainBlocks": "移動、音、2つ目のウォール以降の視線",
   "WallEthereal": "エーテルウォール",
   "WallEtherealBlocks": "視線と音",
-  "WallDoors": "ドアの描画",
+  "WallDoors": "扉の描画",
   "DoorBlocks": "閉じた状態で移動、視線、音。開けると全てを通します",
-  "WallSecret": "隠しドア",
+  "WallSecret": "隠し扉",
   "WallSecretHidden": "不可視",
-  "WallSecretHiddenP": "隠しドアはプレイヤーに視認されません。",
+  "WallSecretHiddenP": "隠し扉はプレイヤーに視認されません。",
   "WallSelect": "ウォールの選択 (複数)",
   "CommonMoveWithoutSnapping": "移動（マス目を無視）",
   "WallSelectEdit": "ウォールの頂点を<span class=\"reference\">ダブル・クリック</span>",
@@ -732,7 +732,7 @@
   "MakeNightP": "シーンの暗さの度合いを緩やかに1まで移行させます。",
   "FOWResetTitle": "マスクをリセットしますか？",
   "FOWResetDesc": "シーン探索の結果、見えるようになったマスクをリセットします。全てのプレイヤーに影響します。",
-  "GroupSound": "環境音の調整",
+  "GroupSound": "環境音操作",
   "SoundDraw": "環境音追加",
   "SoundPreview": "環境音の試聴",
   "SoundPreviewP": "有効化中、マウスを環境音の上にホバーするとそこにコマがあるかのように試聴することができます。",
@@ -833,7 +833,7 @@
   "ObjectDrag": "オブジェクトの移動",
   "ObjectDragCancel": "左ドラッグの操作をキャンセル",
   "ObjectRotateSlow": "オブジェクト回転 (小)",
-  "ObjectRotateFast": "オブジェクト (大)",
+  "ObjectRotateFast": "オブジェクト回転 (大)",
   "ObjectNoSnap": "グリッドを無視して配置",
   "MouseWheel": "マウスホイール",
   "DragDrop": "ドラッグ＆ドロップ",
@@ -908,7 +908,7 @@
   "Create": "{type}新規作成",
   "Delete": "{type}削除",
   "New": "新規{type}",
-  "NewCount": "新規 {type} ({count})",
+  "NewCount": "新規{type} ({count})",
   "Update": "{type}更新",
   "SkipCreate": "作成スキップ",
 
@@ -1081,7 +1081,7 @@
     "label": "キャラクターに効果を適用",
     "hint": "チェックを入れると、この効果が入っているアイテムを所持したキャラに効果を適用します。"
   },
-  "statuses.label": "Status Conditions",
+  "statuses.label": "ステータス状態",
   "duration": {
     "seconds.label": "効果の持続時間（秒）",
     "rounds.label": "ラウンド",
@@ -1277,7 +1277,7 @@
   "SelectFolder": "フォルダ選択",
   "TileSize": "ファイルのグリッドサイズ",
   "TileSizeHint": "元のタイル画像のグリッドのピクセルサイズを指定して、シーンに配置したときに自動的にサイズ調整されるようにします。",
-  "TraverseBack": "Traverse Back",
+  "TraverseBack": "上の階層に戻る",
   "NoResults": "その条件で一致するファイルは見つかりませんでした。",
   "Upload": "アップロード",
   "CannotUpload": "このフォルダへのアップロードは、更新時に内容が上書きされる可能性があるため禁止されています。代わりに、\"assets\"フォルダまたはその他の許可された場所にアップロードしてください。",
@@ -1638,7 +1638,7 @@
   "LockBar": "マクロバーをロック",
   "UnlockBar": "マクロバーをアンロック",
   "EmptySlot": "{slot}を空にする",
-  "CannotOverwrite": "マクロバーがロックされていますので、このマクロを上書きできません。",
+  "CannotOverwrite": "マクロバーがロックされているため、このマクロを上書きできません。",
   "FIELDS": {
     "command.label": "コマンド"
   }
@@ -1772,7 +1772,7 @@
 "PLAYLIST.SoundStop": "サウンド停止",
 "PLAYLIST.BulkImport": {
   "Title": "サウンドを一括インポート",
-  "Hint": "インポートするサウンドが含むフォルダを選択してください。",
+  "Hint": "インポートするサウンドが含まれるフォルダを選択してください。",
   "Button": "一括インポート",
   "Warning": "要求された \"{path}\" ディレクトリから有効なプレイリスト・サウンドがインポートできませんでした"
 },
@@ -2208,7 +2208,7 @@
 "SETTINGS.UI": {
   "MENU": {
     "name": "UI設定",
-    "label": "インターフェースの設定",
+    "label": "インターフェース設定",
     "hint": "FoundryVTTのユーザーインターフェースの表示や動作に影響する設定です。"
   },
   "HEADERS": {
@@ -2317,7 +2317,7 @@
   "RequireUpdate": "要更新",
   "RequireSystem": "要システム更新",
   "RequireDep": "要依存先",
-  "IncompatibleDep": "適合しない依存先： {dependencies}",
+  "IncompatibleDep": "適合しない依存先：{dependencies}",
   "IncompatibleSystems": "非互換のシステム: {systems}",
   "NoSupportedSystem": "サポートされているシステムがインストールされていません",
   "RequireCoreUpgrade": "要・本体アップデート",
@@ -2429,11 +2429,11 @@
   "ConfirmCodeLabel": "'{code}'を正確に入力してください",
 
   "WorldLaunchConnect": "ワールドデータをロード中",
-  "WorldLaunchMigrate": "ワールドデータをマイグレーション中",
+  "WorldLaunchMigrate": "ワールドデータを移行中",
   "WorldLaunchConnectPackage": "パッケージデータをロード中",
-  "WorldLaunchMigratePackage": "パッケージデータをマイグレーション中",
-  "WorldLaunchMigrateCore": "本体をマイグレーション中",
-  "WorldLaunchMigrateSystem": "システムをマイグレーション中",
+  "WorldLaunchMigratePackage": "パッケージデータを移行中",
+  "WorldLaunchMigrateCore": "本体を移行中",
+  "WorldLaunchMigrateSystem": "システムを移行中",
   "WorldLaunchCleanWorld": "ワールドデータをクリーニング中",
   "WorldLaunchExtractDemo": "デモ・データを抽出中",
 
@@ -2468,11 +2468,11 @@
   "WorldMigrationRequiredTitle": "ワールドデータを移行",
   "WorldCoreMigrationRequired": "<p>ワールド <strong>{world}</strong> を起動しようとしています。起動中、データが本体の旧バージョン (<code>{oldVersion}</code>) から現在インストールされているバージョン <strong>{newVersion}</strong>へ移行されます。</p>",
   "WorldSystemMigrationRequired": "<p>このワールドを最後に実行したとき、現在インストールされているシステムバージョン <strong>{newVersion}</strong> より古いシステムバージョン(<code>{oldVersion}</code>) が使用されました。このまま実行すると内部でデータ移行が発生する可能性があります。詳細はそれぞれのシステムの案内を御覧ください。</p>",
-  "WorldMigrationSystemUnavailable": "<p>現在インストールしているシステム<strong>{system}</strong> (<code>{systemVersion}</code>) のバージョンが利用中の本体バージョンとの互換性が指定されていません。マイグレーション中に問題が発生する可能性があります。</p>",
-  "WorldMigrationDisableModules": "<p>ワールドをマイグレーションする前にインストールしているシステムやモッドのアップデートを行ってください。新しいシステムバージョンへの移行であるため、インストールされたモッドは自動的に無効化されます。マイグレーション後、手動で再度有効化する事ができます。</p>",
-  "WorldMigrationBackupPrompt": "<p><strong>マイグレーションをもとに戻すことはできません。</strong>ワールドのデータをバックアップしてから続行してください。途中で問題が発生した時や前のバージョンに戻したい時はこのバックアップが必要となります。</p>",
+  "WorldMigrationSystemUnavailable": "<p>現在インストールしているシステム<strong>{system}</strong> (<code>{systemVersion}</code>) のバージョンが利用中の本体バージョンとの互換性が指定されていません。移行中に問題が発生する可能性があります。</p>",
+  "WorldMigrationDisableModules": "<p>ワールドを移行する前にインストールしているシステムやモッドのアップデートを行ってください。新しいシステムバージョンへの移行であるため、インストールされたモッドは自動的に無効化されます。移行後、手動で再度有効化する事ができます。</p>",
+  "WorldMigrationBackupPrompt": "<p><strong>移行をもとに戻すことはできません。</strong>ワールドのデータをバックアップしてから続行してください。途中で問題が発生した時や前のバージョンに戻したい時はこのバックアップが必要となります。</p>",
   "WorldMigrationCreateBackup": "移行前にバックアップを作成しますか？",
-  "WorldMigrationBegin": "マイグレーション開始",
+  "WorldMigrationBegin": "移行開始",
   "WorldMigrationInProcess": "ワールドデータがバージョン{version}対応のための更新を始めました。少し時間がかかる場合があります。完了するまでアプリを終了しないでください。",
 
   "AdminAccess": "要管理者アクセス",
@@ -2684,14 +2684,14 @@
     "AddAuthor": "作者を追加",
     "RemoveAuthor": "作者を削除",
     "AddPack": "辞典を追加",
-    "RemovePack": "辞典パックを削除",
+    "RemovePack": "辞典を削除",
     "AddRelationship": "依存先を追加",
     "RemoveRelationship": "依存先を削除"
   },
   "TABS": {
     "basics": "基本情報",
     "authors": "作者",
-    "packs": "辞典パック",
+    "packs": "辞典",
     "relationships": "依存先"
   },
   "FIELDS": {
@@ -2841,7 +2841,7 @@
 },
 
 "OWNERSHIP": {
-  "Title": "権限設定",
+  "Title": "権限設定: {object}",
   "NONE": "なし",
   "LIMITED": "限定的 (Limited)",
   "OBSERVER": "閲覧者 (Observer)",
@@ -2911,8 +2911,8 @@
 "PERMISSION.TokenDeleteHint": "自軍が所有するキャラクターのコマをゲーム画面上から削除できる許可を与えます。",
 "PERMISSION.TokenConfigure": "コマ設定の変更",
 "PERMISSION.TokenConfigureHint": "所有するコマの設定を変更する許可を与えます。",
-"PERMISSION.WallDoors": "ドアの開閉",
-"PERMISSION.WallDoorsHint": "ドアの開閉を許可します。",
+"PERMISSION.WallDoors": "扉の開閉",
+"PERMISSION.WallDoorsHint": "扉の開閉を許可します。",
 "PERMISSION.QueryUser": "Query Users",
 "PERMISSION.QueryUserHint": "Allow users with this role to query other users.",
 "PERMISSION.WarningNoCreate": "{document}を作成するには権限が足りません",
@@ -3212,7 +3212,7 @@
 "SIDEBAR.Import": "インポート",
 "SIDEBAR.NavLabel": "サイドバー・タブ",
 "SIDEBAR.TabJournal": "資料",
-"SIDEBAR.TabCompendium": "辞典一覧",
+"SIDEBAR.TabCompendium": "辞典",
 "SIDEBAR.TabSettings": "ゲーム設定",
 "SIDEBAR.TabTables": "ロール表",
 "SIDEBAR.TokenArt": "コマ画像を表示",
@@ -3344,7 +3344,7 @@
     "CreateResult": "新規結果を追加",
     "DeleteResult": "結果を削除",
     "ToggleDrawn": "既出状態切り替え",
-    "Submit": "ロール表をアップデート"
+    "Submit": "ロール表を更新"
   },
   "TABS": {
     "summary": "概要",
@@ -3508,7 +3508,7 @@
 "TOKEN.TitlePrototype": "初期コマ",
 "TOKEN.Update": "コマを更新",
 "TOKEN.WarningNoActor": "このコマは、ワールド内に存在しなくなったキャラクターを参照しています。",
-"TOKEN.WarningNoVision": "There is no Token in this Scene which gives you visibility of the area.",
+"TOKEN.WarningNoVision": "このシーンには、あなたがエリアを見えるようにするコマがありません。",
 "TOKEN.TABS": {
   "identity": "キャラクター",
   "appearance": "画像",
@@ -3948,9 +3948,9 @@
 "USERS.Launch": "セッションを開始する",
 "USERS.ManageTitle": "ユーザー管理者",
 "USERS.UpdateSuccess": "ユーザーは正常に更新され、ゲームワールドに戻りました。",
-"USERS.NoGMError": "ワールド内には最低1名のGamemasterユーザーが必要です。",
+"USERS.NoGMError": "ワールド内には最低1名のゲームマスターユーザーが必要です。",
 "USERS.DeleteWarning": "このユーザーはワールドから削除されます",
-"USERS.DeleteGMWarning": "あなたはGamemasterを削除しようとしています！",
+"USERS.DeleteGMWarning": "あなたはゲームマスターを削除しようとしています！",
 
 
 "VISION.ModeBlindness": "盲目",
@@ -3977,27 +3977,27 @@
   },
   "animation": {
     "strength": {
-      "label": "Animation Strength",
-      "hint": "A multiplier between 0 and 2 that modifies how much the door moves when animating. For example for a swinging door, more strength produces a wider open angle. For a sliding door, more strength causes the door to slide farther."
+      "label": "アニメーション強さ",
+      "hint": "0から2までの乗数で、アニメーション時に扉の動きの程度を変更します。たとえば、片開き扉の場合、強さが大きくなるほど開く角度が大きくなります。スライドドアの場合、強さが大きくなるほど扉のスライド距離が長くなります。"
     },
-    "direction.label": "Open Direction",
-    "double.label": "Double Door",
-    "duration.label": "Animation Duration (ms)",
-    "flip.label": "Flip Door Texture",
-    "texture.label": "Door Texture",
-    "type.label": "Animation Type"
+    "direction.label": "開く方向",
+    "double.label": "2枚の扉",
+    "duration.label": "アニメーション再生時間 (ms)",
+    "flip.label": "扉テクスチャを反転",
+    "texture.label": "扉テクスチャ",
+    "type.label": "アニメーション種別"
   }
 },
 "WALL.ANIMATION_TYPES": {
-  "ASCEND": "Ascend",
-  "DESCEND": "Descend",
-  "SLIDE": "Slide",
-  "SWING": "Swing",
-  "SWIVEL": "Swivel"
+  "ASCEND": "上昇",
+  "DESCEND": "下降",
+  "SLIDE": "スライド",
+  "SWING": "片開き",
+  "SWIVEL": "回転"
 },
 "WALL.ANIMATION_DIRECTIONS": {
-  "DEFAULT": "デフォルト",
-  "REVERSE": "Reversed"
+  "DEFAULT": "通常",
+  "REVERSE": "逆方向"
 },
 "WALL.Title": "ウォールの設定",
 "WALL.TitleMany": "ウォール設定 [複数]",
@@ -4005,7 +4005,7 @@
 "WALL.CoordinateRange": "({p0X}, {p0Y}) to ({p1X}, {p1Y})",
 "WALL.DoorAnimation": "扉アニメーション",
 "WALL.DoorConfiguration": "扉設定",
-"WALL.NWalls": "[{n} Walls]",
+"WALL.NWalls": "[{n}つのウォール]",
 "WALL.Restrictions": "ウォールの制限",
 "WALL.Submit": "ウォールを更新",
 "WALL.SenseTypes.NONE": "無し",
@@ -4019,8 +4019,8 @@
 "WALL.DoorTypes.NONE": "無し",
 "WALL.DoorTypes.DOOR": "扉",
 "WALL.DoorTypes.SECRET": "隠し扉",
-"WALL.DoorStates.CLOSED": "閉じた",
-"WALL.DoorStates.OPEN": "開いた",
+"WALL.DoorStates.CLOSED": "閉じている",
+"WALL.DoorStates.OPEN": "開いている",
 "WALL.DoorStates.LOCKED": "ロック",
 "WALL.DoorSounds.FuturisticFast": "未来的、速い",
 "WALL.DoorSounds.FuturisticHydraulic": "未来的、油圧式",
@@ -4031,8 +4031,8 @@
 "WALL.DoorSounds.MagicDoor": "魔法の扉",
 "WALL.DoorSounds.MagicWall": "魔法の壁",
 "WALL.DoorSounds.Metal": "金属",
-"WALL.DoorSounds.SlidingMetal": "スライド式、金属",
-"WALL.DoorSounds.SlidingMetalHeavy": "Sliding, Metal (Heavy)",
+"WALL.DoorSounds.SlidingMetal": "スライド式、金属 (軽)",
+"WALL.DoorSounds.SlidingMetalHeavy": "スライド式、金属 (重)",
 "WALL.DoorSounds.SlidingModern": "スライド式、現代風",
 "WALL.DoorSounds.SlidingWood": "スライド式、木",
 "WALL.DoorSounds.StoneBasic": "石造",
