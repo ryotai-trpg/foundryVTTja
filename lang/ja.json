@@ -1504,6 +1504,7 @@
   "Paste": "ペースト",
   "Target": "ターゲットする",
   "Ruler": "距離測定切り替え",
+  "UnconstrainedMovement": "制約なし移動切り替え",
   "SendToBack": "オブジェクトを奥に移動",
   "BringToFront": "オブジェクトを前に移動",
   "ToggleCharacterSheet": "キャラクターシート開閉",
