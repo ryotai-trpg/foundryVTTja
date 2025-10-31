@@ -48,7 +48,6 @@
 * DF qol
 * DF scene enhance
 * dice so nice (3Dダイス)
-* dnd5e helpers
 * food and water tracker
 * gmscreen
 * party resources

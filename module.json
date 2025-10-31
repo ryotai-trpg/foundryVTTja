@@ -97,12 +97,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/dnd5e-helpers.json",
-			"module": "dnd5e-helpers",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/autoanimations.json",
 			"module": "autoanimations",
 			"lang-author": "touge"
