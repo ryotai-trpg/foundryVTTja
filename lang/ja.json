@@ -3368,8 +3368,8 @@
   },
   "ACTIONS": {
     "ChangeMode": {
-      "Edit": "Edit",
-      "View": "View"
+      "Edit": "編集",
+      "View": "閲覧"
     },
     "OpenResultConfig": "結果設定を開く",
     "DrawResult": "ダイスロール",

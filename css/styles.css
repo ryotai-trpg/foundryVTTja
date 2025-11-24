@@ -9,3 +9,10 @@ form .form-group .form-fields > label {
 .database-entry > button {
     font-size: 0.5rem;
 }
+
+.roll-table-sheet button[data-action="changeMode"],
+button[data-action="installUrl"] {
+  > span {
+    white-space: nowrap;
+  }
+}
