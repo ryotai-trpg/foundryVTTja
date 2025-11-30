@@ -1,12 +1,9 @@
 {
 "Activate": "有効化",
 "all": "すべて",
-"Anchor": "アンカー",
-"Angle": "角度",
 "Author": "作者",
 "AuthorPl": "作者",
 "AreYouSure": "よろしいですか？",
-"and": "～",
 "authorized": "権限を有する",
 "Between": "",
 "Cancel": "キャンセル",
@@ -15,10 +12,8 @@
 "Confirm": "確定",
 "Command": "コマンド",
 "Collapse": "閉じる",
-"Coordinates": "座標",
 "Close": "閉じる",
 "Deactivate": "無効化",
-"Degrees": "度",
 "Default": "デフォルト",
 "Delete": "削除",
 "DeleteSelected": "選択を削除",
@@ -31,14 +26,8 @@
 "Error": "エラー",
 "Errors": "エラー",
 "Expand": "展開",
-"GridUnits": "マス単位",
-"GridSpaces": "マス目",
 "Install": "インストール",
-"Elevation": "高度",
-"Sort": "ソート",
 "Foundry Virtual Tabletop": "オンセ工房 Foundry VTT",
-"File Path": "ファイル保存先",
-"Height": "高さ",
 "Hidden": "不可視",
 "Hold": "保持",
 "Information": "情報",
@@ -49,7 +38,6 @@
 "Notes": "メモ",
 "Preload": "先読み",
 "Previous": "前へ",
-"Token": "コマ",
 "Minimum": "最小",
 "Maximum": "最大",
 "Image": "画像",
@@ -58,23 +46,17 @@
 "Path": "保存先",
 "Packs": "辞典",
 "Permissions": "権限",
-"Position": "位置",
-"Pixels": "px",
 "Preview": "プレビュー",
-"Ratio": "比率",
 "Reset": "リセット",
 "Resources": "リソース",
 "Result": "結果",
 "Resize": "リサイズ",
-"Rotation": "回転",
 "Roll Formula": "ダイス式",
 "Commit Change": "変更を反映",
 "Reset Changes": "変更をリセット",
 "Save": "保存",
 "Save Changes": "変更内容を保存",
-"Scale": "縮尺",
 "Scope": "範囲",
-"Seconds": "秒",
 "selected": "選択済み",
 "SelectAll": "全選択",
 "Sight": "視覚",
@@ -82,20 +64,15 @@
 "System": "システム",
 "Software": "ソフトウェア",
 "Sound": "音声",
-"spaces": "スペース",
 "Template": "テンプレート",
 "Type": "種別",
 "Uninstall": "アンインストール",
-"units": "単位",
 "Unknown": "不明",
 "Update": "更新",
 "URL": "URL",
 "Vision": "視覚",
 "Warning": "警告",
 "Warnings": "警告",
-"Width": "幅",
-"XCoord": "X座標",
-"YCoord": "Y座標",
 "Yes": "はい",
 
 "ADVENTURE": {
@@ -157,7 +134,11 @@
   }
 },
 
-  "APP.NavigateBackConfirm": "オンセ工房 FoundryVTTを終了します、よろしいですか？",
+"APP": {
+  "Attach": "ウィンドウを戻す",
+  "Detach": "ウィンドウを分離",
+  "NavigateBackConfirm": "オンセ工房 FoundryVTTを終了します、よろしいですか？"
+},
 
 "AMBIENT_LIGHT": {
   "ACTIONS": {
@@ -166,15 +147,6 @@
     "RESET": "高度なオプションをリセット"
   },
   "FIELDS": {
-    "x": {
-      "label": "X"
-    },
-    "y": {
-      "label": "Y"
-    },
-    "elevation": {
-      "label": "高度"
-    },
     "rotation": {
       "label": "回転角度"
     },
@@ -205,82 +177,79 @@
 
 
 "AMBIENT_SOUND": {
-"ACTIONS": {
-  "CREATE": "環境音を作成",
-  "UPDATE": "環境音を更新"
-},
-"FIELDS": {
-  "x": {
-    "label": "X"
+  "ACTIONS": {
+    "CREATE": "環境音を作成",
+    "UPDATE": "環境音を更新"
   },
-  "y": {
-    "label": "Y"
-  },
-  "elevation": {
-    "label": "高度"
-  },
-  "path": {
-    "label": "データへのパス",
-    "hint": "コマが指定の半径内に入ったときに再生される環境音を設定します。"
-  },
-  "radius": {
-    "label": "効果範囲"
-  },
-  "volume": {
-    "label": "最大音量",
-    "hint": "中心点の間近にいるときの最大音量を設定します。音源から離れていると最大音量に比例して減衰していきます。"
-  },
-  "easing": {
-    "label": "音量のイージング",
-    "hint": "コマが音源の中で移動し音量が増減するとき、緩やかに増減するようになります。"
-  },
-  "hidden": {
-    "label": "非表示",
-    "hint": "この音源を一時的に無効化します。"
-  },
-  "walls": {
-    "label": "壁に遮られる",
-    "hint": "この音が壁（ウォール）に遮られるかどうかを設定します。"
-  },
-  "darkness": {
-    "label": "音が聞こえる暗さの度合い",
-    "hint": "シーンの「暗さの度合い」がこの範囲内にある場合にのみ音源が再生されるようになります。",
-    "min": {
-      "label": ""
+  "FIELDS": {
+    "x": {
+      "label": "X"
     },
-    "max": {
-      "label": "~"
+    "y": {
+      "label": "Y"
+    },
+    "path": {
+      "label": "データへのパス",
+      "hint": "コマが指定の半径内に入ったときに再生される環境音を設定します。"
+    },
+    "radius": {
+      "label": "効果範囲"
+    },
+    "volume": {
+      "label": "最大音量",
+      "hint": "中心点の間近にいるときの最大音量を設定します。音源から離れていると最大音量に比例して減衰していきます。"
+    },
+    "easing": {
+      "label": "音量のイージング",
+      "hint": "コマが音源の中で移動し音量が増減するとき、緩やかに増減するようになります。"
+    },
+    "hidden": {
+      "label": "非表示",
+      "hint": "この音源を一時的に無効化します。"
+    },
+    "walls": {
+      "label": "壁に遮られる",
+      "hint": "この音が壁（ウォール）に遮られるかどうかを設定します。"
+    },
+    "darkness": {
+      "label": "音が聞こえる暗さの度合い",
+      "hint": "シーンの「暗さの度合い」がこの範囲内にある場合にのみ音源が再生されるようになります。",
+      "min": {
+        "label": ""
+      },
+      "max": {
+        "label": "~"
+      }
+    },
+    "effects": {
+      "base": {
+        "type": {
+          "label": "基本エフェクト"
+        },
+        "intensity": {
+          "label": "基本エフェクトの強度"
+        },
+        "hint": "フィルターやオーディオエフェクトを音源に設定することができます。"
+      },
+      "muffled": {
+        "type": {
+          "label": "消音"
+        },
+        "intensity": {
+          "label": "消音の強度"
+        },
+        "hint": "「壁に遮られる」がオフになっている効果音にのみ使用できる特殊エフェクトです。音源が壁を通過するときに壁越しに聞こえる雰囲気を与えるために消音効果を設定できます。"
+      }
     }
   },
-  "effects": {
-    "base": {
-      "type": {
-        "label": "基本エフェクト"
-      },
-      "intensity": {
-        "label": "基本エフェクトの強度"
-      },
-      "hint": "フィルターやオーディオエフェクトを音源に設定することができます。"
-    },
-    "muffled": {
-      "type": {
-        "label": "消音"
-      },
-      "intensity": {
-        "label": "消音の強度"
-      },
-      "hint": "「壁に遮られる」がオフになっている効果音にのみ使用できる特殊エフェクトです。音源が壁を通過するときに壁越しに聞こえる雰囲気を与えるために消音効果を設定できます。"
-    }
+  "SECTIONS": {
+    "SOURCE": "ソース",
+    "PLACEMENT": "配置",
+    "PLACEMENT_HINT": "配置位置、高度、半径などを設定します。現在の機能では高度は使用されておらず、データとしてのみ提供されています。（注釈：Modが使用する場合があります）",
+    "VOLUME": "音量",
+    "ACTIVATION": "視聴",
+    "EFFECTS": "特殊エフェクト"
   }
-},
-"SECTIONS": {
-  "SOURCE": "ソース",
-  "PLACEMENT": "配置",
-  "PLACEMENT_HINT": "配置位置、高度、半径などを設定します。現在の機能では高度は使用されておらず、データとしてのみ提供されています。（注釈：Modが使用する場合があります）",
-  "VOLUME": "音量",
-  "ACTIVATION": "視聴",
-  "EFFECTS": "特殊エフェクト"
-}
 },
 
 "APPLICATION": {
@@ -779,7 +748,10 @@
   "RegionSelect": "リージョン選択",
   "RegionSelectP": "シーンに存在する一つ以上のリージョンを選択できます。選択されているリージョンはソリッドカラーで表され、選択されていないリージョンはストライプ模様で表されます。",
   "RegionRectangle": "四角形を描く",
-  "RegionEllipse": "円形を描く",
+  "RegionCircle": "円形を描く",
+  "RegionEllipse": "楕円を描く",
+  "RegionCone": "円錐を描く",
+  "RegionLine": "直線を描く",
   "RegionPolygon": "多角形を描く",
   "RegionHole": "除外エリアを描く",
   "RegionHoleP": "この設定を有効化した状態で描く図形は既存のリージョンから効果が除外される「穴」を作ります。",
@@ -943,6 +915,7 @@
   "New": "新規{type}",
   "NewCount": "新規{type} ({count})",
   "Update": "{type}更新",
+  "Replace": "{type}置換",
   "SkipCreate": "作成スキップ",
 
   "ImportData": "インポートデータ",
@@ -951,6 +924,7 @@
   "ImportDataHint2": "この操作により{name}は上書きされ、元には戻せません。",
   "ImportSource": "インポートファイル",
   "Imported": "{document}「{name}」がJSONデータより無事にインポートされました。",
+  "ReplaceWarning": "このコレクションには既にID <code>{id}</code> の{link}が存在します。置き換えますか、それとも複製を作成しますか？",
 
   "SheetPermissionWarn": "この{document}シートを表示する権限がありません。",
   "UsePermissionWarn": "この{document}を使用する権限がありません。",
@@ -1094,8 +1068,6 @@
 "EFFECT.MODE_DOWNGRADE": "ダウングレード",
 "EFFECT.MODE_UPGRADE": "アップグレード",
 "EFFECT.MODE_OVERRIDE": "上書き",
-"EFFECT.TransferLegacy": "キャラクターに効果を転送",
-"EFFECT.TransferHintLegacy": "チェックを入れると、この効果が入っているアイテムを所持したキャラに同じ効果を複製し、アイテムが消えたら効果も同時に消えます。",
 "EFFECT.DurationTurns": "効果の持続時間（戦闘）",
 "EFFECT.StartTurns": "効果の開始",
 "EFFECT.ChangeKey": "属性キー",
@@ -1115,6 +1087,10 @@
     "hint": "チェックを入れると、この効果が入っているアイテムを所持したキャラに効果を適用します。"
   },
   "statuses.label": "ステータス状態",
+  "showIcon": {
+    "label": "アイコンを表示する？",
+    "hint": "この効果が有効な間、この効果を表すアイコンをUIに表示するかどうか。"
+  },
   "duration": {
     "seconds.label": "効果の持続時間（秒）",
     "rounds.label": "ラウンド",
@@ -1124,6 +1100,11 @@
     "startTurn.label": "ターン",
     "combat.label": "行動順表"
   }
+},
+"EFFECT.SHOW_ICON": {
+  "always": "常に表示",
+  "conditional": "一時的なら表示",
+  "never": "表示しない"
 },
 "EFFECT.TABS": {
   "details": "詳細",
@@ -1182,6 +1163,10 @@
   "RequiresFullReinstall": "オンセ工房 FoundryVTT バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールすることでのみ利用可能な本体の依存関係の更新が必要なため、FoundryVTTアプリケーション内からはインストールできません。",
   "RequiresGenerationReinstall": "オンセ工房 FoundryVTT バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールして手動でインストールしなければならないメジャーアップデートであるため、FoundryVTTアプリケーション内からはインストールできません。",
   "RequiresElectronReinstall": "オンセ工房 FoundryVTT バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールして手動でインストールしなければならない新しいElectronバージョンが含まれているため、FoundryVTTアプリケーション内からはインストールできません。",
+  "DETACHED": {
+    "PopupBlocked": "アプリケーションを分離できません。ポップアップブロッカーが有効になっている可能性があります。",
+    "TimedOut": "アプリケーションウィンドウの分離時にタイムアウトが発生しました。ポップアップブロッカーが有効になっている可能性があります。"
+  },
   "RESOLUTION": {
     "Screen": "オンセ工房 FoundryVTTには、{reqWidth} px x {reqHeight} px以上の画面解像度が必要です。お使いのディスプレイの解像度は{curWidth} px x {curHeight} pxです。解像度を上げるか、別のディスプレイデバイスを使用しなければ、ソフトウェアの一部の機能が適切に動作しません。",
     "Scale": "オンセ工房 FoundryVTTには、{reqWidth} px x {reqHeight} px以上のウィンドウサイズが必要です。このウィンドウの現在のサイズは{curWidth} px x {curHeight} pxです。現在、オペレーティングシステムまたはブラウザレベルでズーム係数が適用されているため、ウィンドウの有効サイズが小さくなっています。ウィンドウサイズを大きくするか、ブラウザに適用されているズーム倍率を小さくしなければ、ソフトウェアの一部の機能が適切に動作しません。",
@@ -1255,6 +1240,7 @@
 "EDITOR.ProseMirrorBadArguments": "ProseMirror（テキストエディタ）のインスタンスを作成するにはドキュメントと名前が必要です。",
 "EDITOR.TinyMCE": "TinyMCE",
 "EDITOR.Markdown": "マークダウン",
+"EDITOR.HTML": "HTML",
 "EDITOR.Reveal": "開示",
 "EDITOR.Hide": "秘匿",
 "EDITOR.CollaboratingUsers": "同時作業中のユーザー",
@@ -1536,126 +1522,131 @@
   }
 },
 
-"LIGHT.FIELDS": {
-  "alpha": {
-    "label": "色の強度",
-    "hint": "この光源から照射される色の強度を調整します。"
+"LIGHT": {
+  "COLORATION": {
+    "Legacy": "旧バージョンの照明",
+    "AdaptiveLuminance": "汎用的な照明",
+    "InternalHalo": "光輪（内向き）",
+    "ExternalHalo": "光輪（外向き）",
+    "ColorBurn": "まばゆい光",
+    "InternalBurn": "まばゆい光（内向き）",
+    "ExternalBurn": "まばゆい光（外向き）",
+    "LowAbsorption": "吸収（低）",
+    "HighAbsorption": "吸収（高）",
+    "InvertAbsorption": "吸収（反転）",
+    "NaturalLight": "自然光",
+    "NaturalAttenuation": "自然減衰",
+    "AdaptiveAttenuation": "適応減衰"
   },
-  "animation": {
-    "label": "ライトアニメーション",
-    "type": {
-      "label": "アニメーション種別"
+  "ANIMATION": {
+    "Torch": "ちらちら",
+    "Pulse": "鼓動",
+    "ReactivePulse": "音声反応パルス",
+    "Chroma": "彩度の変化",
+    "Wave": "波形",
+    "Fog": "淀んだ霧",
+    "Sunburst": "太陽光",
+    "LightDome": "波打つ光",
+    "Emanation": "渦を放つ光",
+    "EnergyField": "力場",
+    "HexaDome": "防御障壁",
+    "GhostLight": "亡霊の光",
+    "RoilingMass": "回転する靄（闇）",
+    "BlackHole": "ブラックホール（闇）",
+    "Vortex": "ぐるぐる",
+    "BewitchingWave": "怪光",
+    "SwirlingRainbow": "虹（渦巻き）",
+    "RadialRainbow": "虹（放射）",
+    "FairyLight": "フェアリー・ライト",
+    "Flame": "たいまつ",
+    "ForceGrid": "フォースグリッド",
+    "StarLight": "星の光",
+    "SmokePatch": "けむり",
+    "Revolving": "回転する光",
+    "Siren": "警報灯",
+    "MagicalGloom": "魔法的な闇",
+    "DenseSmoke": "濃いけむり"
+  },
+  "FIELDS": {
+    "alpha": {
+      "label": "色の強度",
+      "hint": "この光源から照射される色の強度を調整します。"
     },
-    "speed": {
-      "label": "アニメーション速度",
-      "hint": "アニメーション速度を上げると、アニメーションの再生速度が速くなります"
+    "animation": {
+      "label": "ライトアニメーション",
+      "type": {
+        "label": "アニメーション種別"
+      },
+      "speed": {
+        "label": "アニメーション速度",
+        "hint": "アニメーション速度を上げると、アニメーションの再生速度が速くなります"
+      },
+      "intensity": {
+        "label": "アニメーション強度",
+        "hint": "アニメーション強度を上げると、アニメーションがより強調されます。"
+      },
+      "reverse": {
+        "label": "方向を逆転"
+      }
     },
-    "intensity": {
-      "label": "アニメーション強度",
-      "hint": "アニメーション強度を上げると、アニメーションがより強調されます。"
+    "angle": {
+      "label": "照射角度",
+      "hint": "この光源の照射角度を制限し、その向きを設定できます。"
     },
-    "reverse": {
-      "label": "方向を逆転"
-    }
-  },
-  "angle": {
-    "label": "照射角度",
-    "hint": "この光源の照射角度を制限し、その向きを設定できます。"
-  },
-  "attenuation": {
-    "label": "明滅",
-    "hint": "明るい、薄暗い、暗い、と徐々に輝度を変化させていくことができます。"
-  },
-  "color": {
-    "label": "ライトの色",
-    "hint": "この光源に色を付け、その濃度を設定します。"
-  },
-  "coloration": {
-    "label": "発色方法",
-    "hint": "光源に適用される発色方法に対して、その見た目に追加の効果を与えます。"
-  },
-  "contrast": {
-    "label": "コントラスト",
-    "hint": "この光源で照らされる範囲のコントラストを調整します。標準的な光源の場合、デフォルト値は0です。"
-  },
-  "dim": {
-    "label": "薄暗い"
-  },
-  "bright": {
-    "label": "明るい"
-  },
-  "luminosity": {
-    "label": "輝度",
-    "hint": "この光源の輝度を調整します。輝度の高い光源は、暗部での減光が少なくなります。標準的な光源の場合、デフォルト値は0.5です。"
-  },
-  "negative": {
-    "label": "暗闇？",
-    "hint": "暗闇は光源と視覚を遮り、中にある光源や視覚を無効化します。"
-  },
-  "priority": {
-    "label": "優先度",
-    "hint": "光源と暗闇の相互作用を決定します。優先度の高い光源は優先度の低い暗闇を排除しますが、優先度が同じ場合は暗闇が優先されます。"
-  },
-  "saturation": {
-    "label": "彩度",
-    "hint": "この光源で照らされる範囲の彩度を調整します。標準的な光源の場合、デフォルト値は0です。"
-  },
-  "shadows": {
-    "label": "影",
-    "hint": "この光源で照らされる範囲の色の強度を調整します。標準的な光源の場合、デフォルト値は0です。"
-  },
-  "darkness": {
-    "label": "暗闇の適用範囲",
-    "hint": "暗闇が実際に適用される範囲を指定することが可能です。",
-    "min": {
-      "label": ""
+    "attenuation": {
+      "label": "明滅",
+      "hint": "明るい、薄暗い、暗い、と徐々に輝度を変化させていくことができます。"
     },
-    "max": {
-      "label": "~"
+    "color": {
+      "label": "ライトの色",
+      "hint": "この光源に色を付け、その濃度を設定します。"
+    },
+    "coloration": {
+      "label": "発色方法",
+      "hint": "光源に適用される発色方法に対して、その見た目に追加の効果を与えます。"
+    },
+    "contrast": {
+      "label": "コントラスト",
+      "hint": "この光源で照らされる範囲のコントラストを調整します。標準的な光源の場合、デフォルト値は0です。"
+    },
+    "dim": {
+      "label": "薄暗い"
+    },
+    "bright": {
+      "label": "明るい"
+    },
+    "luminosity": {
+      "label": "輝度",
+      "hint": "この光源の輝度を調整します。輝度の高い光源は、暗部での減光が少なくなります。標準的な光源の場合、デフォルト値は0.5です。"
+    },
+    "negative": {
+      "label": "暗闇？",
+      "hint": "暗闇は光源と視覚を遮り、中にある光源や視覚を無効化します。"
+    },
+    "priority": {
+      "label": "優先度",
+      "hint": "光源と暗闇の相互作用を決定します。優先度の高い光源は優先度の低い暗闇を排除しますが、優先度が同じ場合は暗闇が優先されます。"
+    },
+    "saturation": {
+      "label": "彩度",
+      "hint": "この光源で照らされる範囲の彩度を調整します。標準的な光源の場合、デフォルト値は0です。"
+    },
+    "shadows": {
+      "label": "影",
+      "hint": "この光源で照らされる範囲の色の強度を調整します。標準的な光源の場合、デフォルト値は0です。"
+    },
+    "darkness": {
+      "label": "暗闇の適用範囲",
+      "hint": "暗闇が実際に適用される範囲を指定することが可能です。",
+      "min": {
+        "label": ""
+      },
+      "max": {
+        "label": "~"
+      }
     }
   }
 },
-
-"LIGHT.LegacyColoration": "旧バージョンの照明",
-"LIGHT.AdaptiveLuminance": "汎用的な照明",
-"LIGHT.InternalHalo": "光輪（内向き）",
-"LIGHT.ExternalHalo": "光輪（外向き）",
-"LIGHT.ColorBurn": "まばゆい光",
-"LIGHT.InternalBurn": "まばゆい光（内向き）",
-"LIGHT.ExternalBurn": "まばゆい光（外向き）",
-"LIGHT.LowAbsorption": "吸収（低）",
-"LIGHT.HighAbsorption": "吸収（高）",
-"LIGHT.InvertAbsorption": "吸収（反転）",
-"LIGHT.NaturalLight": "自然光",
-
-
-"LIGHT.AnimationTorch": "ちらちら",
-"LIGHT.AnimationPulse": "鼓動",
-"LIGHT.AnimationReactivePulse": "音声反応パルス",
-"LIGHT.AnimationChroma": "彩度の変化",
-"LIGHT.AnimationWave": "波形",
-"LIGHT.AnimationFog": "淀んだ霧",
-"LIGHT.AnimationSunburst": "太陽光",
-"LIGHT.AnimationLightDome": "波打つ光",
-"LIGHT.AnimationEmanation": "渦を放つ光",
-"LIGHT.AnimationEnergyField": "力場",
-"LIGHT.AnimationHexaDome": "防御障壁",
-"LIGHT.AnimationGhostLight": "亡霊の光",
-"LIGHT.AnimationRoilingMass": "回転する靄（闇）",
-"LIGHT.AnimationBlackHole": "ブラックホール（闇）",
-"LIGHT.AnimationVortex": "ぐるぐる",
-"LIGHT.AnimationBewitchingWave": "怪光",
-"LIGHT.AnimationSwirlingRainbow": "虹（渦巻き）",
-"LIGHT.AnimationRadialRainbow": "虹（放射）",
-"LIGHT.AnimationFairyLight": "フェアリー・ライト",
-"LIGHT.AnimationFlame": "たいまつ",
-"LIGHT.AnimationForceGrid": "フォースグリッド",
-"LIGHT.AnimationStarLight": "星の光",
-"LIGHT.AnimationSmokePatch": "けむり",
-"LIGHT.AnimationRevolving": "回転する光",
-"LIGHT.AnimationSiren": "警報灯",
-"LIGHT.AnimationMagicalGloom": "魔法的な闇",
-"LIGHT.AnimationDenseSmoke": "濃いけむり",
 
 "MACRO": {
   "Delete": "マクロ削除",
@@ -1677,6 +1668,18 @@
   "FIELDS": {
     "command.label": "コマンド"
   }
+},
+
+"MEASUREMENT": {
+  "Coordinates": "座標",
+  "Degrees": "度",
+  "GridUnits": "マス単位",
+  "GridSpaces": "マス目",
+  "Height": "高さ",
+  "Pixels": "px",
+  "Ratio": "比率",
+  "Scale": "縮尺",
+  "Width": "幅"
 },
 
 "MENU.NavLabel": "メインメニュー",
@@ -1878,7 +1881,6 @@
 "SCENE.InvalidDimension": "このサイズの変更により他のサイズ設定が整数ではない値になります。別のサイズに設定するか、縦横比の同期を解除してから設定してください。",
 "SCENE.Loading": "読み込み中 {name}",
 "SCENE.Notes": "シーンメモ",
-"SCENE.Pixels" : "ピクセル",
 "SCENE.Preload": "先読み",
 "SCENE.View": "シーンを表示",
 "SCENE.ShiftBG": "グリッド・オフセット位置",
@@ -2932,6 +2934,8 @@
 "PERMISSION.PingCanvasHint": "注目マーカーの使用を許可して、マップ上の特定の位置を指し示す権限を与えます。",
 "PERMISSION.PlaylistCreate": "プレイリストを作成",
 "PERMISSION.PlaylistCreateHint": "この役割を持つユーザーに、ワールド内で新しいプレイリストを作成することを許可します。",
+"PERMISSION.RegionCreate": "リージョンの作成",
+"PERMISSION.RegionCreateHint": "新しいリージョンを作成する許可を与えます。",
 "PERMISSION.SettingsModify": "設定の変更",
 "PERMISSION.SettingsModifyHint": "ゲーム設定を変更し、モジュールを有効または無効にすることを許可します。",
 "PERMISSION.ShowCursor": "マウスカーソルの表示",
@@ -2954,9 +2958,12 @@
 
 "REGION": {
   "TABS": {
-    "identity": "基本",
-    "shapes": "形状",
+    "appearance": "外観",
+    "area": "範囲",
     "behaviors": "効果"
+  },
+  "SECTIONS": {
+    "restriction": "制限"
   },
   "FIELDS": {
     "color": {
@@ -2979,6 +2986,14 @@
         "hint": "高度範囲の上端。"
       }
     },
+    "restriction": {
+      "enabled": {
+        "label": "制限あり",
+        "hint": "このリージョンの形状が壁によって制約されるかどうかを設定します。"
+      },
+      "type.label": "制限種別",
+      "priority.label": "制限優先度"
+    },
     "behaviors": {
       "label": "効果",
       "hint": "リージョンの挙動。"
@@ -2986,18 +3001,16 @@
     "visibility": {
       "label": "可視性",
       "hint": "リージョンの可視性を設定します。"
+    },
+    "displayMeasurements": {
+      "label": "定規を表示",
+      "hint": "リージョンの測定値を表示するかどうかを設定します。"
     }
   },
   "ACTIONS": {
     "create": "リージョンを作成",
     "update": "リージョンを更新",
     "delete": "リージョンを削除",
-    "shapeCreateFromWalls": "選択した壁（ウォール）から形状を作成",
-    "shapeMakeHole": "除外（穴）を作る",
-    "shapeFillHole": "除外（穴）を埋める",
-    "shapeMoveUp": "形状を上に移動",
-    "shapeMoveDown": "形状を下に移動",
-    "shapeRemove": "形状を削除",
     "behaviorCreate": "効果を作成",
     "behaviorEdit": "効果を編集",
     "behaviorDelete": "効果を削除",
@@ -3005,15 +3018,28 @@
     "behaviorDisable": "効果を無効化"
   },
   "VISIBILITY": {
+    "LAYER_UNLOCKED": {
+      "label": "リージョンレイヤーがアンロックされている場合のみ"
+    },
     "LAYER": {
       "label": "リージョンレイヤーのみ"
     },
     "GAMEMASTER": {
       "label": "常にゲームマスターに表示"
     },
+    "OBSERVER": {
+      "label": "常に閲覧者に表示"
+    },
     "ALWAYS": {
       "label": "常に全員に表示"
     }
+  },
+  "RESTRICTION_TYPES": {
+    "light.label": "ライト",
+    "darkness.label": "暗闇",
+    "sight.label": "視覚",
+    "sound.label": "サウンド",
+    "move.label": "移動"
   },
   "EVENTS": {
     "regionBoundary": {
@@ -3065,14 +3091,7 @@
       "label": "コマのラウンド終了"
     }
   },
-  "SHAPES": {
-    "rectangle": "四角形",
-    "circle": "円",
-    "ellipse": "楕円",
-    "polygon": "多角形"
-  },
   "Behavior": "効果",
-  "Shape": "形状",
   "LEGEND": {
     "control": "リージョンを制御",
     "config": "リージョンを設定",
@@ -3088,12 +3107,6 @@
   },
   "SHEET": {
     "title": "リージョンを設定"
-  },
-  "NOTIFICATIONS": {
-    "ControlWalls": "リージョンの境界線となる壁（ウォール）を選択してください。",
-    "DrawingMultipleRegionsControlled": "複数リージョンの選択中には、形状を描けません！",
-    "EmptyEnclosedArea": "選択された壁（ウォール）によって囲まれたリージョンは空です！外側の壁が閉じたループを形成し、端点が接続されていることを確認してください。",
-    "NoControlledWalls": "選択されている壁（ウォール）がありません！"
   }
 },
 
@@ -3212,17 +3225,36 @@
     },
     "teleportToken": {
       "FIELDS": {
-        "destination": {
+        "destinations": {
           "label": "目的地",
-          "hint": "コマがリージョンに移動したときに転送される目的地リージョン。"
+          "hint": "コマがリージョンに移動したときに転送される目的地リージョン。複数の目的地リージョンが設定されている場合、選択が許可されており、このテレポーターが公開されているか、コマを移動したユーザーがGMでない限り、そのうちの1つがランダムに選択されます。"
+        },
+        "placement": {
+          "label": "配置",
+          "hint": "目的地リージョン内でのコマの配置を選択します。"
+        },
+        "snap": {
+          "label": "スナップ",
+          "hint": "コマが転送される目的地の位置をスナップします。"
         },
         "choice": {
           "label": "選択を許可",
-          "hint": "コマを移動したユーザーが転送するかどうかを選択できるようにします。"
+          "hint": "コマを移動したユーザーが転送するかどうかを選択できるようにします。複数の目的地リージョンが設定されている場合、このテレポーターが公開されているか、ユーザーがGMである場合、ユーザーは目的地リージョンを選択できます。"
+        },
+        "revealed": {
+          "label": "公開",
+          "hint": "このテレポーターの目的地をすべての人に公開します。"
         }
       },
+      "PLACEMENTS": {
+        "random.label": "ランダム",
+        "center.label": "中央",
+        "relative.label": "相対"
+      },
       "Confirm": "{token}を転送しますか？",
-      "ConfirmGM": "{scene}の{region}に{token}を転送しますか？"
+      "ConfirmRevealed": "{scene}の{region}に{token}を転送しますか？",
+      "ConfirmSelect": "{token}を転送する目的地を選択してください。",
+      "ConfirmSelectOption": "{scene}の{region}"
     },
     "toggleBehavior": {
       "FIELDS": {
@@ -3270,6 +3302,7 @@
 "SIDEBAR.Wiki": "オンセ工房 Foundry VTT コミュニティ Wiki",
 
 "SIDEBAR.ACTIONS.CREATE": {
+  "ActiveEffect": "アクティブ効果作成",
   "Actor": "キャラクター作成",
   "Adventure": "シナリオ作成",
   "Cards": "カードデッキ作成",
@@ -3439,6 +3472,7 @@
 
 "TILE.ConfigTitle": "タイル設定",
 "TILE.Dimensions": "サイズ",
+"TILE.Anchor": "タイルアンカー",
 "TILE.Scale": "タイル縮尺",
 "TILE.ScaleHint": "XとY軸で画像の縮尺を調整します。設定のよってはコマの枠からあふれる可能性があります。負の値は画像をその軸で反転させます。",
 "TILE.OcclusionModeNone": "なし（常に見える）",
@@ -3490,37 +3524,54 @@
   }
 },
 
-
 "TIME": {
   "Day": {
     "one": "日",
+    "two": "日",
+    "few": "日",
+    "many": "日",
     "other": "日",
     "abbr": "d"
   },
   "Hour": {
     "one": "時間",
+    "two": "時間",
+    "few": "時間",
+    "many": "時間",
     "other": "時間",
     "abbr": "h"
   },
   "Millisecond": {
     "one": "ミリ秒",
+    "two": "ミリ秒",
+    "few": "ミリ秒",
+    "many": "ミリ秒",
     "other": "ミリ秒",
     "abbr": "ms"
   },
   "Minute": {
     "one": "分",
+    "two": "分",
+    "few": "分",
+    "many": "分",
     "other": "分",
     "abbr": "m"
   },
   "Now": "今",
   "Second": {
     "one": "秒",
+    "two": "秒",
+    "few": "秒",
+    "many": "秒",
     "other": "秒",
     "abbr": "s"
   },
   "Since": "{since}前",
   "Year": {
     "one": "年",
+    "two": "年",
+    "few": "年",
+    "many": "年",
     "other": "年",
     "abbr": "y"
   }
@@ -3533,6 +3584,7 @@
 "TOKEN.BarValues": "値",
 "TOKEN.DeleteCombatantWarning": "戦闘中のコマを削除しようとしています。その戦闘参加キャラは永久に削除されます。",
 "TOKEN.Dimensions": "サイズ",
+"TOKEN.Anchor": "アンカー",
 "TOKEN.AnchorHint": "デフォルトのアンカー (0.5, 0.5) はコマ画像の中心です。",
 "TOKEN.ImageAlts": "代替コマ画像",
 "TOKEN.Mirror": "画像の反転",
@@ -4225,6 +4277,91 @@
       "hint": "すべてのモジュールと有効化されたシーンを無効にし、サウンド再生を停止します。"
     },
     "description.label": "ワールドの説明"
+  }
+},
+
+"SHAPE": {
+  "label": "形状",
+  "labelPlural": "形状",
+  "TYPES": {
+    "base": {
+      "FIELDS": {
+        "type.label": "種別",
+        "hole.label": "除外（穴）？",
+        "gridBased": {
+          "label": "グリッドに沿う？",
+          "hint": "グリッドベースの形状がグリッドのメトリックに従います。"
+        },
+        "x.label": "X原点",
+        "y.label": "Y原点",
+        "rotation.label": "回転"
+      },
+      "origin.label": "原点"
+    },
+    "rectangle": {
+      "name": "四角形",
+      "FIELDS": {
+        "width.label": "幅",
+        "height.label": "高さ",
+        "anchorX.label": "Xアンカー",
+        "anchorY.label": "Yアンカー"
+      },
+      "anchor.label": "アンカー"
+    },
+    "circle": {
+      "name": "円",
+      "FIELDS": {
+        "radius.label": "半径"
+      }
+    },
+    "ellipse": {
+      "name": "楕円",
+      "FIELDS": {
+        "radiusX.label": "X半径",
+        "radiusY.label": "Y半径"
+      }
+    },
+    "cone": {
+      "name": "円錐",
+      "FIELDS": {
+        "radius.label": "半径",
+        "angle.label": "角度",
+        "curvature.label": "曲率"
+      },
+      "CURVATURES": {
+        "round.label": "曲線",
+        "flat.label": "直線",
+        "semicircle.label": "半円"
+      }
+    },
+    "line": {
+      "name": "直線",
+      "FIELDS": {
+        "width.label": "幅",
+        "length.label": "長さ"
+      }
+    },
+    "polygon": {
+      "name": "多角形",
+      "FIELDS": {
+        "points.label": "ポイント"
+      }
+    }
+  },
+  "ACTIONS": {
+    "createFromWalls": "選択した壁（ウォール）から形状を作成",
+    "makeHole": "除外（穴）を作る",
+    "fillHole": "除外（穴）を埋める",
+    "moveUp": "形状を上に移動",
+    "moveDown": "形状を下に移動",
+    "edit": "形状を編集",
+    "remove": "形状を削除"
+  },
+  "NOTIFICATIONS": {
+    "DrawingMultipleObjectsControlled": "複数{type}の選択中には、形状を描けません！",
+    "ControlWalls": "リージョンの境界線となる壁（ウォール）を選択してください。",
+    "EmptyEnclosedArea": "選択された壁（ウォール）によって囲まれたリージョンは空です！外側の壁が閉じたループを形成し、端点が接続されていることを確認してください。",
+    "NoControlledWalls": "選択されている壁（ウォール）がありません！"
   }
 }
 }
