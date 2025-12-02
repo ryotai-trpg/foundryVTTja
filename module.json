@@ -295,6 +295,12 @@
 		},
 		{
 			"lang": "ja",
+			"path": "lang/modules/wall-height.json",
+			"module": "wall-height",
+			"lang-author": "Ryotai"
+		},
+		{
+			"lang": "ja",
 			"path": "lang/modules/hex-size-support.json",
 			"module": "hex-size-support",
 			"lang-author": "Ryotai"
