@@ -86,6 +86,7 @@
 * hurry-up
 * lib-captions
 * sequencer
+* Token Border Supplements
 
 上記の*がついているModはRipper93氏のPatreonより入手できる有料Modです。
 

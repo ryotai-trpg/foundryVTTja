@@ -292,6 +292,12 @@
 			"path": "lang/modules/pointer.json",
 			"module": "pointer",
 			"lang-author": "Brother Sharp"
+		},
+		{
+			"lang": "ja",
+			"path": "lang/modules/hex-size-support.json",
+			"module": "hex-size-support",
+			"lang-author": "Ryotai"
 		}
 	],
 	"scripts": ["./js/main.js"],
