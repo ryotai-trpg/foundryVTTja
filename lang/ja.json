@@ -36,7 +36,7 @@
 "Install": "インストール",
 "Elevation": "高度",
 "Sort": "ソート",
-"Foundry Virtual Tabletop": "オンセ工房 Foundry VTT",
+"Foundry Virtual Tabletop": "Foundry Virtual Tabletop",
 "File Path": "ファイル保存先",
 "Height": "高さ",
 "Hidden": "不可視",
@@ -157,7 +157,7 @@
   }
 },
 
-  "APP.NavigateBackConfirm": "オンセ工房 FoundryVTTを終了します、よろしいですか？",
+  "APP.NavigateBackConfirm": "Foundry Virtual Tabletopを終了します、よろしいですか？",
 
 "AMBIENT_LIGHT": {
   "ACTIONS": {
@@ -276,7 +276,7 @@
 "SECTIONS": {
   "SOURCE": "ソース",
   "PLACEMENT": "配置",
-  "PLACEMENT_HINT": "配置位置、高度、半径などを設定します。現在の機能では高度は使用されておらず、データとしてのみ提供されています。（注釈：Modが使用する場合があります）",
+  "PLACEMENT_HINT": "配置位置、高度、半径などを設定します。現在の機能では高度は使用されておらず、データとしてのみ提供されています。（注釈：モジュールが使用する場合があります）",
   "VOLUME": "音量",
   "ACTIVATION": "視聴",
   "EFFECTS": "特殊エフェクト"
@@ -683,7 +683,7 @@
     "Tokens": "コマ画像"
   },
   "SETTING": {
-    "Hint": "システムやModが提供する画像素材の使用順位を設定します。",
+    "Hint": "システムやモジュールが提供する画像素材の使用順位を設定します。",
     "Label": "画像素材の設定",
     "Title": "辞典の画像素材"
   }
@@ -692,7 +692,7 @@
 "CONTROLS": {
   "Title": "操作マニュアル",
   "NavLabel": "マップ操作パレット",
-  "Instructions": "ここでは、オンセ工房 Foundry VTTでの一般的なキーボード、マウス操作について説明します。一部の操作は薄紫色で強調表示されており、ゲームマスターだけが使用可能です。",
+  "Instructions": "ここでは、Foundry Virtual Tabletopでの一般的なキーボード、マウス操作について説明します。一部の操作は薄紫色で強調表示されており、ゲームマスターだけが使用可能です。",
   "GroupToken": "コマ操作",
   "CommonForceSnap": "マスの頂点に張り付かせる",
   "BasicSelect": "コマ選択",
@@ -789,7 +789,7 @@
   "ClearAll": "全てのオブジェクトを消去",
   "ClearAllHint": "このシーンから全ての{type}を消去しますか？",
   "HeaderGame": "ゲームコントロール",
-  "HeaderGameNotes": "オンセ工房 Foundry VTTで一般的に使用される操作です。",
+  "HeaderGameNotes": "Foundry VTTで一般的に使用される操作です。",
   "HeaderCanvas": "マップ画面の操作",
   "HeaderCanvasNotes": "マップ上での操作のために使用される操作です。",
   "HeaderObjects": "コマの操作",
@@ -1168,31 +1168,31 @@
 "EFFECT.StatusHolyShield": "シールド（聖）",
 
 "ERROR": {
-  "BrowserVersion": "オンセ工房 FoundryVTT {minimum} から、 {browser} ではサポートされていない最新のJavaScript機能を使用しています。現在、{browser} バージョン {version} を使用しています。ブラウザを更新するか、別のブラウザを使用してください。",
-  "ElectronVersion": "FVTTのアプリはブラウザ（Electron）を内包しています。現在使用のElectronバージョンが古いことが検出されました。アプリ内のアップデートでは更新されないため、ウェブサイトからのインストーラーで新規に更新してください。",
-  "NoWebGL": "ご使用のブラウザは現在、オンセ工房 FoundryVTTで必要なWebGLレンダリングをサポートしていません。ブラウザでハードウェアレンダリングとWebGLが有効になっていることを確認してください。",
-  "NoWebGL2": "ご使用のブラウザは現在、オンセ工房 FoundryVTTに推薦されているWebGL Version 2 レンダリングをサポートしていません。いくつかの機能が制限される恐れがあります。",
+  "BrowserVersion": "Foundry Virtual Tabletop {minimum} から、 {browser} ではサポートされていない最新のJavaScript機能を使用しています。現在、{browser} バージョン {version} を使用しています。ブラウザを更新するか、別のブラウザを使用してください。",
+  "ElectronVersion": "Foundry Virtual Tablesのアプリはブラウザ（Electron）を内包しています。現在使用のElectronバージョンが古いことが検出されました。アプリ内のアップデートでは更新されないため、ウェブサイトからのインストーラーで新規に更新してください。",
+  "NoWebGL": "ご使用のブラウザは現在、Foundry Virtual Tabletopで必要なWebGLレンダリングをサポートしていません。ブラウザでハードウェアレンダリングとWebGLが有効になっていることを確認してください。",
+  "NoWebGL2": "ご使用のブラウザは現在、Foundry Virtual Tabletopに推薦されているWebGL Version 2 レンダリングをサポートしていません。いくつかの機能が制限される恐れがあります。",
   "BackgroundTextureSize": "シーンに使用されているマップのテキスチャのサイズは{width} x {height}です。それにより縦または横の解像度が、このデバイスでサポートされている最大テクスチャサイズである{max}ピクセルを超えます。",
   "InvalidAdminKey": "指定された管理者アクセスキーは無効です。設定したアクセスキーを忘れた場合は、ユーザーデータの場所から<strong> Config/admin.txt </strong>ファイルを手動で削除する必要があります。</p>",
-  "LoadPackages": "オンセ工房 Foundryサーバーとの接続に失敗したため、既存パッケージへの参照ができませんでした。アプリケーションが外部接続可能であることを確認してください。",
+  "LoadPackages": "Foundryサーバーとの接続に失敗したため、既存パッケージへの参照ができませんでした。アプリケーションが外部接続可能であることを確認してください。",
   "NoTargetUsersForWhisper": "この秘話の対象となるユーザーが存在しません。名前を再確認するか、 もしくは \"/w [User Name]\"コマンドを試してください。",
   "CantWhisper": "秘話のチャットメッセージを他のプレイヤーに送信する権限がありません。",
   "RendererNotDetected": "ご使用のGPUレンダリングが認識されませんでした。動作が不安定になる可能性があります。",
-  "NoHardwareAcceleration": "ご使用のブラウザはハードウェア・アクセラレーションを有効にしていません。このため、オンセ工房Foundry VTTの動作速度が大きく影響されます。ブラウザの設定よりハードウェア・アクセラレーションを有効にしてください。",
-  "RequiresFullReinstall": "オンセ工房 FoundryVTT バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールすることでのみ利用可能な本体の依存関係の更新が必要なため、FoundryVTTアプリケーション内からはインストールできません。",
-  "RequiresGenerationReinstall": "オンセ工房 FoundryVTT バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールして手動でインストールしなければならないメジャーアップデートであるため、FoundryVTTアプリケーション内からはインストールできません。",
-  "RequiresElectronReinstall": "オンセ工房 FoundryVTT バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールして手動でインストールしなければならない新しいElectronバージョンが含まれているため、FoundryVTTアプリケーション内からはインストールできません。",
+  "NoHardwareAcceleration": "ご使用のブラウザはハードウェア・アクセラレーションを有効にしていません。このため、Foundry Virtual Tabletopの動作速度が大きく影響されます。ブラウザの設定よりハードウェア・アクセラレーションを有効にしてください。",
+  "RequiresFullReinstall": "Foundry Virtual Tabletop バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールすることでのみ利用可能な本体の依存関係の更新が必要なため、FoundryVTTアプリケーション内からはインストールできません。",
+  "RequiresGenerationReinstall": "Foundry Virtual Tabletop バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールして手動でインストールしなければならないメジャーアップデートであるため、FoundryVTTアプリケーション内からはインストールできません。",
+  "RequiresElectronReinstall": "Foundry Virtual Tabletop バージョン {version} が現在利用可能ですが、<a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> ウェブサイトからソフトウェアを再インストールして手動でインストールしなければならない新しいElectronバージョンが含まれているため、FoundryVTTアプリケーション内からはインストールできません。",
   "RESOLUTION": {
-    "Screen": "オンセ工房 FoundryVTTには、{reqWidth} px x {reqHeight} px以上の画面解像度が必要です。お使いのディスプレイの解像度は{curWidth} px x {curHeight} pxです。解像度を上げるか、別のディスプレイデバイスを使用しなければ、ソフトウェアの一部の機能が適切に動作しません。",
-    "Scale": "オンセ工房 FoundryVTTには、{reqWidth} px x {reqHeight} px以上のウィンドウサイズが必要です。このウィンドウの現在のサイズは{curWidth} px x {curHeight} pxです。現在、オペレーティングシステムまたはブラウザレベルでズーム係数が適用されているため、ウィンドウの有効サイズが小さくなっています。ウィンドウサイズを大きくするか、ブラウザに適用されているズーム倍率を小さくしなければ、ソフトウェアの一部の機能が適切に動作しません。",
-    "Window": "オンセ工房 FoundryVTTには、{reqWidth} px x {reqHeight} px以上のウィンドウサイズが必要です。このウィンドウの現在のサイズは{curWidth} px x {curHeight} pxです。ウィンドウサイズを大きくしなければ、ソフトウェアの一部の機能が適切に動作しません。"
+    "Screen": "Foundry Virtual Tabletopには、{reqWidth} px x {reqHeight} px以上の画面解像度が必要です。お使いのディスプレイの解像度は{curWidth} px x {curHeight} pxです。解像度を上げるか、別のディスプレイデバイスを使用しなければ、ソフトウェアの一部の機能が適切に動作しません。",
+    "Scale": "Foundry Virtual Tabletopには、{reqWidth} px x {reqHeight} px以上のウィンドウサイズが必要です。このウィンドウの現在のサイズは{curWidth} px x {curHeight} pxです。現在、オペレーティングシステムまたはブラウザレベルでズーム係数が適用されているため、ウィンドウの有効サイズが小さくなっています。ウィンドウサイズを大きくするか、ブラウザに適用されているズーム倍率を小さくしなければ、ソフトウェアの一部の機能が適切に動作しません。",
+    "Window": "Foundry Virtual Tabletopには、{reqWidth} px x {reqHeight} px以上のウィンドウサイズが必要です。このウィンドウの現在のサイズは{curWidth} px x {curHeight} pxです。ウィンドウサイズを大きくしなければ、ソフトウェアの一部の機能が適切に動作しません。"
   }
 },
 
 "WARNING.GridConfigNoBG": "背景画像のないシーンにグリッド設定ツールを使用しています。これは現在、推奨されてない使用法で、予期しない結果が生じる可能性があります。",
 "WARNING.ForegroundDimensionsMismatch": "設定した前景レイヤーの画像サイズが、このシーンの背景レイヤーと画像サイズが一致しません。前景レイヤーのサイズが変更されたため、望ましくない結果が生じる可能性があります。",
 "WARNING.ObjectDoesNotExist": "{name} \"{identifier}\" は存在しません！",
-"WARNING.TilingSpriteDeprecation": "モッドまたはシステムが旧バージョンのTilingSpriteクラスを使用しています。このクラスは現在サポートされていません。",
+"WARNING.TilingSpriteDeprecation": "モジュールまたはシステムが旧バージョンのTilingSpriteクラスを使用しています。このクラスは現在サポートされていません。",
 
 "EULA": {
   "Acknowledge": "契約の同意",
@@ -1346,7 +1346,7 @@
   "TypeHint": "「ファイル」種別のフォントはデータファイルの中にあるものから指定され、PLのブラウザに一時的にダウンロードされます。「システム」種別はこのPCのOSに登録されているフォントから指定され、PLも各自のPCに同じフォントを登録している必要があります。",
   "Family": "フォントファミリー",
   "File": "フォントファイル",
-  "FontPreview": "オンセ工房（Foundry VTT）で世界が広がります！ 1234567890",
+  "FontPreview": "Foundry VTTで世界が広がります！ 1234567890",
   "RemoveFont": "フォント削除",
   "Style": "フォントスタイル",
   "Weight": "フォントウェイト",
@@ -1685,13 +1685,13 @@
 "MENU.Players": "ユーザー管理",
 
 "MODMANAGE.Bugs": "バグまたは問題の報告",
-"MODMANAGE.DeactivateAll": "全てのMODを無効化",
+"MODMANAGE.DeactivateAll": "全てのモジュールを無効化",
 "MODMANAGE.Readme": "モジュールの説明書",
 "MODMANAGE.Title": "モジュール管理",
 "MODMANAGE.Instructions": "このワールドで有効化したいモジュールを設定します。モジュールの更新を行なうと現在のワールドが再読み込みされます。",
 "MODMANAGE.View": "以下のモジュールは現在、このワールドで有効化されています。",
 "MODMANAGE.None": "このワールドで利用可能なモジュールはありません。この一覧を表示することはできますが、変更する権限がありません。",
-"MODMANAGE.Search": "MOD検索",
+"MODMANAGE.Search": "モジュール検索",
 "MODMANAGE.Submit": "モジュール設定を保存",
 "MODMANAGE.Dependencies": "依存先",
 "MODMANAGE.RequiredDepError": "このモジュールは {dependents} によって必要とされているので無効化できません。",
@@ -1750,13 +1750,13 @@
   "textAnchor.label": "テキストアンカー"
 },
 
-"NUE.FirstLaunchBody": "こんにちは！ <br> 新しいワールドを作ったようですね。このワールドというのが「卓部屋」となるわけです。<br>まずは<a class=\"nue-tab\" data-tab=\"settings\">ユーザー管理</a>からこの部屋で遊ぶPLのユーザーを設定してください。その後、<a class=\"nue-tab\" data-tab=\"actors\">キャラクター</a>からPL達が使うキャラクターシートや、NPCのデータを用意してください。<br>マップなどは「シーン」と呼ばれ、<a class=\"nue-tab\" data-tab=\"scenes\">シーン</a>タブより設定してください。ハンドアウトやその他のテキストは<a class=\"nue-tab\" data-tab=\"journal\">資料</a>タブから作成できます。",
+"NUE.FirstLaunchBody": "こんにちは！ <br> 新しいワールドを作ったようですね。このワールドというのが「セッションルーム」となるわけです。<br>まずは<a class=\"nue-tab\" data-tab=\"settings\">ユーザー管理</a>からこの部屋で遊ぶPLのユーザーを設定してください。その後、<a class=\"nue-tab\" data-tab=\"actors\">キャラクター</a>からPL達が使うキャラクターシートや、NPCのデータを用意してください。<br>マップなどは「シーン」と呼ばれ、<a class=\"nue-tab\" data-tab=\"scenes\">シーン</a>タブより設定してください。ハンドアウトやその他のテキストは<a class=\"nue-tab\" data-tab=\"journal\">資料</a>タブから作成できます。",
 "NUE.FirstLaunchHeader": "はじめに",
 "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i>このチャットカードは右クリックして別ウィンドウとしてポップアウトさせることができます。チャットタブそのものや他のタブも同じ方法でポップアウトできます。",
 "NUE.FirstLaunchInvite": "PLを招待しよう",
 "NUE.FirstLaunchInviteBody": "準備ができましたら、この部屋へのリンクを送ってあげてください。リンクは<a class=\"nue-action\" data-action=\"invite\">招待リンク</a>から入手できます。家の中のPC同士で遊ぶ場合はローカル、インターネット上の他人と遊ぶ場合はインターネットにあるリンクを送ってください。インターネットのリンクはあなたのIPアドレスでもあるので、不特定多数の見える場所には置かないほうが良いでしょう。",
-"NUE.FirstLaunchKB": "右側にあるサイドバーのすべてのタブに目を通してみてください。わからないことがありましたら本家の英語のチュートリアル<a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a>か日本語でサポートを行っている<a href=\"http://discord.gg/vM4YM27\" target=\"_blank\">オンセ工房Foundry VTT日本支部</a>のDiscordサーバーまでお越しください。",
-"NUE.FirstLaunchTroubleshooting": "招待リンク画面で接続が閉じていると表示されていた場合、ポート開放が必要かもしれません。サポートいたしますので「ご使用の回線業者」と「ご使用のルータ」を分かる範囲（いずれわからなくてもOK）でオンセ工房のDiscordサーバーまでお知らせください。その場合、参加を完了させてからサポートチャンネルよりご相談ください。それ以外でもわからないことがありましたらDiscordサーバー内部でご相談ください。",
+"NUE.FirstLaunchKB": "右側にあるサイドバーのすべてのタブに目を通してみてください。わからないことがありましたら本家の英語のチュートリアル<a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a>か日本語でサポートを行っている<a href=\"http://discord.gg/vM4YM27\" target=\"_blank\">Foundry VTT日本支部</a>のDiscordサーバーまでお越しください。",
+"NUE.FirstLaunchTroubleshooting": "招待リンク画面で接続が閉じていると表示されていた場合、ポート開放が必要かもしれません。サポートいたしますので「ご使用の回線業者」と「ご使用のルータ」を分かる範囲（いずれわからなくてもOK）でFoundryVTTのDiscordサーバーまでお知らせください。その場合、参加を完了させてからサポートチャンネルよりご相談ください。それ以外でもわからないことがありましたらDiscordサーバー内部でご相談ください。",
 
 "PLAYERS": {
   "Title": "入室者",
@@ -2051,7 +2051,7 @@
 
 "SERVER_SETTINGS": {
   "Title": "アプリケーション設定",
-  "Warning": "以下の設定は、オンセ工房 FoundryVTTのカスタム設定です。変更の際は注意してください。変更を有効にするには、再起動する必要があります。",
+  "Warning": "以下の設定は、Foundry Virtual Tabletopのカスタム設定です。変更の際は注意してください。変更を有効にするには、再起動する必要があります。",
   "Save": {
     "label": "アプリケーション設定を保存",
     "warning": "これらの設定オプションを変更すると、それを有効にするためにサーバーを再起動する必要があります。続けますか？",
@@ -2103,11 +2103,11 @@
     "upnp.label": "UPnPの有効化",
     "port": {
       "label": "ポート",
-      "hint": "オンセ工房 FoundryVTTがTCP接続に使用するポートを選択し、ユニバーサル・プラグアンドプレイ (UPnP) を有効または無効にすることができます。"
+      "hint": "Foundry Virtual TabletopがTCP接続に使用するポートを選択し、ユニバーサル・プラグアンドプレイ (UPnP) を有効または無効にすることができます。"
     },
     "compressStatic": {
       "label": "静的ファイル圧縮",
-      "hint": "オンセ工房 Foundry VTT の Webサーバーが送信するファイルをPLのPCに到達するまえに圧縮することで転送されるデータ量を削減します。（月○○ギガ等のプランの人にお勧めです）"
+      "hint": "Foundry Virtual TabletopのWebサーバーが送信するファイルをPLのPCに到達するまえに圧縮することで転送されるデータ量を削減します。（月○○ギガ等のプランの人にお勧めです）"
     },
     "compressSocket": {
       "label": "ウェブソケットデータを圧縮",
@@ -2162,7 +2162,7 @@
 "SETTINGS.ResolutionScaleN": "ピクセル比率解像度スケーリング",
 "SETTINGS.ResolutionScaleL": "使用しているブラウザのピクセル比率にあわせてキャンバス（マップ）の解像度を自動的に変更します。Retinaディスプレイなどの高ピクセル密度を持ったデバイスの場合はキャンバスの解像度が上昇しますが、その分必要となる処理量が増え、パフォーマンスが低下します。さらに、現在のズームレベルも影響します。ズーム倍率に応じて解像度を上昇または低下させます。動作が重いと感じる場合この設定をオフにすることで軽くなりますが、高ピクセル密度のときの見た目が少し荒くなる可能性があります。",
 "SETTINGS.LangN": "言語設定",
-"SETTINGS.LangL": "オンセ工房 FoundryVTTの表示言語を変更します",
+"SETTINGS.LangL": "Foundry Virtual Tabletopの表示言語を変更します",
 "SETTINGS.LClickReleaseN": "左クリックで選択解除",
 "SETTINGS.LClickReleaseL": "有効にすることで、空いている空間を左クリックすると、選択中のオブジェクトが全て未選択になります。無効にした場合、オブジェクトをShiftキーを押しながらクリックするか、Escキーを押すことで、オブジェクトが未選択になります。",
 "SETTINGS.NoCanvasN": "ゲームキャンバスの無効化",
@@ -2172,7 +2172,7 @@
 "SETTINGS.CBubPN": "吹き出しに画面移動",
 "SETTINGS.CBubPL": "吹き出しが表示されたとき、自動的にそのコマに画面を移動させます。",
 "SETTINGS.MaxFPSN": "最大FPS",
-"SETTINGS.MaxFPSL": "オンセ工房 FoundryVTTがキャンバスをレンダリングする最大フレームレートに上限を設けます。この値を下げると、ハードウェアの負荷が低下し、アプリの反応速度が向上する可能性があります。",
+"SETTINGS.MaxFPSL": "Foundry Virtual Tabletopがキャンバスをレンダリングする最大フレームレートに上限を設けます。この値を下げると、ハードウェアの負荷が低下し、アプリの反応速度が向上する可能性があります。",
 "SETTINGS.DefaultSheetsN": "デフォルトのドキュメントシート",
 "SETTINGS.DefaultSheetsL": "デフォルトのシート設定",
 "SETTINGS.DefaultSheetsH": "キャラクターやアイテムなど、ワールド内で使用可能な全てのドキュメント種別に対して、デフォルトで使用するシートを設定します。",
@@ -2298,20 +2298,20 @@
 "SETUP": {
   "NavLabel": "設定タブ",
   "CoreVersion": "本体ソフトウェアバージョン",
-  "CoreVersionHint": "オンセ工房 FoundryVTTのアップデートが利用可能な場合、ここで適用可能です。現在バージョン {versionDisplay} を使用しています。",
+  "CoreVersionHint": "Foundry Virtual Tabletopのアップデートが利用可能な場合、ここで適用可能です。現在バージョン {versionDisplay} を使用しています。",
   "SettingsHeader": "ソフトウェア設定",
   "YouMustInstallASystem": "新しいワールドを作成する前にゲームシステムをインストールする必要があります",
   "UpdateAvailable": " {channel} バージョン {version} へのアップデートが利用可能になりました！",
   "Configuration": "設定",
   "MinifyFiles": "ファイルの圧縮",
-  "MinifyFilesHint": "小型化された静的JavaScriptとCSSのファイルにすることで、ネットワークの転送量を削減します。ほとんどのユーザーにお勧めしますが、MOD開発者は無効にすることをお勧めします。",
-  "Modules": "モッド・拡張機能",
+  "MinifyFilesHint": "小型化された静的JavaScriptとCSSのファイルにすることで、ネットワークの転送量を削減します。ほとんどのユーザーにお勧めしますが、モジュール開発者は無効にすることをお勧めします。",
+  "Modules": "モジュール",
   "Systems": "ゲームシステム",
   "GettingStarted": "はじめに",
-  "NoSystemsMessage": "初めてワールド（卓部屋）を作るには <a class=\"system-install\" data-query=\"\" title=\"Game System\">ゲームシステム</a> をインストールする必要があります。ツール内にブラウザがありますので、既存のTRPGシステムを探してみてください！　もし自分がほしいシステムが見つからない場合は <a class=\"system-install\" data-query=\"Simple Worldbuilding\" title=\"Simple Worldbuilding\">Simple Worldbuilding（汎用システム）</a> のインストールをおすすめします。",
-  "NoWorldsMessage": "システムがインストールできましたね！これで早速卓部屋を立てられます。卓部屋はワールドと呼ばれ、キャラクター、資料、マップなどを含んだものです。単発セッションでも長期キャンペーンでも好みによってご利用ください！",
-  "NueWorldDescription": "<p>ワールドの使い方については<a href='https://foundryvtt.com/article/game-worlds/' target='_blank'>ワールド</a>の操作説明を確認してください！　英語のページなのでわからない場合はオンセ工房の日本語Discordまでご連絡ください。</p>",
-  "SeeTutorial": "オンセ工房 Foundry VTTを使うためのガイドは <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\" title=\"Gamemaster Tutorial\">英語版のGMガイド</a> もしくは <a href=\"https://foundryvtt.wiki/ja/home\" target=\"_blank\" title=\"JP Community Wiki\">日本語Wiki</a> を参照してください。",
+  "NoSystemsMessage": "初めてワールド（セッションルーム）を作るには <a class=\"system-install\" data-query=\"\" title=\"Game System\">ゲームシステム</a> をインストールする必要があります。ツール内にブラウザがありますので、既存のTRPGシステムを探してみてください！　もし自分がほしいシステムが見つからない場合は <a class=\"system-install\" data-query=\"Simple Worldbuilding\" title=\"Simple Worldbuilding\">Simple Worldbuilding（汎用システム）</a> のインストールをおすすめします。",
+  "NoWorldsMessage": "システムがインストールできましたね！これで早速セッションルームを立てられます。セッションルームはワールドと呼ばれ、キャラクター、資料、マップなどを含んだものです。単発セッションでも長期キャンペーンでも好みによってご利用ください！",
+  "NueWorldDescription": "<p>ワールドの使い方については<a href='https://foundryvtt.com/article/game-worlds/' target='_blank'>ワールド</a>の操作説明を確認してください！　英語のページなのでわからない場合はFVTT日本語Discordまでご連絡ください。</p>",
+  "SeeTutorial": "Foundry Virtual Tabletopを使うためのガイドは <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\" title=\"Gamemaster Tutorial\">英語版のGMガイド</a> もしくは <a href=\"https://foundryvtt.wiki/ja/home\" target=\"_blank\" title=\"JP Community Wiki\">日本語Wiki</a> を参照してください。",
   "Title": "設定 ＆ セットアップ",
   "Update": "アップデート",
   "UpdateNewGeneration": "手動インストールが必要",
@@ -2325,15 +2325,15 @@
   "MissingRequirements": "必要な {type} \"{id}\" が欠如しています。",
   "UpdateAll": "全てアップデート",
   "UpdateChannel": "アップデート先",
-  "UpdateChannelHint": "オンセ工房 FoundryVTTソフトウェアにダウンロードするアップデート種別を設定できます。特別な理由がない限り、「安定版」を使用することをお勧めします。",
+  "UpdateChannelHint": "Foundry Virtual Tabletopソフトウェアにダウンロードするアップデート種別を設定できます。特別な理由がない限り、「安定版」を使用することをお勧めします。",
   "UpdateCheck": "アップデート",
   "UpdateCheckFor": "アップデートを確認",
   "UpdatePerformIfAvailable": "利用可能な場合は更新を実行",
-  "UpdateHint": "下記のアップデート・チャンネルを選択することでオンセ工房 Foundry VTTを新しいバージョンにアップデートできます。アップデート前にバックアップを忘れずに！",
+  "UpdateHint": "下記のアップデート・チャンネルを選択することでFoundry Virtual Tabletopを新しいバージョンにアップデートできます。アップデート前にバックアップを忘れずに！",
   "UpdatePrototype": "プロトタイプ",
   "UpdatePrototypeHint": "プロトタイプ：まだ開発が終わっていないバージョン。新しい機能を事前に試せますがゲームを行えるほどのものではないです。",
   "UpdateDevelopment": "開発",
-  "UpdateDevelopmentHint": "API開発：Mod開発者等が事前に新機能のAPIをテストするためにリリースされるものです。主にフィードバックを想定しているのでこれもゲームを行うものではないです。",
+  "UpdateDevelopmentHint": "API開発：モジュール開発者等が事前に新機能のAPIをテストするためにリリースされるものです。主にフィードバックを想定しているのでこれもゲームを行うものではないです。",
   "UpdateTesting": "テスト",
   "UpdateTestingHint": "機能テスト：開発者ではない、一般のユーザーから意見を集めるためのリリースです。",
   "UpdateStable": "安定版",
@@ -2397,7 +2397,7 @@
   "PackageFilter": "パッケージ検索",
   "WorldFilter": "ワールド検索",
   "SystemFilter": "システム検索",
-  "ModuleFilter": "MOD検索",
+  "ModuleFilter": "モジュール検索",
   "PackageCategories": "パッケージの種類",
   "PackageInstalled": "インストール済",
   "PackageNotOwned": "未所有",
@@ -2480,21 +2480,21 @@
   "UpdateCleaningC": "クリーニング完了",
   "UpdateInstallingS": "更新のインストール中",
   "UpdateInstallingC": "インストール完了",
-  "UpdateCompleteManual": "更新は正常に完了しました。これよりオンセ工房 Foundry VTTのサーバーを停止するので、手動で再起動してください。",
-  "UpdateCompleteAuto": "更新は正常に完了しました。オンセ工房 Foundry VTTのアプリを再起動します。",
-  "UpdateNoInternetError": "オンセ工房 FoundryVTTを更新するには、インターネットに接続する必要があります。",
+  "UpdateCompleteManual": "更新は正常に完了しました。これよりFoundry Virtual Tabletopのサーバーを停止するので、手動で再起動してください。",
+  "UpdateCompleteAuto": "更新は正常に完了しました。Foundry VTTのアプリを再起動します。",
+  "UpdateNoInternetError": "Foundry Virtual Tabletopを更新するには、インターネットに接続する必要があります。",
   "UpdateWebsiteUnreachableError": "https://foundryvtt.com に接続できません。時間をおいてからもう一度お試しください。",
   "UpdateWebsiteSlowWarning": "https://foundryvtt.com のサーバーは現在負荷が高い状態です。時間をおいてからもう一度お試しください。",
-  "UpdateWarningWillDisable": "この更新は、オンセ工房 FoundryVTTの新しいメジャーバージョンです。この更新をインストールする場合、まだ互換性が無いと思われる、いくつかのインストール済みモジュールを無効化する必要があります。",
+  "UpdateWarningWillDisable": "この更新は、Foundry Virtual Tabletopの新しいメジャーバージョンです。この更新をインストールする場合、まだ互換性が無いと思われる、いくつかのインストール済みモジュールを無効化する必要があります。",
   "UpdateButtonDownload": "{display} 更新をダウンロード",
-  "UpdateInfoAvailable": "オンセ工房 FoundryVTT バージョン {display} が利用可能です！",
+  "UpdateInfoAvailable": "Foundry Virtual Tabletop バージョン {display} が利用可能です！",
   "UpdateNotAvailable": "要求された更新先で利用可能な更新情報がありません",
   "UpdateNoArchive": "インストールする更新のアーカイブが存在しません。",
   "UpdateLicenseInvalid": "ご利用のライセンスキーは返金処理が完了し無効化されたか、その他の理由により無効化されています。",
   "UpdatedPackages": "パッケージの更新ログ",
   "NoUpdateMode": {
     "Label": "更新無効",
-    "Hint": "--noupdate モードで起動されているため、オンセ工房 FoundryVTTを更新することができません。"
+    "Hint": "--noupdate モードで起動されているため、Foundry Virtual Tabletopを更新することができません。"
   },
 
   "Package": "パッケージ",
@@ -2504,7 +2504,7 @@
   "WorldCoreMigrationRequired": "<p>ワールド <strong>{world}</strong> を起動しようとしています。起動中、データが本体の旧バージョン (<code>{oldVersion}</code>) から現在インストールされているバージョン <strong>{newVersion}</strong>へ移行されます。</p>",
   "WorldSystemMigrationRequired": "<p>このワールドを最後に実行したとき、現在インストールされているシステムバージョン <strong>{newVersion}</strong> より古いシステムバージョン(<code>{oldVersion}</code>) が使用されました。このまま実行すると内部でデータ移行が発生する可能性があります。詳細はそれぞれのシステムの案内を御覧ください。</p>",
   "WorldMigrationSystemUnavailable": "<p>現在インストールしているシステム<strong>{system}</strong> (<code>{systemVersion}</code>) のバージョンが利用中の本体バージョンとの互換性が指定されていません。移行中に問題が発生する可能性があります。</p>",
-  "WorldMigrationDisableModules": "<p>ワールドを移行する前にインストールしているシステムやモッドのアップデートを行ってください。新しいシステムバージョンへの移行であるため、インストールされたモッドは自動的に無効化されます。移行後、手動で再度有効化する事ができます。</p>",
+  "WorldMigrationDisableModules": "<p>ワールドを移行する前にインストールしているシステムやモジュールのアップデートを行ってください。新しいシステムバージョンへの移行であるため、インストールされたモジュールは自動的に無効化されます。移行後、手動で再度有効化する事ができます。</p>",
   "WorldMigrationBackupPrompt": "<p><strong>移行をもとに戻すことはできません。</strong>ワールドのデータをバックアップしてから続行してください。途中で問題が発生した時や前のバージョンに戻したい時はこのバックアップが必要となります。</p>",
   "WorldMigrationCreateBackup": "移行前にバックアップを作成しますか？",
   "WorldMigrationBegin": "移行開始",
@@ -2537,7 +2537,7 @@
     "CreateSnapshot": "スナップショットを作成",
     "CreateSnapshotComplete": "スナップショット作成完了",
     "CreateSnapshotFailure": "スナップショットの作成に失敗しました。詳細はコンソールログ（F12）よりご確認ください。",
-    "CreateSnapshotHint": "スナップショットとは、現在インストールされているすべてのワールド、モッド、システムなどの複製を作ることです。本体を更新した後、必要に応じてスナップショット作成時点のバージョンに戻しやすくなります。",
+    "CreateSnapshotHint": "スナップショットとは、現在インストールされているすべてのワールド、モジュール、システムなどの複製を作ることです。本体を更新した後、必要に応じてスナップショット作成時点のバージョンに戻しやすくなります。",
     "CreateSnapshotPackageList": "スナップショットには以下のパッケージが含まれます：",
     "CreateSnapshotConfirm": "パッケージ数、容量、ストレージ種別に応じてそれなりに時間がかかります。この操作は途中で取り消すことができません。実行しますか？",
     "DeletingBackup": "バックアップを削除中",
@@ -2578,7 +2578,7 @@
     "RestoreSnapshotFailure": "スナップショットの復元に失敗しました。詳細はコンソールログ（F12）よりご確認ください。",
     "RestoreSnapshotComplete": "{date}のスナップショットを無事復元できました。",
     "RestoreSnapshotTitle": "スナップショット復元中",
-    "RestoreSnapshotWarning": "スナップショットを復元すると、現在のオンセ工房 FoundryVTTの状態をスナップショット作成時点にリセットします。すべてのシステムやモッドのバージョンおよびワールドの状態が復元されます。この操作は元に戻すことができません。",
+    "RestoreSnapshotWarning": "スナップショットを復元すると、現在のFoundry VTTの状態をスナップショット作成時点にリセットします。すべてのシステムやモジュールのバージョンおよびワールドの状態が復元されます。この操作は元に戻すことができません。",
     "RestoreSnapshotUnchangedPackages": "スナップショット作成後に<strong>一つ</strong>のパッケージが追加されてます。スナップショット復元中のリセットから除外されます。",
     "RestoreSnapshotUnchangedPackagesPl": "スナップショット作成後に<strong>{count}つ</strong>のパッケージが追加されてます。スナップショット復元中のリセットから除外されます。",
     "Snapshot": "スナップショット",
@@ -2589,17 +2589,17 @@
     "TotalSize": "合計利用容量",
     "TYPE": {
       "world": "ワールド",
-      "module": "モッド・拡張機能",
+      "module": "モジュール",
       "system": "システム",
       "snapshots": "スナップショット"
     },
     "CannotDeleteInSnapshot": "スナップショットの一部であるバックアップは個別に削除できません。",
     "WorldCount": "<strong>{count}</strong> のワールド",
-    "ModuleCount": "<strong>{count}</strong> のモッド",
+    "ModuleCount": "<strong>{count}</strong> のモジュール",
     "SystemCount": "<strong>{count}</strong> のシステム",
     "Snapshotting": {
       "world": "ワールドのスナップショット作成中",
-      "module": "モッドのスナップショット作成中",
+      "module": "モジュールのスナップショット作成中",
       "system": "システムのスナップショット作成中"
     },
     "CannotRestoreUnusable": "パッケージが使用不可能になるため、このバックアップを復元できません。"
@@ -2665,7 +2665,7 @@
   "Create": "パッケージを作成",
   "Compatibility": {
     "Label": "互換性",
-    "Hint": "任意で、このパッケージがFVTTの特定の範囲のバージョンとのみ互換性があることを示すことができます。互換性は、「13.339」のような特定のビルドバージョンから、「13」のような幅広い表現で宣言することができます。"
+    "Hint": "任意で、このパッケージがFoundry Virtual Tabletopの特定の範囲のバージョンとのみ互換性があることを示すことができます。互換性は、「13.339」のような特定のビルドバージョンから、「13」のような幅広い表現で宣言することができます。"
   },
   "TagJavaScript": "JavaScript",
   "TagCSS": "CSS",
@@ -2797,7 +2797,7 @@
 
 "JOIN": {
   "CurrentPlayers": "現在のプレイヤー",
-  "HeaderJoin": "卓部屋に入る",
+  "HeaderJoin": "セッションルームに入る",
   "HeaderDetails": "部屋詳細",
   "HeaderWorld": "ワールド説明",
   "NextSession": "次回セッション",
@@ -3266,8 +3266,8 @@
 "SIDEBAR.Create": "{type}作成",
 "SIDEBAR.Search": "{types}を検索",
 "SIDEBAR.DirectoryTitle": "{type}フォルダ",
-"SIDEBAR.Documentation": "オンセ工房 Foundry VTT資料集",
-"SIDEBAR.Wiki": "オンセ工房 Foundry VTT コミュニティ Wiki",
+"SIDEBAR.Documentation": "Foundry VTT資料集",
+"SIDEBAR.Wiki": "Foundry VTT コミュニティ Wiki",
 
 "SIDEBAR.ACTIONS.CREATE": {
   "Actor": "キャラクター作成",
@@ -3317,8 +3317,8 @@
 "SUPPORT": {
   "Title": "サポート内容",
   "Places": "サポートを受けられる場所",
-  "Discord": "オンセ工房 Foundry VTT のサポートを日本語で受けるには<a href='https://discord.gg/vM4YM27' target='_blank'>日本語コミュニティDiscord</a>までお越しください。英語で遊んでいる本家の方々と繋がりたい場合はこちらの<a href=\"https://discord.gg/foundryvtt\" target=\"_blank\" rel=\"nofollow\">Discord</a>へお入りください。",
-  "BugReporting": "バグを報告する場合はこちらの<a href=\"https://foundryvtt.com/contact-us?category=bug\" target=\"_blank\" rel=\"nofollow\">Contact Us page</a>からバグレポートのテンプレートをご利用ください。英語のみですので、英語がわからない方はオンセ工房のDiscordまで投稿いただければ代理で送信します。",
+  "Discord": "Foundry VTT のサポートを日本語で受けるには<a href='https://discord.gg/vM4YM27' target='_blank'>日本語コミュニティDiscord</a>までお越しください。英語で遊んでいる本家の方々と繋がりたい場合はこちらの<a href=\"https://discord.gg/foundryvtt\" target=\"_blank\" rel=\"nofollow\">Discord</a>へお入りください。",
+  "BugReporting": "バグを報告する場合はこちらの<a href=\"https://foundryvtt.com/contact-us?category=bug\" target=\"_blank\" rel=\"nofollow\">Contact Us page</a>からバグレポートのテンプレートをご利用ください。英語のみですので、英語がわからない方はFVTTのDiscordまで投稿いただければ代理で送信します。",
   "ReportPrelude": "DiscordやGithubでサポートを受けているとき、下記の内容も一緒に投稿してあげると手伝う人もあなたのワールドの状況を把握しやすいです。お手数でなければこちらも一緒にコピペして投稿してください！",
   "CopyReport": "レポートをクリップボードにコピー",
   "ReportCopied": "レポートをコピーしました",
@@ -4096,7 +4096,7 @@
   "TURNServerProvisioned": "シグナリングサーバーから提供",
   "CustomTURNServer": "カスタム中継サーバー",
   "GeneralTabNotGM": "一般的な音声/ビデオ会議設定は、GMのみが変更できます。",
-  "AVModeNotes": "ゲームマスターだけがこの設定を変更できます。これにはオンセ工房Foundry VTTの再読み込みが必要になります。",
+  "AVModeNotes": "ゲームマスターだけがこの設定を変更できます。これにはFoundry VTTの再読み込みが必要になります。",
   "ModeDisabled": "無効",
   "ModeAudioOnly": "音声のみ",
   "ModeVideoOnly": "ビデオのみ",
@@ -4144,7 +4144,7 @@
   "ConnectError": "音声/ビデオ シグナリングサーバーへの接続エラー",
   "ConnectionLostWarning": "音声/ビデオ シグナリングサーバーへの接続が失われました。接続の再確立を試みています。",
   "GenericError": "WebRTC エラー : ",
-  "NoSSLError": "オンセ工房Foundry VTTサーバーがSSL証明書を使用していない限り、音声/ビデオ通話は使用できません。 手順については、オンラインマニュアルを参照してください。",
+  "NoSSLError": "Foundry VTTサーバーがSSL証明書を使用していない限り、音声/ビデオ通話は使用できません。 手順については、オンラインマニュアルを参照してください。",
   "Volume": "音量",
   "WarningCannotEnableVideo": "ビデオを発信する権限がないため、カメラを有効にすることができません。",
   "WarningCannotEnableAudio": "音声を発信する権限がないため、マイクを有効にすることができません。",
