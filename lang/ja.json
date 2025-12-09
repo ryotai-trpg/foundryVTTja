@@ -99,50 +99,50 @@
 "Yes": "はい",
 
 "ADVENTURE": {
-  "ImportSubmit": "冒険をインポート",
+  "ImportSubmit": "シナリオをインポート",
   "ImportProgress": "インポート",
   "ImportHeaderOverview": "概要",
   "ImportHeaderContents": "内容",
   "ImportHeaderOptions": "オプション",
   "ImportOverwriteTitle": "既存の内容を上書きしますか？",
-  "ImportOverwriteWarning": "冒険「{name}」のいくつかの内容がワールド内に検出されました。この冒険をインポートすると上書きされます。それでも続行しますか？",
+  "ImportOverwriteWarning": "シナリオ「{name}」のいくつかの内容がワールド内に検出されました。このシナリオをインポートすると上書きされます。それでも続行しますか？",
   "ImportAll": "全てをインポート",
   "ImportContent": "{label}をインポート",
   "Importer": {
-    "V1": "冒険インポーター (V1)",
-    "V2": "冒険インポーター (V2)"
+    "V1": "シナリオインポーター (V1)",
+    "V2": "シナリオインポーター (V2)"
   },
 
-  "Create": "冒険を作成",
-  "ExportEdit": "冒険を再構築",
-  "ExportSubmit": "冒険を構築",
-  "ExportDropZone": "冒険の中身を増やすにはワールド内からデータをドラッグ＆ドロップしてください。",
-  "ExportPackNoSystem": "キャラやアイテムをシステムに依存しない冒険にエクスポートしようとしています。キャラやアイテムが属するシステムと一致するシステム欄をこの冒険の辞典に設定する必要があります。",
+  "Create": "シナリオを作成",
+  "ExportEdit": "シナリオを再構築",
+  "ExportSubmit": "シナリオを構築",
+  "ExportDropZone": "シナリオの中身を増やすにはワールド内からデータをドラッグ＆ドロップしてください。",
+  "ExportPackNoSystem": "キャラやアイテムをシステムに依存しないシナリオにエクスポートしようとしています。キャラやアイテムが属するシステムと一致するシステム欄をこのシナリオの辞典に設定する必要があります。",
   "ExportPrimaryDocumentsOnly": "ワールド内に存在するドキュメントのみを追加することができます",
-  "CreateSuccess": "冒険 \"{name}\" の作成に成功しました！",
-  "UpdateSuccess": "冒険 \"{name}\" の更新に成功しました！",
+  "CreateSuccess": "シナリオ \"{name}\" の作成に成功しました！",
+  "UpdateSuccess": "シナリオ \"{name}\" の更新に成功しました！",
 
-  "DocumentUpdate": "このドキュメントは冒険が作成されるときに更新されます",
-  "DocumentAdd": "このドキュメントは冒険が作成されるときに追加されます",
-  "DocumentMissing": "このドキュメントはワールドから欠落しており、冒険が作成されるときに更新されません",
-  "DocumentRemove": "このドキュメントは冒険が作成されるときに削除されます",
+  "DocumentUpdate": "このドキュメントはシナリオが作成されるときに更新されます",
+  "DocumentAdd": "このドキュメントはシナリオが作成されるときに追加されます",
+  "DocumentMissing": "このドキュメントはワールドから欠落しており、シナリオが作成されるときに更新されません",
+  "DocumentRemove": "このドキュメントはシナリオが作成されるときに削除されます",
 
   "FIELDS": {
     "name": {
-      "label": "冒険タイトル",
-      "hint": "この冒険を内包するパッケージの固有名を設定してください。"
+      "label": "シナリオタイトル",
+      "hint": "このシナリオを内包するパッケージの固有名を設定してください。"
     },
     "img": {
       "label": "バナー画像",
-      "hint": "この冒険に表示される、最低でも幅768px・高さ300pxのバナー画像を設定してください。"
+      "hint": "このシナリオに表示される、最低でも幅768px・高さ300pxのバナー画像を設定してください。"
     },
     "caption": {
       "label": "バナー説明文",
       "hint": "バナーの直下に表示される説明文を入力してください。テキストまたはHTMLを利用できます。"
     },
     "description": {
-      "label": "冒険説明文",
-      "hint": "冒険の概要やトレーラーとなる説明文をHTMLで入力してください。"
+      "label": "シナリオ説明文",
+      "hint": "シナリオの概要やトレーラーとなる説明文をHTMLで入力してください。"
     }
   },
 
@@ -962,8 +962,8 @@
   "ActorDeltas": "キャラの複製",
   "Actor": "キャラクター",
   "Actors": "キャラクター",
-  "Adventure": "冒険",
-  "Adventures": "冒険",
+  "Adventure": "シナリオ",
+  "Adventures": "シナリオ",
   "AmbientLight": "ライト",
   "AmbientLights": "ライト",
   "AmbientSound": "環境音",
@@ -1750,7 +1750,7 @@
   "textAnchor.label": "テキストアンカー"
 },
 
-"NUE.FirstLaunchBody": "こんにちは！ <br> 新しいワールドを作ったようですね。このワールドというのが「セッションルーム」となるわけです。<br>まずは<a class=\"nue-tab\" data-tab=\"settings\">ユーザー管理</a>からこの部屋で遊ぶPLのユーザーを設定してください。その後、<a class=\"nue-tab\" data-tab=\"actors\">キャラクター</a>からPL達が使うキャラクターシートや、NPCのデータを用意してください。<br>マップなどは「シーン」と呼ばれ、<a class=\"nue-tab\" data-tab=\"scenes\">シーン</a>タブより設定してください。ハンドアウトやその他のテキストは<a class=\"nue-tab\" data-tab=\"journal\">資料</a>タブから作成できます。",
+"NUE.FirstLaunchBody": "こんにちは！ <br> 新しいワールドを作ったようですね。このワールドというのが「卓部屋」となるわけです。<br>まずは<a class=\"nue-tab\" data-tab=\"settings\">ユーザー管理</a>からこの部屋で遊ぶPLのユーザーを設定してください。その後、<a class=\"nue-tab\" data-tab=\"actors\">キャラクター</a>からPL達が使うキャラクターシートや、NPCのデータを用意してください。<br>マップなどは「シーン」と呼ばれ、<a class=\"nue-tab\" data-tab=\"scenes\">シーン</a>タブより設定してください。ハンドアウトやその他のテキストは<a class=\"nue-tab\" data-tab=\"journal\">資料</a>タブから作成できます。",
 "NUE.FirstLaunchHeader": "はじめに",
 "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i>このチャットカードは右クリックして別ウィンドウとしてポップアウトさせることができます。チャットタブそのものや他のタブも同じ方法でポップアウトできます。",
 "NUE.FirstLaunchInvite": "PLを招待しよう",
@@ -2308,8 +2308,8 @@
   "Modules": "モッド・拡張機能",
   "Systems": "ゲームシステム",
   "GettingStarted": "はじめに",
-  "NoSystemsMessage": "初めてワールド（セッションルーム）を作るには <a class=\"system-install\" data-query=\"\" title=\"Game System\">ゲームシステム</a> をインストールする必要があります。ツール内にブラウザがありますので、既存のTRPGシステムを探してみてください！　もし自分がほしいシステムが見つからない場合は <a class=\"system-install\" data-query=\"Simple Worldbuilding\" title=\"Simple Worldbuilding\">Simple Worldbuilding（汎用システム）</a> のインストールをおすすめします。",
-  "NoWorldsMessage": "システムがインストールできましたね！これで早速セッションルームを立てられます。セッションルームはワールドと呼ばれ、キャラクター、資料、マップなどを含んだものです。単発セッションでも長期キャンペーンでも好みによってご利用ください！",
+  "NoSystemsMessage": "初めてワールド（卓部屋）を作るには <a class=\"system-install\" data-query=\"\" title=\"Game System\">ゲームシステム</a> をインストールする必要があります。ツール内にブラウザがありますので、既存のTRPGシステムを探してみてください！　もし自分がほしいシステムが見つからない場合は <a class=\"system-install\" data-query=\"Simple Worldbuilding\" title=\"Simple Worldbuilding\">Simple Worldbuilding（汎用システム）</a> のインストールをおすすめします。",
+  "NoWorldsMessage": "システムがインストールできましたね！これで早速卓部屋を立てられます。卓部屋はワールドと呼ばれ、キャラクター、資料、マップなどを含んだものです。単発セッションでも長期キャンペーンでも好みによってご利用ください！",
   "NueWorldDescription": "<p>ワールドの使い方については<a href='https://foundryvtt.com/article/game-worlds/' target='_blank'>ワールド</a>の操作説明を確認してください！　英語のページなのでわからない場合はオンセ工房の日本語Discordまでご連絡ください。</p>",
   "SeeTutorial": "オンセ工房 Foundry VTTを使うためのガイドは <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\" title=\"Gamemaster Tutorial\">英語版のGMガイド</a> もしくは <a href=\"https://foundryvtt.wiki/ja/home\" target=\"_blank\" title=\"JP Community Wiki\">日本語Wiki</a> を参照してください。",
   "Title": "設定 ＆ セットアップ",
@@ -2769,7 +2769,7 @@
         "type.label": "ドキュメント種別",
         "system": {
           "label": "必要なシステム",
-          "hint": "キャラクター、アイテム、または冒険（キャラ＋アイテムが複数個混在）を含んでいる辞典パックには、どのゲームシステムで使用できるかを指定する必要があります。"
+          "hint": "キャラクター、アイテム、またはシナリオ（キャラ＋アイテムが複数個混在）を含んでいる辞典パックには、どのゲームシステムで使用できるかを指定する必要があります。"
         }
       }
     },
@@ -2797,7 +2797,7 @@
 
 "JOIN": {
   "CurrentPlayers": "現在のプレイヤー",
-  "HeaderJoin": "セッションルームに入る",
+  "HeaderJoin": "卓部屋に入る",
   "HeaderDetails": "部屋詳細",
   "HeaderWorld": "ワールド説明",
   "NextSession": "次回セッション",
@@ -3271,7 +3271,7 @@
 
 "SIDEBAR.ACTIONS.CREATE": {
   "Actor": "キャラクター作成",
-  "Adventure": "冒険作成",
+  "Adventure": "シナリオ作成",
   "Cards": "カードデッキ作成",
   "Compendium": "辞典作成",
   "Folder": "フォルダ作成",
@@ -3337,8 +3337,8 @@
   "ModuleSubTypesUnavailableName": "<strong>{count}</strong>個の {document} は'{name}'モジュールが無効化されているため、利用できません。",
   "ModuleSubTypesUnavailableNoName": "<strong>{count}</strong>個の {document} はID '{name}' のモジュールが無効化されているため、利用できません。",
   "UnavailableDocuments": {
-    "one": "1個の {document} が利用できません",
-    "other": "{count}個の {document} が利用できません"
+    "one": "1個の{document}が利用できません",
+    "other": "{count}個の{document}が利用できません"
   },
   "WorldScripts": "ワールドスクリプト",
   "GenerateFullReport": "完全なレポートを生成",
@@ -3947,7 +3947,7 @@
     },
     "character": {
       "label": "プレイヤーキャラクター",
-      "hint": "このユーザーのメインキャラクターを表す、少なくとも閲覧者権限を持つキャラクターをセットから選択します。"
+      "hint": "このユーザーのメインキャラクターを表す、少なくとも閲覧者権限を持つキャラクターを一覧から選択します。"
     }
   },
   "SHEET": {
@@ -4247,14 +4247,14 @@
 "CANVASCONTROLS.SoundsTitle": "環境音の操作",
 "CANVASCONTROLS.SoundsContent": "光源と同じですが、なんと音源ファイルをシーン上に配置して、コマの所有者が近づくと聞こえるようになります。\nごうごうと燃えている焚き火、ザーザーと降り注ぐ滝の音、酒場のくぐもった声……使い道は無限大です！",
 "CANVASCONTROLS.NotesTitle": "地点メモ",
-"CANVASCONTROLS.NotesContent": "シーンに資料（メモ）を配置することができます。例えば、これからはいる街の情報やダンジョンの部屋描写……あるいはPL用のルールサマリー。気になる情報をマップに配置してセッションを便利にしましょう。配置しただけではPLには見えず、その後資料のタブか資料を開いてから「プレイヤーに見せる」を使って表示する権限を与えてください。",
+"CANVASCONTROLS.NotesContent": "シーンに資料（メモ）を配置することができます。例えば、これからはいる街の情報やダンジョンの部屋描写……あるいはPL用のルールサマリー。気になる情報をマップに配置して卓を便利にしましょう。配置しただけではPLには見えず、その後資料のタブか資料を開いてから「プレイヤーに見せる」を使って表示する権限を与えてください。",
 "CANVASCONTROLS.FurtherReadingTitle": "もっと教えて！",
 "CANVASCONTROLS.FurtherReadingContent": "ここまで読んで頂いてありがとうございます。更に情報を得たい場合は<a href='https://foundryvtt.com/kb/' target='_blank'>資料</a>の「Game Canvas」を御覧ください。または、<a href='https://discord.gg/vM4YM27' target='_blank'>オンセ工房Discordサーバー</a>へお越しください。",
 
 "CREATINGAWORLD.Title": "ワールド作成",
 "CREATINGAWORLD.Description": "初めてのワールド作成を案内するツアーです。",
 "CREATINGAWORLD.WorldsTabTitle": "ワールドタブ",
-"CREATINGAWORLD.WorldsTabContent": "今まで作成されたワールドはここに置かれます。このワールドというのが「セッションルーム」です。どうやらワールドがまだ無いようなので一緒に新しいワールドを作りましょう。",
+"CREATINGAWORLD.WorldsTabContent": "今まで作成されたワールドはここに置かれます。このワールドというのが「卓部屋」です。どうやらワールドがまだ無いようなので一緒に新しいワールドを作りましょう。",
 "CREATINGAWORLD.CreateWorldTitle": "ワールド作成",
 "CREATINGAWORLD.CreateWorldContent": "ワールド作成ボタンは右下にあります。クリックすると作成の画面が出てきます。",
 "CREATINGAWORLD.WorldTitleTitle": "ワールド名",
@@ -4279,7 +4279,7 @@
 "INSTALLINGASYSTEM.SearchingTitle": "検索",
 "INSTALLINGASYSTEM.SearchingContent": "FVTTには100個以上のTRPG用のシステムがあり、日々増えていってます。君が遊びたいシステムがまだ実装されていない場合は\"Simple World Building\"などの汎用システムを入れてみてください。",
 "INSTALLINGASYSTEM.InstallTitle": "システムインストール",
-"INSTALLINGASYSTEM.InstallContent": "ほしいシステムが見つかったら、インストールボタンをクリックして取得してください。必要なだけシステムをインストールできましたら、\"ワールド\"タブに向かって最初のワールド（セッションルーム）を立ててみましょう！",
+"INSTALLINGASYSTEM.InstallContent": "ほしいシステムが見つかったら、インストールボタンをクリックして取得してください。必要なだけシステムをインストールできましたら、\"ワールド\"タブに向かって最初のワールド（卓部屋）を立ててみましょう！",
 
 "THESIDEBAR.Title": "サイドバー",
 "THESIDEBAR.Description": "このツアーでは、右側にあるサイドバーについての基本的な役割を案内します。",
@@ -4306,14 +4306,14 @@
 "THESIDEBAR.PlaylistsTitle": "プレイリスト",
 "THESIDEBAR.PlaylistsContent": "セッションで再生するBGMや効果音等を登録できます。まずはプレイリストを作ってから、個別の曲を登録しましょう。<p>プレイリストはシャッフル再生、逐次再生、同時再生等、様々な設定ができます。初めて遊ぶ人がいる場合、先に音量の調整のためにテストをやっておくと良いです。設定はPL個別なので各自聴きたい分だけの音量設定をしてください。</p>",
 "THESIDEBAR.CompendiumPacksTitle": "辞典パック",
-"THESIDEBAR.CompendiumPacksContent": "今までのタブを見て「データ作るのめんどくさい……」と思ったかもしれません。ここではシステムに登録されている準備済みのデータや、君が自分で作った過去のデータのまとめを置くことができます。遊べば遊ぶほどデータが増えて、将来のセッション準備が便利になるのがFVTTの特徴です。<p>ここにあるデータは使うまでロードされないので、PLへの負荷をへらすために定期的にここに登録して不要なものを整理すると良いでしょう。</p>",
+"THESIDEBAR.CompendiumPacksContent": "今までのタブを見て「データ作るのめんどくさい……」と思ったかもしれません。ここではシステムに登録されている準備済みのデータや、君が自分で作った過去のデータのまとめを置くことができます。遊べば遊ぶほどデータが増えて、将来の卓準備が便利になるのがFVTTの特徴です。<p>ここにあるデータは使うまでロードされないので、PLへの負荷をへらすために定期的にここに登録して不要なものを整理すると良いでしょう。</p>",
 "THESIDEBAR.SettingsTitle": "設定",
 "THESIDEBAR.SettingsContent": "本体、モッド、システムの設定は全部ここにあります。重いと感じた場合は、ここにあるスペック設定でグラフィックを軽くしてみてください。",
 
 "UIOVERVIEW.Title": "UI操作",
 "UIOVERVIEW.Description": "FVTTのUIの全体的な操作感をつかむためのツアーです。",
 "UIOVERVIEW.CanvasTitle": "キャンバス",
-"UIOVERVIEW.CanvasContent": "中央にあるこの空間は<span class='reference'>キャンバス</span>です。このキャンバス上に<span class='reference'>シーン</span>やマップが表示され、セッションを遊ぶためのコマ、画像、タイルなどをおいていくことになります。",
+"UIOVERVIEW.CanvasContent": "中央にあるこの空間は<span class='reference'>キャンバス</span>です。このキャンバス上に<span class='reference'>シーン</span>やマップが表示され、卓を遊ぶためのコマ、画像、タイルなどをおいていくことになります。",
 "UIOVERVIEW.SidebarTitle": "サイドバー",
 "UIOVERVIEW.SidebarContent": "<span class='reference'>サイドバー</span>にはチャットメッセージを送信するための「<span class='reference'>チャット・ログ</span>」、プレイヤーキャラクターやNPCを管理するための「<span class='reference'>キャラ一覧</span>」、キャラクターが獲得できるアイテムやスキルが置かれている「<span class='reference'>アイテム一覧</span>」等があります。初心者のときはここの説明を最初に受けると思うので先に覚えちゃいましょう。",
 "UIOVERVIEW.HotbarTitle": "ホットバー",
@@ -4323,7 +4323,7 @@
 "UIOVERVIEW.PlayersTitle": "参加メンバー",
 "UIOVERVIEW.PlayersContent": "<span class='reference'>参加メンバー</span>はこのワールドに接続しているユーザーを表示してくれます。GMアカウントはユーザーを右クリックして、割り当てられたキャラを変更したり、追放やBANができます。PLを1人だけ個別のシーンへと移動させることもできますよ！",
 "UIOVERVIEW.CanvasControlsTitle": "キャンバス操作",
-"UIOVERVIEW.CanvasControlsContent": "ここではコマ、テンプレート、ライト、ウォールなどの、シーンの上に配置してセッションを彩る様々な要素やレイヤーを個別に操作できます。ここで見えるツールは権限によって決まるので、GMしか見れないものもありますよ。",
+"UIOVERVIEW.CanvasControlsContent": "ここではコマ、テンプレート、ライト、ウォールなどの、シーンの上に配置して卓を彩る様々な要素やレイヤーを個別に操作できます。ここで見えるツールは権限によって決まるので、GMしか見れないものもありますよ。",
 "UIOVERVIEW.NavigationTitle": "シーン・ナビゲーション",
 "UIOVERVIEW.NavigationContent": "現在表示されているシーンや、素早く切り替えたいシーンを控えるための場所です。シーン一覧から「ナビゲーション切り替え」をクリックしたものがここに表示されます。右クリックして「有効化」すると全てのプレイヤーがそのシーンい集合します。戦闘のマップとして使用しても良いし、一枚絵だけをおいてRP用に使うもよしです。\n回線が弱いPLが居た場合は右クリックメニューにある「先読み」をやってみてください、裏でロードを行ってなめらかなシーン切り替えができます。",
 
