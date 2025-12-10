@@ -48,7 +48,6 @@
 * DF qol
 * DF scene enhance
 * dice so nice (3Dダイス)
-* dnd5e helpers
 * food and water tracker
 * gmscreen
 * party resources
@@ -87,6 +86,8 @@
 * hurry-up
 * lib-captions
 * sequencer
+* Token Border Supplements
+* Wall Height
 
 上記の*がついているModはRipper93氏のPatreonより入手できる有料Modです。
 

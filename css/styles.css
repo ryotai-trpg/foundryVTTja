@@ -10,6 +10,9 @@ form .form-group .form-fields > label {
     font-size: 0.5rem;
 }
 
-button.dice-tray__roll {
-    font-size: 8px;
+.roll-table-sheet button[data-action="changeMode"],
+button[data-action="installUrl"] {
+  > span {
+    white-space: nowrap;
+  }
 }

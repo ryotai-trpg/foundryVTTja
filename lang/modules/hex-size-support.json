@@ -1,0 +1,84 @@
+{
+	"hex-size-support": {
+		"settings": {
+			"borderMode": {
+				"name": "枠線表示モード",
+				"hint": "コマの枠線をいつ描画するか。コマの「枠線を非表示」がチェックされている場合、この設定は上書きされます。",
+				"choices": {
+					"hover": "マウスホバー時",
+					"always": "常に",
+					"combat": "戦闘中は常に",
+					"never": "しない"
+				}
+			},
+			"borderPosition": {
+				"name": "枠線位置",
+				"hint": "枠線をコマ画像の前面と背面のどちらに常に表示するか選択できます。",
+				"choices": {
+					"default": "デフォルト",
+					"front": "常に前面",
+					"behind": "常に背面"
+				}
+			},
+			"borderWidth": {
+				"name": "枠線の幅",
+				"hint": "コマの枠線の幅を指定"
+			},
+			"fillBorder": {
+				"name": "枠線内の塗りつぶし",
+				"hint": "コマの枠線内に半透明の色を追加します。",
+				"choices": {
+					"combat": "戦闘中は常に",
+					"combat_hov": "戦闘中はマウスホバー時"
+				}
+			},
+			"borderStyle": {
+				"name": "枠線スタイル",
+				"hint": "コマの枠線のスタイルを設定",
+				"choices": {
+					"default": "FVTTデフォルト",
+					"bevel": "ベベル",
+					"flat": "フラット"
+				}
+			},
+			"defaultHexShape": {
+				"name": "デフォルトのヘクス時の形状",
+				"hint": "六角グリッドのシーンで新しいコマに使用する形状"
+			},
+			"defaultGridlessShape": {
+				"name": "デフォルトのグリッド無し時の形状",
+				"hint": "グリッド無しのシーンで新しいコマに使用する形状"
+			},
+			"controlledColor": { "name": "カラー：操作中" },
+			"partyColor": { "name": "カラー：パーティー" },
+			"friendlyColor": { "name": "カラー：友好" },
+			"neutralColor": { "name": "カラー：中立" },
+			"hostileColor": { "name": "カラー：敵対" },
+			"secretColor": { "name": "カラー：秘匿" }
+		},
+		"keybinds": {
+			"swapOrientation": {
+				"name": "向きの切り替え",
+				"hint": "操作中のヘクス (六角形) コマの向きを切り替えます。"
+			}
+		},
+		"tokenConfig": {
+			"hideBorder": {
+				"label": "枠線を非表示",
+				"notes": "コマの枠線を非表示にします。モジュール設定の「枠線を常に表示」を上書きします。"
+			},
+			"hideFill": {
+				"label": "塗りつぶしを非表示",
+				"notes": "コマの枠線の塗りつぶし色を非表示にします。モジュール設定の「枠線内の塗りつぶし」を上書きします。"
+			},
+			"hexShape": {
+				"label": "ヘクス時の形状",
+				"hint": "ヘクス（六角）グリッドのシーンでは、グローバルデフォルトの代わりに新しいコマにこの形状を使用します。"
+			},
+			"gridlessShape": {
+				"label": "グリッド無し時の形状",
+				"hint": "グリッド無しのシーンでは、グローバルデフォルトの代わりに新しいコマにこの形状を使用します。"
+			}
+		}
+	}
+}
