@@ -181,12 +181,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/combat-utility-belt.json",
-			"module": "combat-utility-belt",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/df-curvy-walls.json",
 			"module": "df-curvy-walls",
 			"lang-author": "touge"
