@@ -223,12 +223,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/tidy5e-sheet.json",
-			"module": "tidy5e-sheet",
-			"lang-author": "asami, Brother Sharp"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/bossbar.json",
 			"module": "bossbar",
 			"lang-author": "Brother Sharp"

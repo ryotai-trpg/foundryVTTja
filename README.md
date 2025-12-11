@@ -69,7 +69,6 @@
 * smalltime
 * smart target
 * theatre inserts（立ち絵ツール）
-* tidy5e-sheet
 * tidy-ui
 * Tokens Visible
 * Turn Alert
