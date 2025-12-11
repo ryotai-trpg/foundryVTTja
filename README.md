@@ -40,22 +40,18 @@
 * Better Roofs
 * Chat-Portrait
 * Combat-Carousel
-* Combat Utility Belt
 * Dynamic Active Effects (dae)
 * DF Chat enhance
 * DF Curvy walls
 * DF qol
 * DF scene enhance
-* dice so nice (3Dダイス)
 * food and water tracker
-* gmscreen
 * party resources
 * fxMaster
 * hero creation tool
 * illandril's ttoken tooltips
 * inline web viewer
 * merchant sheet npc
-* midi-qol
 * monks active tile triggers
 * monks little details
 * monks token bar
@@ -69,7 +65,6 @@
 * smalltime
 * smart target
 * theatre inserts（立ち絵ツール）
-* tidy5e-sheet
 * tidy-ui
 * Tokens Visible
 * Turn Alert

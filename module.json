@@ -29,12 +29,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/midi-qol.json",
-			"module": "midi-qol",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/dae.json",
 			"module": "dae",
 			"lang-author": "touge"
@@ -95,12 +89,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/dice-so-nice.json",
-			"module": "dice-so-nice",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/autoanimations.json",
 			"module": "autoanimations",
 			"lang-author": "touge"
@@ -116,12 +104,6 @@
 			"path": "lang/modules/hero-creation-tool.json",
 			"module": "hero-creation-tool",
 			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
-			"path": "lang/modules/foundryvtt-gmScreen.json",
-			"module": "foundryvtt-gmScreen",
-			"lang-author": "tonishi"
 		},
 		{
 			"lang": "ja",
@@ -185,12 +167,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/combat-utility-belt.json",
-			"module": "combat-utility-belt",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/df-curvy-walls.json",
 			"module": "df-curvy-walls",
 			"lang-author": "touge"
@@ -230,12 +206,6 @@
 			"path": "lang/modules/automated-evocations.json",
 			"module": "automated-evocations",
 			"lang-author": "エクスヴェリア"
-		},
-		{
-			"lang": "ja",
-			"path": "lang/modules/tidy5e-sheet.json",
-			"module": "tidy5e-sheet",
-			"lang-author": "asami, Brother Sharp"
 		},
 		{
 			"lang": "ja",
