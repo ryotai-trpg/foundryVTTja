@@ -25,6 +25,10 @@
 		},
 		{
 			"lang": "ja",
+			"path": "lang/tour.json"
+		},
+		{
+			"lang": "ja",
 			"path": "lang/modules/midi-qol.json",
 			"module": "midi-qol",
 			"lang-author": "touge"
