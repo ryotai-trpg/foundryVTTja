@@ -39,7 +39,6 @@
 * Automated Evocations
 * BarBrawl
 * Better Roofs
-* Chat-Portrait
 * Combat-Carousel
 * DF Chat enhance
 * DF Curvy walls

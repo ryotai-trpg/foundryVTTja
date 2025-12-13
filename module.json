@@ -61,12 +61,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/chat-portrait.json",
-			"module": "chat-portrait",
-			"lang-author": "tonishi"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/food-and-water-tracker.json",
 			"module": "food-and-water-tracker",
 			"lang-author": "touge"
