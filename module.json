@@ -163,12 +163,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/pin-cushion.json",
-			"module": "pin-cushion",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/quick-encounters.json",
 			"module": "quick-encounters",
 			"lang-author": "touge"

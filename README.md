@@ -59,7 +59,6 @@
 * quick encounters
 * polyglot
 * multilevel token
-* pin-cushion
 * simple fog
 * smalltime
 * theatre inserts（立ち絵ツール）
