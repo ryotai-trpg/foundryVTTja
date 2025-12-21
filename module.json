@@ -25,12 +25,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/midi-qol.json",
-			"module": "midi-qol",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/dae.json",
 			"module": "dae",
 			"lang-author": "touge"

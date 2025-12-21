@@ -55,7 +55,6 @@
 * illandril's ttoken tooltips
 * inline web viewer
 * merchant sheet npc
-* midi-qol
 * monks active tile triggers
 * monks little details
 * monks token bar
