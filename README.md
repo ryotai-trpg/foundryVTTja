@@ -72,7 +72,6 @@
 * visual novel choices *
 * combat-booster
 * levels-3d-preview *
-* levels
 * lib-changelogs
 * patrol
 * splatter

@@ -241,12 +241,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/levels.json",
-			"module": "levels",
-			"lang-author": "Brother Sharp"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/patrol.json",
 			"module": "patrol",
 			"lang-author": "Brother Sharp"
