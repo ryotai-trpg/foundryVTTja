@@ -46,7 +46,6 @@
 * DF Curvy walls
 * DF qol
 * DF scene enhance
-* dice so nice (3Dダイス)
 * food and water tracker
 * gmscreen
 * party resources

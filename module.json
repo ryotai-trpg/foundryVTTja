@@ -85,12 +85,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/dice-so-nice.json",
-			"module": "dice-so-nice",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/autoanimations.json",
 			"module": "autoanimations",
 			"lang-author": "touge"
