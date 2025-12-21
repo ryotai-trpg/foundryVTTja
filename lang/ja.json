@@ -1744,7 +1744,7 @@
     "tint.label": "アイコンの色合い"
   },
   "iconSize.label": "アイコンサイズ",
-  "fontFamily.label": "フォント・ファミリー",
+  "fontFamily.label": "フォントファミリー",
   "fontSize.label": "フォントサイズ",
   "textColor.label": "テキストの色",
   "textAnchor.label": "テキストアンカー"
@@ -1766,7 +1766,7 @@
   "CharRelease": "キャラクター解放",
   "ConfigTitle": "ユーザー設定",
   "PlayerColor": "プレイヤーの色",
-  "PlayerAvatar": "プレイヤーの画像",
+  "PlayerAvatar": "プレイヤー画像",
   "PlayerPronouns": "プレイヤーの三人称",
   "PullToScene": "このシーンに集合",
   "ViewAvatar": "プレイヤーの画像を見る",
@@ -2916,7 +2916,7 @@
 "PERMISSION.ItemCreateHint": "ワールドに新規アイテムの作成ができる許可を与えます。",
 "PERMISSION.FilesBrowse": "ファイルブラウザの使用",
 "PERMISSION.FilesBrowseHint": "ファイルブラウザで利用可能なファイルを閲覧できる許可を与えます。",
-"PERMISSION.FilesUpload": "新規ファイルのアップロード",
+"PERMISSION.FilesUpload": "ファイルのアップロード",
 "PERMISSION.FilesUploadHint": "ファイルブラウザを使用してサーバーにコンテンツをアップロードできる許可を与えます。",
 "PERMISSION.JournalCreate": "資料の作成",
 "PERMISSION.JournalCreateHint": "資料サイドバーで、新しい資料の作成ができる許可を与えます。",
@@ -3934,8 +3934,8 @@
       "hint": "プレイヤー名はゲームマスターによって設定され、ユーザー管理画面で変更できます。"
     },
     "avatar": {
-      "label": "プレイヤーアバター",
-      "hint": "プレイヤーアバターは、内蔵の音声/ビデオチャットを使用する際に表示されるか、モジュールによって表示される場合があります。"
+      "label": "プレイヤー画像",
+      "hint": "プレイヤー画像は、内蔵の音声/ビデオチャットを使用する際に表示されるか、モジュールによって表示される場合があります。"
     },
     "color": {
       "label": "プレイヤーカラー",
