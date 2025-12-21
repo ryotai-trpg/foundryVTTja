@@ -103,12 +103,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/foundryvtt-gmScreen.json",
-			"module": "foundryvtt-gmScreen",
-			"lang-author": "tonishi"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/turnAlert.json",
 			"module": "turnAlert",
 			"lang-author": "tonishi"

@@ -47,7 +47,6 @@
 * DF qol
 * DF scene enhance
 * food and water tracker
-* gmscreen
 * party resources
 * fxMaster
 * hero creation tool
