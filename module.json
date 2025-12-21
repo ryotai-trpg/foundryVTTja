@@ -187,12 +187,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/smarttarget.json",
-			"module": "smarttarget",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/combat-carousel.json",
 			"module": "combat-carousel",
 			"lang-author": "touge"

@@ -64,7 +64,6 @@
 * pin-cushion
 * simple fog
 * smalltime
-* smart target
 * theatre inserts（立ち絵ツール）
 * tidy-ui
 * Tokens Visible
