@@ -41,7 +41,6 @@
 * Better Roofs
 * Chat-Portrait
 * Combat-Carousel
-* Dynamic Active Effects (dae)
 * DF Chat enhance
 * DF Curvy walls
 * DF qol

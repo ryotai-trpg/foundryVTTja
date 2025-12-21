@@ -25,12 +25,6 @@
 		},
 		{
 			"lang": "ja",
-			"path": "lang/modules/dae.json",
-			"module": "dae",
-			"lang-author": "touge"
-		},
-		{
-			"lang": "ja",
 			"path": "lang/modules/monks-tokenbar.json",
 			"module": "monks-tokenbar",
 			"lang-author": "touge"
