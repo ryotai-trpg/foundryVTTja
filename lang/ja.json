@@ -68,8 +68,8 @@
   },
   "FIELDS": {
     "name": {
-      "hint": "An optional name to help identify the light source.",
-      "label": "Name"
+      "hint": "ライトを見分けるための任意の名前。",
+      "label": "名前"
     },
     "rotation": {
       "label": "回転角度"
@@ -106,8 +106,8 @@
   },
   "FIELDS": {
     "name": {
-      "hint": "An optional name to help identify the sound.",
-      "label": "Name"
+      "hint": "環境音を見分けるための任意の名前。",
+      "label": "名前"
     },
     "x": {
       "label": "X"
@@ -625,7 +625,7 @@
   "DrawingRect": "四角描画",
   "DrawingEllipse": "楕円描画",
   "DrawingPoly": "多角形描画",
-  "DrawingPolyP": "<span class=\"reference\">クリック + ドラッグ</span>で描画開始。<span class=\"reference\">クリック</span> で頂点を追加。 <span class=\"reference\">Double Click</span> to finish.",
+  "DrawingPolyP": "<span class=\"reference\">クリック + ドラッグ</span>で描画開始。<span class=\"reference\">クリック</span> で頂点を追加。 <span class=\"reference\">ダブルクリック</span> で終了。",
   "DrawingFree": "手書き描画",
   "DrawingText": "テキスト描画",
   "DrawingClear": "全図形消去",
@@ -689,7 +689,7 @@
   "RegionRectangle": "四角形を描く",
   "RegionCircle": "円形を描く",
   "RegionEllipse": "楕円を描く",
-  "RegionRing": "Draw Ring",
+  "RegionRing": "リングを描く",
   "RegionEmanation": "オーラを描く",
   "RegionCone": "円錐を描く",
   "RegionLine": "直線を描く",
@@ -902,8 +902,8 @@
   "CombatantGroups": "戦闘参加グループ",
   "CopyOf": "{name} (複製)",
   "Document": "ドキュメント",
-  "Drawing": "描画",
-  "Drawings": "描画",
+  "Drawing": "図形",
+  "Drawings": "図形",
   "Folder": "フォルダ",
   "Folders": "フォルダ",
   "Item": "アイテム",
@@ -914,8 +914,8 @@
   "JournalEntryCategories": "カテゴリー",
   "JournalEntryPage": "ページ",
   "JournalEntryPages": "ページ",
-  "Level": "Level",
-  "Levels": "Levels",
+  "Level": "階層",
+  "Levels": "階層",
   "Macro": "マクロ",
   "Macros": "マクロ",
   "Note": "地点メモ",
@@ -1009,7 +1009,7 @@
       "hint": "「オブジェクト」として指定された図形はコマと同じレイヤーに配置され、視覚などに影響され、壁の向こう側にあると視認できなくなります。「情報」として指定された図形は常に上位レイヤーに表示され、視覚に関係なく常にすべての参加者に視認されます。"
     },
     "name": {
-      "hint": "An optional name to help identify the drawing.",
+      "hint": "図形を見分けるための任意の名前。",
       "label": "名前"
     },
     "shape": {
@@ -1091,12 +1091,12 @@
     }
   },
   "DURATION": {
-    "Header": "Effect Duration",
-    "Label": "Duration",
+    "Header": "効果の持続時間",
+    "Label": "持続時間",
     "MaxOneWarning": "A duration in {units} will be treated as having a value of no greater than one.",
     "UNITS": {
       "GROUPS": {
-        "time": "Time",
+        "time": "時間",
         "combat": "戦闘"
       },
       "years": "年",
@@ -1180,12 +1180,12 @@
       "round.label": "ラウンド",
       "turn.label": "ターン",
       "initiative.label": "イニシアチブ",
-      "time.label": "Start Time"
+      "time.label": "開始時間"
     },
     "duration": {
-      "value.label": "Duration Value",
-      "units.label": "Duration Units",
-      "expiry.label": "Expiry Event"
+      "value.label": "持続時間の値",
+      "units.label": "持続時間の単位",
+      "expiry.label": "次のイベントで終了"
     }
   },
   "SHOW_ICON": {
@@ -1194,8 +1194,8 @@
     "never": "表示しない"
   },
   "START": {
-    "Header": "Effect Start",
-    "Time": "Start Time",
+    "Header": "効果の開始",
+    "Time": "開始時間",
     "Combat": "Round {round}, Turn {turn}",
     "Combatant": "{combatant} (Initiative Roll: {initiative})",
     "NoInitiative": "Not Rolled"
@@ -1470,7 +1470,7 @@
 },
 
 "HUD": {
-  "ChangeLevel": "Change Level",
+  "ChangeLevel": "階層を変更",
   "Elevation": "高度",
   "OpenConfig": "設定を開く",
   "AssignStatusEffects": "ステータス効果の設定",
@@ -1813,7 +1813,7 @@
 "MENU.Reload": "再読み込み",
 "MENU.Logout": "ログアウト",
 "MENU.Players": "ユーザー管理",
-"MENU.Close": "Close Main Menu",
+"MENU.Close": "メインメニューを閉じる",
 
 "MODMANAGE": {
   "Bugs": "バグまたは問題の報告",
@@ -1980,9 +1980,9 @@
 "SCENE.BackgroundScaleHint": "Shift＋マウスホイール、または、Shift＋上矢印または下矢印で、シーン縮尺を調整します。",
 "SCENE.CaptureInitialViewPosition": "今の盤面の位置を初期ビューとして保存しました。",
 "SCENE.Configure": "設定",
-"SCENE.CurrentLevel": "Current Level",
-"SCENE.Darkness": "Darkness",
-"SCENE.Details": "Details",
+"SCENE.CurrentLevel": "現在の階層",
+"SCENE.Darkness": "暗さ",
+"SCENE.Details": "詳細",
 "SCENE.Dimensions": "シーンのサイズ",
 "SCENE.DimensionsHint": "背景画像のサイズを設定します。これは初回選択時に自動的に生成されます。",
 "SCENE.DimensionChangeTitle": "シーンのサイズ変更をしますか？",
@@ -1992,8 +1992,8 @@
 "SCENE.DimensionUnlinked": "シーンの縦横比が同期されていません。サイズのいずれかを編集してももう片方は変更されません。クリックすると同期します",
 "SCENE.DistortedDimensionsTitle": "縦横比の警告",
 "SCENE.DistortedDimensionsWarning": "元の縦横比とは違うサイズが設定されています。コマなどの配置物を自動的に一番近い位置に再配置しますか？結果は必ずしも正しいものとは限りません。",
-"SCENE.Environment.Base": "Base Environment",
-"SCENE.Environment.Dark": "Darkness Environment",
+"SCENE.Environment.Base": "基本環境",
+"SCENE.Environment.Dark": "暗さの環境",
 "SCENE.Environment.DarkHint": "Behaves as the base environmental settings, but applies as the scene's darkness level gets closer to 1.",
 "SCENE.Environment.Reset": "Reset to Default Options",
 "SCENE.FogOfWar": "Fog of War",
@@ -2003,8 +2003,8 @@
 "SCENE.GenerateThumbProgress": "シーン「{name}」のサムネイル画像を生成中。",
 "SCENE.GenerateThumbSuccess": "シーン「{name}」のサムネイル画像を生成しました。",
 "SCENE.GlobalIllumination": "Global Illumination",
-"SCENE.GridAppearance": "Appearance",
-"SCENE.GridAppearanceHint": "Configure the appearance of the grid lines.",
+"SCENE.GridAppearance": "外観",
+"SCENE.GridAppearanceHint": "グリッド線の見た目を設定します。",
 "SCENE.GridConfigTool": "グリッド設定ツール",
 "SCENE.GridConfigToolHint": "マウスホイールと矢印キーを使用するか、次の入力欄を手動で設定して、グリッドとシーン･オフセットを設定します。",
 "SCENE.GridGridless": "グリッド無し",
@@ -2013,15 +2013,15 @@
 "SCENE.GridHexEvenR": "ヘクス（六角マス）偶数行",
 "SCENE.GridHexOddQ": "ヘクス（六角マス）奇数列",
 "SCENE.GridHexEvenQ": "ヘクス（六角マス）偶数列",
-"SCENE.GridMeasurement": "Measurement",
-"SCENE.GridMechanics": "Mechanics",
+"SCENE.GridMeasurement": "長さ",
+"SCENE.GridMechanics": "メカニクス",
 "SCENE.GridSizeError": "このサイズ変更によりグリッドのサイズが最低値である50px以下になります。この操作を行なうのであれば、先にグリッド無しに変更し、サイズ変更後に新しいグリッドを設置してください。",
 "SCENE.GridResizeHint" : "ALT+マウスホイールまたは「ALT+上、ALT+下」でグリッド・サイズを微調整します。",
 "SCENE.GridPosition": "シーン･オフセット",
 "SCENE.GridPositionHint": "矢印キーを使用して、シーン･オフセットを調整します。",
 "SCENE.GridReset": "変更をリセット",
 "SCENE.InheritedField": "This field's value is being inherited from the '{level}' level. Click here to edit it directly.",
-"SCENE.InitialLevel": "Initial Level",
+"SCENE.InitialLevel": "初期階層",
 "SCENE.InitialView": "初期表示位置",
 "SCENE.InitialViewButton": "現在の表示位置を初期表示位置にする",
 "SCENE.InitialViewHint": "このシーンが初めて表示される場合の、デフォルトの表示位置を設定します。",
@@ -2030,8 +2030,8 @@
 "SCENE.Notes": "シーンメモ",
 "SCENE.Perception": "Perception",
 "SCENE.Preload": "先読み",
-"SCENE.Presentation": "Presentation",
-"SCENE.Properties": "Scene Properties",
+"SCENE.Presentation": "表示",
+"SCENE.Properties": "シーンプロパティ",
 "SCENE.View": "シーンを表示",
 "SCENE.ShiftBG": "Shift",
 "SCENE.ToggleNav": "ナビゲーション切替",
@@ -2059,7 +2059,7 @@
 "SCENE.FIELDS": {
   "initialLevel": {
     "hint": "If a User has visibility of this Level, they will be placed on it when the Scene is activated for the first time, or if the Scene is active when joining the game.",
-    "label": "Initial Level"
+    "label": "初期階層"
   },
   "transition": {
     "type": {
@@ -2101,7 +2101,7 @@
     "color.label": "グリッドの色",
     "alpha.label": "グリッドの不透明度",
     "distance.hint": "The distance each grid space represents on this scene, in units appropriate to the game system.",
-    "distance.label": "距離 ",
+    "distance.label": "距離",
     "units.label": "単位",
     "style.label": "グリッド種別"
   },
@@ -2212,10 +2212,10 @@
   "SHEET": {
     "basics": "基本",
     "grid": "グリッド",
-    "visibility": "Visibility",
+    "visibility": "可視性",
     "environment": "環境",
-    "misc": "Miscellaneous",
-    "levels": "Levels"
+    "misc": "その他",
+    "levels": "階層"
   }
 },
 
@@ -2223,35 +2223,35 @@
   "Actions": {
     "Add": {
       "hint": "Scenes support more than one vertical level. Add a new level to convert this scene into a multi-level scene.",
-      "label": "Add Level"
+      "label": "階層を追加"
     },
     "Down": "Down one level",
-    "Edit": "Edit level",
-    "Remove": "Remove level",
+    "Edit": "階層を編集",
+    "Remove": "階層を削除",
     "Up": "Up one level",
-    "View": "View level"
+    "View": "階層を表示"
   },
   "FIELDS": {
     "background": {
-      "label": "Background",
-      "src.label": "Texture",
+      "label": "背景",
+      "src.label": "テクスチャ",
       "color.label": "色",
-      "tint.label": "Tint",
+      "tint.label": "色合い",
       "alphaThreshold": {
-        "label": "Alpha Threshold",
+        "label": "アルファ閾値",
         "hint": "Pixels in the background texture with alpha values below this threshold do not restrict light or weather."
       }
     },
     "elevation": {
-      "label": "Elevation Range",
-      "bottom.label": "Background Elevation",
-      "top.label": "Foreground Elevation"
+      "label": "高度範囲",
+      "bottom.label": "背景高度",
+      "top.label": "前景高度"
     },
     "foreground": {
-      "label": "Foreground",
-      "src.label": "Texture",
-      "tint.label": "Tint",
-      "alphaThreshold.label": "Alpha Threshold"
+      "label": "前景",
+      "src.label": "テクスチャ",
+      "tint.label": "色合い",
+      "alphaThreshold.label": "アルファ閾値"
     },
     "fog": {
       "label": "Fog Exploration",
@@ -2259,18 +2259,18 @@
       "tint.label": "Texture Tint"
     },
     "textures": {
-      "label": "Positioning",
-      "anchor": "Anchor",
+      "label": "位置",
+      "anchor": "アンカー",
       "anchorX.label": "X",
       "anchorY.label": "Y",
-      "offset": "Offset",
+      "offset": "オフセット",
       "offsetX.label": "X",
       "offsetY.label": "Y",
-      "fit.label": "Fit Mode",
-      "scale": "Scale",
+      "fit.label": "フィットモード",
+      "scale": "縮尺",
       "scaleX.label": "X",
       "scaleY.label": "Y",
-      "rotation.label": "Rotation"
+      "rotation.label": "回転"
     },
     "visibility": {
       "label": "Level Visibility",
@@ -2354,8 +2354,8 @@
       "hint": "オンセ工房 FoundryVTTがTCP接続に使用するポート番号を選択してください。また、ユニバーサル・プラグアンドプレイ (UPnP) を有効または無効にすることができます。"
     },
     "unixSocket": {
-      "label": "Unix Socket",
-      "hint": "Instead of a port number, a file path to a Unix domain socket can be entered. If both a port and socket are entered, the socket path will be used."
+      "label": "Unixソケット",
+      "hint": "ポート番号の代わりに、Unixドメインソケットへのファイルパスを入力することもできます。ポートとソケットの両方が指定された場合、ソケットパスが使用されます"
     },
     "compressStatic": {
       "label": "静的ファイル圧縮",
@@ -2598,22 +2598,22 @@
   "Uninstall": "アンインストール",
   "Reinstall": "再インストール",
   "ReinstallPackageNotFound": "このパッケージは中央リポジトリにIDが存在していませんので、再インストールできません。再インストールする場合は手動でマニフェスト（インストールリンク）経由で行なう必要があります。",
-  "WorldBlank": "Blank World",
-  "WorldCancelConfirm": "If you return to setup now, you will lose any changes you have made here.",
+  "WorldBlank": "空のワールド",
+  "WorldCancelConfirm": "今セットアップに戻ると、ここで行った変更はすべて失われます。",
   "WorldCreate": "ワールド作成",
-  "WorldCreating": "Creating World...",
-  "WorldCreateCancel": "Cancel World Creation",
+  "WorldCreating": "ワールドを作成中...",
+  "WorldCreateCancel": "ワールド作成をキャンセル",
   "WorldCreateDependencyFail": "The World could not be created as required dependencies were not installed.",
   "WorldCreateNoSystem": "You must select a Game System for the World before continuing.",
   "WorldCreateNoTitle": "You must provide a title for the World before continuing.",
-  "WorldCreateSuccess": "Creation successful, launching...",
+  "WorldCreateSuccess": "作成完了、起動中...",
   "WorldDelete": "ワールド削除",
   "WorldEdit": "ワールド設定",
-  "WorldFilterAdventures": "Filter adventures",
-  "WorldFilterSystems": "Filter systems",
+  "WorldFilterAdventures": "シナリオを検索",
+  "WorldFilterSystems": "システムを検索",
   "WorldLaunch": "ワールド起動",
   "WorldLaunchFailure": "ワールドの起動に失敗しました：{message}。詳細はコンソール（F12）よりご確認ください。",
-  "WorldContinue": "Continue",
+  "WorldContinue": "続ける",
   "WorldUnavailable": "利用不可",
   "Worlds": "ワールド",
   "RequireUpdate": "要更新",
@@ -2621,8 +2621,8 @@
   "RequireDep": "要依存先",
   "IncompatibleDep": "適合しない依存先：{dependencies}",
   "IncompatibleSystems": "非互換のシステム: {systems}",
-  "InstallingDependencies": "Installing dependencies",
-  "InstallDependenciesSuccess": "Successfully installed dependencies",
+  "InstallingDependencies": "依存先のインストール中",
+  "InstallDependenciesSuccess": "依存先のインストール完了",
   "NoSupportedSystem": "サポートされているシステムがインストールされていません",
   "RequireCoreUpgrade": "要・本体アップデート",
   "RequireCoreUnstable": "要・不安定版",
@@ -2655,8 +2655,8 @@
   "InstallHint": "JSON manifestのURLリンクを使い、パッケージのインストールが可能です。.",
   "InstallModule": "モジュールを入手",
   "InstallSystem": "ゲームシステムを入手",
-  "InstallSuccess": "インストール完了",
-  "InstallFailure": "インストールに失敗しました。",
+  "InstallSuccess": "{type} {id} インストール完了",
+  "InstallFailure": "インストールに失敗しました：{message}。詳細はコンソール（F12）よりご確認ください。",
   "InstallWorld": "ワールドを入手",
   "UninstallSuccess": "アンインストール完了",
   "UninstallFailure": "アンインストールに失敗しました。",
@@ -2709,7 +2709,7 @@
   "PackageUpdateCoreUnstable": "{id}の更新が存在しますが、必要最低バージョン{vmin}がまだ安定版ではないためインストールを保留しました。",
   "PackageUpdateCoreUnknown": "{title}の更新が存在しますが、不明な本体バージョン{vmin}が必要なためインストールできない可能性があります。",
   "PackageUpdateCoreInsufficient": "更新が見つかりましたが、適切に機能するには古い本体バージョン{vmax}が必要です。",
-  "PackageDeleteTitle": "削除 {type}: {title}",
+  "PackageDeleteTitle": "{type}削除: {title}",
   "PackageDeleteConfirm": "<strong>{title}</strong> {type} を削除してもよろしいですか？",
   "WorldDeleteConfirmCode": "続けるには以下のコードを下記に写してください：",
   "WorldDeleteConfirmWarning": "この操作によりワールドとその中にある全てのデータを削除します。この操作は取り消すことができません。本当に削除しますか？",
@@ -2734,8 +2734,8 @@
   "PackageIncompatibleWithSystems": "{module} は {systems} と<em>互換性がありません</em>",
   "ConfirmCodeLabel": "'{code}'を正確に入力してください",
 
-  "ImportingAdventure": "Importing Adventure",
-  "QuickstartFailure": "Quick-Start of module '{title}' failed: {message}. See the console (F12) for more details.",
+  "ImportingAdventure": "シナリオインポート中",
+  "QuickstartFailure": "モジュール '{title}' のクイックスタートに失敗しました：{message}。詳細はコンソール（F12）よりご確認ください。",
 
   "WorldLaunchConnect": "ワールドデータをロード中",
   "WorldLaunchMigrate": "ワールドデータを移行中",
@@ -2797,10 +2797,10 @@
   "NoFeaturedContent": "foundryvtt.comサーバーよりお勧めコンテンツを受信できません。",
 
   "ACTIONS": {
-    "Configure": "Configure",
-    "Logout": "Log Out",
-    "Update": "Update",
-    "Warnings": "Warnings"
+    "Configure": "設定",
+    "Logout": "ログアウト",
+    "Update": "アップデート",
+    "Warnings": "警告"
   },
 
   "BACKUPS": {
@@ -2828,7 +2828,7 @@
     "DeleteBackupTitle": "{title}のバックアップ削除中",
     "DeleteBackupWarning": "バックアップの削除は取り消しできません。本当に実行しますか？",
     "DeleteBackupWarningPl": "<strong>{count}</strong>個のバックアップが削除指定されました。この操作は取り消す事ができません。本当に実行しますか？",
-    "DeleteSelected": "Delete Selected",
+    "DeleteSelected": "選択中を削除",
     "DeletingSnapshot": "スナップショット削除中",
     "DeleteSnapshotComplete": "スナップショット削除完了",
     "DeleteSnapshotCompletePl": "{count}個のスナップショットを削除しました。",
@@ -2863,7 +2863,7 @@
     "RestoreSnapshotWarning": "スナップショットを復元すると、現在のオンセ工房 FoundryVTTの状態をスナップショット作成時点にリセットします。すべてのシステムやモッドのバージョンおよびワールドの状態が復元されます。この操作は元に戻すことができません。",
     "RestoreSnapshotUnchangedPackages": "スナップショット作成後に<strong>一つ</strong>のパッケージが追加されてます。スナップショット復元中のリセットから除外されます。",
     "RestoreSnapshotUnchangedPackagesPl": "スナップショット作成後に<strong>{count}つ</strong>のパッケージが追加されてます。スナップショット復元中のリセットから除外されます。",
-    "SelectAll": "Select All",
+    "SelectAll": "すべて選択",
     "Snapshot": "スナップショット",
     "TakeBackup": "バックアップを取る",
     "VersionFormat": "バージョン {version}",
@@ -3000,11 +3000,11 @@
     "DETAILS": "詳細表示"
   },
   "RESULT": {
-    "Label": "Result",
-    "Update": "Update",
-    "Error": "Error",
-    "Warning": "Warning",
-    "Information": "Information"
+    "Label": "結果",
+    "Update": "更新",
+    "Error": "エラー",
+    "Warning": "警告",
+    "Information": "情報"
   },
   "ACTIONS": {
     "AddAuthor": "作者を追加",
@@ -3245,22 +3245,22 @@
 "PERMISSION.WarningNoCreate": "{document}を作成するには権限が足りません",
 
 "PLACEABLE_PALETTE": {
-  "Apply": "Apply",
+  "Apply": "適用",
   "CloneSettings": "Clone",
-  "MultipleValues": "<Multiple Values>",
-  "Selected": "{document} Palette [{count}]",
-  "Title": "{document} Palette"
+  "MultipleValues": "<複数の値>",
+  "Selected": "{document}パレット [{count}]",
+  "Title": "{document}パレット"
 },
 
 "REGION": {
   "TABS": {
     "appearance": "外観",
-    "shapes": "Shapes",
-    "placement": "Placement",
+    "shapes": "形状",
+    "placement": "配置",
     "behaviors": "効果"
   },
   "SECTIONS": {
-    "restriction": "Wall Restriction"
+    "restriction": "ウォール制限"
   },
   "FIELDS": {
     "color": {
@@ -3286,7 +3286,7 @@
     },
     "attachment": {
       "token": {
-        "label": "Attached Token",
+        "label": "コマに追従",
         "hint": "The Token the Region is attached to. When this Token is moved, the Region is moved with it."
       }
     },
@@ -3307,11 +3307,11 @@
       "hint": "リージョンの可視性を設定します。"
     },
     "highlightMode": {
-      "label": "Highlight Mode",
-      "hint": "Configure whether to highlight the true shapes or the grid spaces covered by the Region."
+      "label": "強調モード",
+      "hint": "正確な形状を強調表示するか、リージョンに覆われたマス目を強調表示するかを設定します。"
     },
     "displayMeasurements": {
-      "label": "定規を表示",
+      "label": "長さを表示",
       "hint": "リージョンの測定値を表示するかどうかを設定します。"
     }
   },
@@ -3327,7 +3327,7 @@
   },
   "VISIBILITY": {
     "LAYER_UNLOCKED": {
-      "label": "リージョンレイヤーがアンロックされている場合のみ"
+      "label": "リージョンレイヤーがアンロック中のみ"
     },
     "LAYER": {
       "label": "リージョンレイヤーのみ"
@@ -3344,10 +3344,10 @@
   },
   "HIGHLIGHT_MODES": {
     "shapes": {
-      "label": "True Shapes"
+      "label": "正確な形状"
     },
     "coverage": {
-      "label": "Covered Grid Spaces"
+      "label": "覆うマス目"
     }
   },
   "RESTRICTION_TYPES": {
@@ -3362,7 +3362,7 @@
       "label": "リージョン境界の変更"
     },
     "regionAnimation": {
-      "label": "Region Animation State Changed"
+      "label": "リージョンのアニメーション状態の変更"
     },
     "behaviorActivated": {
       "label": "効果が有効化"
@@ -3533,9 +3533,9 @@
         }
       },
       "PLACEMENTS": {
-        "bottom.label": "Bottom",
-        "top.label": "Top",
-        "both.label": "Bottom and Top"
+        "bottom.label": "下端",
+        "top.label": "上端",
+        "both.label": "下端と上端"
       }
     },
     "displayScrollingText": {
@@ -3666,7 +3666,7 @@
 "SIDEBAR.NavLabel": "サイドバー・タブ",
 "SIDEBAR.TabJournal": "資料",
 "SIDEBAR.TabCompendium": "辞典",
-"SIDEBAR.TabPlaceables": "Placeables",
+"SIDEBAR.TabPlaceables": "配置オブジェクト",
 "SIDEBAR.TabSettings": "ゲーム設定",
 "SIDEBAR.TabTables": "ロール表",
 "SIDEBAR.TokenArt": "コマ画像を表示",
@@ -3711,53 +3711,53 @@
 "SIDEBAR.PLACEABLES": {
   "ACTIONS": {
     "ChangeLevel": "Change Level",
-    "Clear": "Clear",
-    "Configure": "Configure",
-    "Create": "Create {name}",
-    "Delete": "Delete",
-    "Hidden": "Hidden",
-    "Hide": "Hide",
+    "Clear": "解除",
+    "Configure": "設定",
+    "Create": "{name}作成",
+    "Delete": "削除",
+    "Hidden": "非表示中",
+    "Hide": "非表示",
     "InLevel": "Included in Level",
-    "Lock": "Lock",
-    "Locked": "Locked",
+    "Lock": "ロック",
+    "Locked": "ロック中",
     "NotInLevel": "Not Included in Level",
-    "Show": "Show",
-    "Unlock": "Unlock",
-    "Unlocked": "Unlocked",
-    "Visible": "Visible"
+    "Show": "表示",
+    "Unlock": "アンロック",
+    "Unlocked": "アンロック中",
+    "Visible": "表示中"
   },
   "Categories": {
     "NoAuthor": "No Author",
     "NoLevel": "No Level"
   },
   "Meta": {
-    "empty": "Empty",
-    "visible": "Visible to some players",
-    "hidden": "Hidden from players",
-    "locked": "Locked"
+    "empty": "空",
+    "visible": "一部プレイヤーには表示",
+    "hidden": "プレイヤーに非表示",
+    "locked": "ロック中"
   },
   "Filter": {
     "ACTIONS": {
-      "Clear": "Clear"
+      "Clear": "解除"
     },
     "Bottom": "Bottom",
-    "Title": "Advanced Filter",
-    "Level": "Filter by Level",
-    "Tooltip": "Advanced Filters. Right-click to clear",
+    "Title": "詳細な絞り込み",
+    "Level": "階層で絞り込み",
+    "Tooltip": "詳細な絞り込み。右クリックで解除",
     "Top": "Top"
   },
   "Search": {
-    "placeholder": "Filter {name}"
+    "placeholder": "{name}を検索"
   },
   "WALLS": {
-    "door": "Doors",
-    "ethereal": "Ethereal Walls",
-    "filterByCategory": "Filter by Category",
-    "invisible": "Invisible Walls",
-    "normal": "Normal Walls",
-    "secret": "Secret Doors",
-    "terrain": "Terrain Walls",
-    "window": "Windows"
+    "door": "扉",
+    "ethereal": "エーテルウォール",
+    "filterByCategory": "カテゴリーで絞り込み",
+    "invisible": "不可視ウォール",
+    "normal": "基本のウォール",
+    "secret": "隠し扉",
+    "terrain": "地形ウォール",
+    "window": "窓"
   }
 },
 
@@ -3920,14 +3920,14 @@
     "scaleY.label": "Y軸",
     "tint.label": "色合い",
     "alphaThreshold": {
-      "label": "Alpha Threshold",
+      "label": "アルファ閾値",
       "hint": "Pixels in the Tile image with alpha values below this threshold do not restrict light or weather and do not trigger hover fading."
     }
   },
   "alpha.label": "タイルの不透明度",
   "name": {
-    "hint": "An optional name to help identify the Tile.",
-    "label": "Name"
+    "hint": "タイルを見分けるための任意の名前。",
+    "label": "名前"
   },
   "occlusion": {
     "modes.label": "干渉モード",
@@ -4505,11 +4505,11 @@
 "USERS.KeyShow": "パスワードを表示",
 "USERS.Create": "ユーザーの新規追加",
 "USERS.Delete": "ユーザー削除",
-"USERS.LoginAs": "Login as User",
+"USERS.LoginAs": "ユーザーとしてログイン",
 "USERS.LoginAsGMRequired": "You must be a Gamemaster to log in as another user.",
 "USERS.DeleteName": "ユーザー削除: {name}",
 "USERS.Launch": "保存して戻る",
-"USERS.FirstLaunch": "Save and Continue",
+"USERS.FirstLaunch": "保存して続ける",
 "USERS.ManageTitle": "ユーザー管理",
 "USERS.UpdateSuccess": "ユーザーは正常に更新され、ゲームワールドに戻りました。",
 "USERS.NoGMError": "ワールド内には最低1名のゲームマスターユーザーが必要です。",
