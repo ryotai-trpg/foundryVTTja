@@ -404,15 +404,13 @@
   "NavLabel": "戦闘ナビゲーション",
   "Begin": "戦闘開始",
   "Create": "戦闘作成",
-  "Delete": "戦闘を削除",
-  "Encounter": "戦闘",
   "EncounterPrevious": "前の戦闘に移動",
   "EncounterNext": "次の戦闘に移動",
   "End": "戦闘終了",
   "InitiativeRoll": "行動順判定",
   "InitiativeReset": "行動順をリセット",
   "ClearMovementHistories": "移動履歴を消去",
-  "EndTitle": "戦闘終了？",
+  "EndTitle": "戦闘終了",
   "EndConfirmation": "この戦闘を終了して、行動順を空にしますか？",
   "None": "戦闘はありません",
   "NoneActive": "現在表示されているシーンに有効な戦闘はありません。",
@@ -439,10 +437,16 @@
   "TurnPrev": "前のターン",
   "CannotLinkToScene": "この戦闘に参加しているすべての参加者を含まないシーンにこの戦闘を紐づけることはできません。",
   "ACTIONS": {
+    "EditName": "名前編集",
+    "EditNameTitle": "戦闘名を編集",
     "LinkToScene": "表示シーンにリンク",
     "UnlinkFromScene": "シーンからリンク解除"
   },
   "FIELDS": {
+    "name": {
+      "label": "戦闘名",
+      "hint": "この戦闘を見分けやすいように、短い名前を入力してください。"
+    },
     "round": {
       "label": "ラウンド"
     },
@@ -500,8 +504,10 @@
   "Unknown": "不明な戦闘参加キャラ",
   "PanTo": "戦闘参加キャラにカメラ移動",
   "Ping": "コマに注目",
-  "ToggleVis": "可視/不可視の切替",
-  "ToggleDead": "敗北マーク",
+  "Hide": "非表示",
+  "Show": "表示",
+  "MarkDefeated": "敗北をマーク",
+  "UnmarkDefeated": "敗北を解除",
   "MovementHistoryCleared": "コマ \"{name}\" の移動履歴が消去されました。",
   "WarnNonVisibleToken": "その戦闘参加キャラを見る権限がありません。",
 
@@ -547,13 +553,13 @@
   "FilterDocuments": "ドキュメント種別でフィルタリング",
   "ClearFilters": "フィルターリセット",
   "Delete": {
-    "Option": "辞典を削除",
+    "Option": "削除",
     "Title": "辞典を削除: {compendium}",
     "Warning": "この辞典は完全に削除され、元に戻すことはできません。"
   },
   "DeleteEntry": "削除",
   "Duplicate": {
-    "Option": "辞典の複製",
+    "Option": "複製",
     "Title": "辞典の複製: {compendium}",
     "Label": "新規辞典のタイトル",
     "Hint": "この辞典を自分のワールドに複製して、安全に編集可能なコピーが作成できます。",
@@ -578,8 +584,8 @@
   "Type": "ドキュメント種別",
   "TypeHint": "各辞典には、特定の種別のドキュメントが含まれます。",
   "ToggleLocked": {
-    "Option": "編集ロック切り替え",
     "Title": "編集ロック切り替え: {compendium}",
+    "Lock": "ロック",
     "Unlock": "アンロック",
     "Warning": "ロックを解除して、このワールドに属していない共有の辞典を編集しようとしています。この辞典に行なった変更は、それを使用するシステムまたはモジュールが更新されると失われる可能性があります。その代わりとして自分のワールドに、辞典を複製することもできます。 続行しますか？"
   },
@@ -1399,6 +1405,7 @@
   "TitleImageVideo": "画像/動画ブラウザ",
   "TitleImage": "画像ブラウザ",
   "TitleVideo": "動画ブラウザ",
+  "TitleTexture": "テクスチャブラウザ",
   "TitleAudio": "音声ブラウザ",
   "TitleText": "ドキュメントブラウザ",
   "TitleGraphics": "3Dブラウザ",
@@ -1475,13 +1482,17 @@
   "OpenConfig": "設定を開く",
   "AssignStatusEffects": "ステータス効果の設定",
   "SelectMovementAction": "移動アクションを選択",
-  "ToggleTargetState": "ターゲット状態切り替え",
-  "ToggleCombatState": "戦闘タブに乗せる",
-  "ToggleVis": "可視状態の切替",
-  "ToggleLock": "ロック状態の切替",
-  "ToFrontOrBack": "前面/背面へ移動",
-  "TilePlay": "タイル動画 再生",
-  "TilePause": "タイル動画 一時停止",
+  "Target": "ターゲット",
+  "Untarget": "ターゲット解除",
+  "EnterCombat": "戦闘に参加",
+  "ExitCombat": "戦闘から離脱",
+  "Hide": "非表示",
+  "Show": "表示",
+  "Lock": "ロック",
+  "Unlock": "アンロック",
+  "ToFrontOrBack": "前面/背面へ",
+  "TilePlay": "動画 再生",
+  "TilePause": "動画 一時停止",
   "WarningEffectNoActor": "リンクされたキャラクターがないコマにはステータス効果を割り当てることができません。"
 },
 
@@ -1818,7 +1829,10 @@
 "MODMANAGE": {
   "Bugs": "バグまたは問題の報告",
   "DeactivateAll": "全てのMODを無効化",
-  "Readme": "モジュールの説明書",
+  "Readme": "説明書",
+  "Author": "作者",
+  "Authors": "作者",
+  "URL": "URL",
   "Title": "モジュール管理",
   "Instructions": "このワールドで有効化したいモジュールを設定します。モジュールの更新を行なうと現在のワールドが再読み込みされます。",
   "View": "以下のモジュールは現在、このワールドで有効化されています。",
@@ -1911,8 +1925,6 @@
   "FPS": "FPS"
 },
 
-"PLAYLIST.Delete": "プレイリスト削除",
-"PLAYLIST.Edit": "プレイリスト編集",
 "PLAYLIST.DefaultChannel": "音声放送チャンネル",
 "PLAYLIST.CurrentlyPlaying": "現在再生中",
 "PLAYLIST.ModeDisabled": "環境音/効果音のみ",
@@ -1929,16 +1941,17 @@
 "PLAYLIST.Update": "プレイリスト更新",
 "PLAYLIST.SortAlphabetical": "ABC順",
 "PLAYLIST.SortManual": "手動",
-"PLAYLIST.SoundCreate": "サウンド作成",
+"PLAYLIST.SoundAdd": "サウンド追加",
 "PLAYLIST.SoundEdit": "サウンド編集",
 "PLAYLIST.SoundDelete": "サウンド削除",
 "PLAYLIST.SoundLoop": "サウンド・ループ",
 "PLAYLIST.SoundStreaming": "大容量データのストリーミング再生",
 "PLAYLIST.SoundPlay": "サウンド再生",
 "PLAYLIST.SoundPause": "サウンド一時停止",
-"PLAYLIST.SoundPreload": "先読み",
+"PLAYLIST.SoundPreload": "サウンド先読み",
 "PLAYLIST.SoundResume": "再生の再開",
 "PLAYLIST.SoundStop": "サウンド停止",
+"PLAYLIST.Preload": "サウンド先読み",
 "PLAYLIST.BulkImport": {
   "Title": "サウンドを一括インポート",
   "Hint": "インポートするサウンドが含まれるフォルダを選択してください。",
@@ -1960,6 +1973,7 @@
   "TOOLTIP": "音量: {volume}%"
 },
 
+"PLAYLIST_SOUND.Create": "サウンドを作成",
 "PLAYLIST_SOUND.Update": "サウンドを更新",
 "PLAYLIST_SOUND.FIELDS": {
   "name.label": "サウンド名",
@@ -1979,7 +1993,6 @@
 "SCENE.BackgroundScale": "シーン縮尺",
 "SCENE.BackgroundScaleHint": "Shift＋マウスホイール、または、Shift＋上矢印または下矢印で、シーン縮尺を調整します。",
 "SCENE.CaptureInitialViewPosition": "今の盤面の位置を初期ビューとして保存しました。",
-"SCENE.Configure": "設定",
 "SCENE.CurrentLevel": "現在の階層",
 "SCENE.Darkness": "暗さ",
 "SCENE.Details": "詳細",
@@ -2032,8 +2045,9 @@
 "SCENE.Preload": "先読み",
 "SCENE.Presentation": "表示",
 "SCENE.Properties": "シーンプロパティ",
-"SCENE.View": "シーンを表示",
+"SCENE.View": "表示",
 "SCENE.ShiftBG": "Shift",
+"SCENE.PullEveryone": "Pull Everyone",
 "SCENE.ToggleNav": "ナビゲーション切替",
 "SCENE.FogModeChangeMessage": "Fog exploration mode has changed. This will reload fog exploration and reset vision.",
 "SCENE.Transition": {
@@ -2222,14 +2236,11 @@
 "SCENE_LEVEL": {
   "Actions": {
     "Add": {
-      "hint": "Scenes support more than one vertical level. Add a new level to convert this scene into a multi-level scene.",
+      "hint": "Scenes support more than one vertical level. Add a new Level to convert this Scene into a multi-level scene.",
       "label": "階層を追加"
     },
-    "Down": "Down one level",
     "Edit": "階層を編集",
-    "Remove": "階層を削除",
-    "Up": "Up one level",
-    "View": "階層を表示"
+    "Delete": "階層を削除"
   },
   "FIELDS": {
     "background": {
@@ -2279,7 +2290,8 @@
         "hint": "Configure the set of other Levels which are fully or partially visible from this one."
       }
     }
-  }
+  },
+  "CannotDeleteOnlyLevel": "You cannot delete the only Level in this Scene."
 },
 
 "SCENE_NAVIGATION": {
@@ -3246,6 +3258,7 @@
 
 "PLACEABLE_PALETTE": {
   "Apply": "適用",
+  "CannotApplyToLocked": "You cannot apply the palette to locked objects.",
   "CloneSettings": "Clone",
   "MultipleValues": "<複数の値>",
   "Selected": "{document}パレット [{count}]",
@@ -3282,6 +3295,10 @@
       "top": {
         "label": "上端",
         "hint": "高度範囲の上端。"
+      },
+      "topInclusive": {
+        "label": "Top Inclusive",
+        "hint": "Is the top included in the elevation range?"
       }
     },
     "attachment": {
@@ -3319,7 +3336,7 @@
     "create": "リージョンを作成",
     "update": "リージョンを更新",
     "delete": "リージョンを削除",
-    "behaviorCreate": "効果を作成",
+    "behaviorAdd": "効果を追加",
     "behaviorEdit": "効果を編集",
     "behaviorDelete": "効果を削除",
     "behaviorEnable": "効果を有効化",
@@ -3510,11 +3527,21 @@
       }
     },
     "changeLevel": {
+      "FIELDS": {
+        "movementActions": {
+          "label": "Allowed Movement Actions",
+          "hint": "Defines which movement actions the Token can use to change the Level. If no actions are selected, all movement actions are allowed."
+        }
+      },
+      "Level": "Destination Level",
+      "MovementAction": "Movement Action",
       "Confirm": "Do you want to move {token} to {level}?",
       "ConfirmSelect": "Select the level you want to move {token} to.",
+      "ConfirmDisabled": "{token} cannot be moved to another level from their current position.",
       "Move": "Move",
       "MoveDown": "Move Down",
-      "MoveUp": "Move Up"
+      "MoveUp": "Move Up",
+      "DoNotMove": "Don't Move"
     },
     "defineSurface": {
       "FIELDS": {
@@ -3525,11 +3552,15 @@
         "sound.label": "Restricts Sound",
         "occlusion": {
           "label": "干渉",
-          "hint": "When an occludable Token is beneath the surface, Tiles with occlusion mode set to SURFACE, and any foreground or background Level textures at the same elevation or higher, will be occluded."
+          "hint": "When a controlled or detected Token is below a surface, Tiles using the \"Surface\" occlusion mode fade if they are at or above that surface, as do background and foreground textures. For surfaces at the top of a three-dimensional Region, fading only applies if the Token is also at or above the Region's bottom elevation. Hovering over the Region or pressing the \"Highlight Objects\" keybinding also triggers this effect."
         },
         "exposure": {
           "label": "Reveal Elevated Surface",
           "hint": "Partially reveal the visible area of this elevated surface to observers below and outside of it. The revealed area depends on the angle between the observer and the surface boundary, this area decreases as the angle becomes steeper. This option is useful for roofs, balconies, or other overhead platforms."
+        },
+        "culling": {
+          "label": "Cull Tokens",
+          "hint": "Hide uncontrolled Tokens outside the currently viewed Level in the GM view or when Token Vision is disabled. Surfaces in the background hide Tokens below them, while surfaces in the foreground hide Tokens on or above them."
         }
       },
       "PLACEMENTS": {
@@ -3637,10 +3668,13 @@
         "relative.label": "相対"
       },
       "Confirm": "{token}を転送しますか？",
+      "ConfirmDisabled": "{token}は現在の位置から転送できません。",
       "ConfirmRevealed": "{scene}の{region}に{token}を転送しますか？",
       "ConfirmSelectSameScene": "{scene}の{token}を転送する目的地を選択してください。",
       "ConfirmSelectDifferentScene": "{token}を転送する目的地を選択してください。",
-      "ConfirmSelectOption": "{scene}の{region}"
+      "ConfirmSelectOption": "{scene}の{region}",
+      "Teleport": "転送",
+      "DoNotTeleport": "転送禁止"
     },
     "toggleBehavior": {
       "FIELDS": {
@@ -3667,7 +3701,7 @@
 "SIDEBAR.TabJournal": "資料",
 "SIDEBAR.TabCompendium": "辞典",
 "SIDEBAR.TabPlaceables": "配置オブジェクト",
-"SIDEBAR.TabSettings": "ゲーム設定",
+"SIDEBAR.TabSettings": "設定",
 "SIDEBAR.TabTables": "ロール表",
 "SIDEBAR.TokenArt": "コマ画像を表示",
 "SIDEBAR.SearchModeName": "名前検索のみ",
@@ -3679,6 +3713,7 @@
 "SIDEBAR.CollapseToggle": "閉じる / 展開",
 "SIDEBAR.Delete": "削除",
 "SIDEBAR.DeleteWarning": "この{type}は完全に削除され、元に戻すことはできません。",
+"SIDEBAR.DeleteManyWarning": "{count}個の{type}は完全に削除され、元に戻すことはできません。",
 "SIDEBAR.Duplicate": "複製",
 "SIDEBAR.Edit": "編集",
 "SIDEBAR.Export": "エクスポート",
@@ -3712,9 +3747,6 @@
   "ACTIONS": {
     "ChangeLevel": "Change Level",
     "Clear": "解除",
-    "Configure": "設定",
-    "Create": "{name}作成",
-    "Delete": "削除",
     "Hidden": "非表示中",
     "Hide": "非表示",
     "InLevel": "Included in Level",
@@ -3757,7 +3789,8 @@
     "normal": "基本のウォール",
     "secret": "隠し扉",
     "terrain": "地形ウォール",
-    "window": "窓"
+    "window": "窓",
+    "blank": "空のウォール"
   }
 },
 
@@ -4022,6 +4055,10 @@
 "TOKEN.Anchor": "アンカー",
 "TOKEN.AnchorHint": "デフォルトのアンカー (0.5, 0.5) はコマ画像の中心です。",
 "TOKEN.ImageAlts": "代替コマ画像",
+"TOKEN.ImageCycleNext": "次のコマ画像",
+"TOKEN.ImageCyclePrev": "前のコマ画像",
+"TOKEN.ImagePreview": "コマ画像プレビュー",
+"TOKEN.ImagePathOverridden": "This image is overridden by the Dynamic Token Ring subject texture.",
 "TOKEN.Mirror": "画像の反転",
 "TOKEN.MirrorX": "左右",
 "TOKEN.MirrorY": "上下",
@@ -4769,7 +4806,7 @@
         "hole.label": "除外（穴）？",
         "gridBased": {
           "label": "グリッドに沿う？",
-          "hint": "グリッドベースの形状がグリッドのメトリックに従います。"
+          "hint": "グリッドベースの形状は、ゲーム設定「正方形グリッドの対角線」で定義されたグリッドの距離計算ルールに従います。"
         },
         "x.label": "X原点",
         "y.label": "Y原点",
