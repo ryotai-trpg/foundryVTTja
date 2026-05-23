@@ -79,8 +79,8 @@
       "hint": "この設定が有効化されたライトはコマが視認できる範囲として設定されます。この範囲は壁（ウォール）越しでも、コマを選択していなくても常に見える範囲となります。"
     },
     "walls": {
-      "label": "壁とSurfaceに遮られる",
-      "hint": "この光源が壁（ウォール）とsurfaceに遮られるかどうかを設定します。"
+      "label": "壁とサーフェスに遮られる",
+      "hint": "この光源が壁（ウォール）とサーフェスに遮られるかどうかを設定します。"
     }
   },
   "LABELS": {
@@ -135,8 +135,8 @@
       "hint": "この音源を一時的に無効化します。"
     },
     "walls": {
-      "label": "壁とSurfaceに遮られる",
-      "hint": "この音が壁（ウォール）とSurfaceに遮られるかどうかを設定します。"
+      "label": "壁とサーフェスに遮られる",
+      "hint": "この音が壁（ウォール）とサーフェスに遮られるかどうかを設定します。"
     },
     "darkness": {
       "label": "音が聞こえる暗さの度合い",
@@ -165,7 +165,7 @@
         "intensity": {
           "label": "消音の強度"
         },
-        "hint": "「壁とSurfaceに遮られる」がオフになっている効果音にのみ使用できる特殊エフェクトです。音源が壁やSurfaceを通過するときに壁越しに聞こえる雰囲気を与えるために消音効果を設定できます。"
+        "hint": "「壁とサーフェスに遮られる」がオフになっている効果音にのみ使用できる特殊エフェクトです。音源が壁やサーフェスを通過するときに壁越しに聞こえる雰囲気を与えるために消音効果を設定できます。"
       }
     }
   },
@@ -392,11 +392,11 @@
   "PrivateRollContent": "{user}は秘密裏にメッセージ（ロール）を送信した",
   "UnknownUser": "不明なユーザー",
   "MODES": {
-    "blind": "Blind to Gamemasters",
-    "gm": "Private to Gamemasters",
-    "ic": "Public as Character",
-    "public": "Public as User",
-    "self": "Self Only"
+    "blind": "ゲームマスターへブラインド",
+    "gm": "ゲームマスターへプライベート",
+    "ic": "キャラクターとして公開",
+    "public": "ユーザーとして公開",
+    "self": "自分のみ"
   }
 },
 
@@ -691,7 +691,7 @@
   "RegionSelect": "リージョン選択",
   "RegionSelectP": "シーンに存在する一つ以上のリージョンを選択できます。選択されているリージョンはソリッドカラーで表され、選択されていないリージョンはストライプ模様で表されます。",
   "RegionTemplateMode": "定規テンプレートモード",
-  "RegionTemplateModeP": "When enabled, the palette is ignored and each shape you draw creates a new Region. Shapes cannot be added to existing Regions.",
+  "RegionTemplateModeP": "有効にするとパレットは無視され、描画する各図形ごとに新しいリージョンが作成されます。既存のリージョンに図形を追加することはできません。",
   "RegionRectangle": "四角形を描く",
   "RegionCircle": "円形を描く",
   "RegionEllipse": "楕円を描く",
@@ -706,10 +706,10 @@
   "RegionClear": "リージョンを消去",
   "RegionPerformance": "<em>パフォーマンス注意：</em> 図形が増えるごとにシーンを描画するのに必用なPCの処理性能が向上します。負荷はリージョンの「数」で上昇します。大きなリージョンを作るときは複数の小さなリージョンを配置するのではなく、一つの大きなリージョンを多角形ツールで描くことをお勧めします。",
   "ClearAll": "全てのオブジェクトを消去",
-  "ClearAllOwned": "Clear All Owned Objects",
+  "ClearAllOwned": "所有オブジェクトをすべて消去",
   "ClearAllHint": "このシーンから全ての{type}を消去しますか？",
-  "ClearAllOwnedHint": "Permanently delete all viewed {type} objects that you own?",
-  "DeleteLockedObjects": "Delete Locked Objects",
+  "ClearAllOwnedHint": "表示中の、あなたが所有する{type}オブジェクトをすべて完全に削除しますか？",
+  "DeleteLockedObjects": "ロック済みオブジェクトを削除",
   "HeaderGame": "ゲームコントロール",
   "HeaderGameNotes": "オンセ工房 Foundry VTTで一般的に使用される操作です。",
   "HeaderCanvas": "マップ画面の操作",
@@ -958,7 +958,7 @@
     "img.label": "画像パス",
     "description.label": "説明",
     "folder.label": "フォルダ",
-    "author.label": "作者",
+    "author.label": "作成者",
     "width.label": "幅",
     "height.label": "高さ",
     "hidden.label": "非表示",
@@ -972,7 +972,7 @@
     "y.label": "Y",
     "levels": {
       "label": "階層",
-      "hint": "Choose the Levels in which inclusion applies. An empty selection applies inclusion to all Levels."
+      "hint": "配置する階層を選択してください。何も選択しない場合は、すべての階層に適用されます。"
     }
   }
 },
@@ -1090,7 +1090,7 @@
       "custom": "カスタム",
       "multiply": "乗算",
       "add": "追加",
-      "subtract": "Subtract",
+      "subtract": "減算",
       "downgrade": "ダウングレード",
       "upgrade": "アップグレード",
       "override": "上書き"
@@ -1099,7 +1099,7 @@
   "DURATION": {
     "Header": "効果の持続時間",
     "Label": "持続時間",
-    "MaxOneWarning": "A duration in {units} will be treated as having a value of no greater than one.",
+    "MaxOneWarning": "{units}での持続時間は、1を超えない値として扱われます。",
     "UNITS": {
       "GROUPS": {
         "time": "時間",
@@ -1182,7 +1182,7 @@
       }
     },
     "start": {
-      "combatant.label": "Combatant",
+      "combatant.label": "戦闘参加キャラ",
       "round.label": "ラウンド",
       "turn.label": "ターン",
       "initiative.label": "イニシアチブ",
@@ -1202,9 +1202,9 @@
   "START": {
     "Header": "効果の開始",
     "Time": "開始時間",
-    "Combat": "Round {round}, Turn {turn}",
-    "Combatant": "{combatant} (Initiative Roll: {initiative})",
-    "NoInitiative": "Not Rolled"
+    "Combat": "ラウンド {round}、ターン {turn}",
+    "Combatant": "{combatant}（イニシアチブロール: {initiative}）",
+    "NoInitiative": "未ロール"
   },
   "TABS": {
     "details": "詳細",
@@ -1360,8 +1360,8 @@
     "Remove": "タグを削除",
     "RemoveGridOffset": "グリッド･オフセットを削除",
     "ErrorBlank": "HTMLStringTagsElementタグは空にすることは出来ません。",
-    "ErrorInvalidGridOffset2D": "A 2D grid offset must have two integer coordinates, which are separated by a dot.",
-    "ErrorInvalidGridOffset3D": "A 3D grid offset must have three integer coordinates, which are separated by dots.",
+    "ErrorInvalidGridOffset2D": "2Dグリッド･オフセットには、ドットで区切られた2つの整数座標が必要です。",
+    "ErrorInvalidGridOffset3D": "3Dグリッド･オフセットには、ドットで区切られた3つの整数座標が必要です。",
     "ErrorNonUnique": "\"{tag}\"タグはすでに存在します。"
   }
 },
@@ -1528,9 +1528,9 @@
   "ShowNoPlayers": "表示できる他のプレイヤーが接続していません。",
   "ShowOwnershipHint": "表示先のプレイヤーにも閲覧の権限を渡します。すでに上位の権限を持っていた場合は降格されることはありません。",
   "SHOW": {
-    "all": "all",
-    "authorized": "authorized",
-    "selected": "selected"
+    "all": "すべて",
+    "authorized": "権限を有する",
+    "selected": "選択中"
   },
   "LockModeLocked": "目次はロック中。クリックでアンロック。",
   "LockModeUnlocked": "目次はアンロック中。クリックでロック。",
@@ -1706,7 +1706,7 @@
       "label": "ライトアニメーション",
       "type": {
         "label": "アニメーション種別",
-        "any": "Any",
+        "any": "任意",
         "none": "アニメーションなし"
       },
       "speed": {
@@ -2001,21 +2001,21 @@
 "SCENE.DimensionChangeTitle": "シーンのサイズ変更をしますか？",
 "SCENE.DimensionChangeWarning": "このシーンの基になるサイズを変更しました。このシーンにコマやウォールなどを配置している場合この操作によって本来の位置からずれる可能性があります。",
 "SCENE.DimensionLinked": "シーンの縦横比が同期されています。サイズのいずれかを編集するともう片方も比率を保つために自動的に変わります。クリックすると同期を解除します。",
-"SCENE.DeterminingDimensions": "Determining Scene dimensions.",
+"SCENE.DeterminingDimensions": "シーンのサイズを判定中。",
 "SCENE.DimensionUnlinked": "シーンの縦横比が同期されていません。サイズのいずれかを編集してももう片方は変更されません。クリックすると同期します",
 "SCENE.DistortedDimensionsTitle": "縦横比の警告",
 "SCENE.DistortedDimensionsWarning": "元の縦横比とは違うサイズが設定されています。コマなどの配置物を自動的に一番近い位置に再配置しますか？結果は必ずしも正しいものとは限りません。",
 "SCENE.Environment.Base": "基本環境",
 "SCENE.Environment.Dark": "暗さの環境",
-"SCENE.Environment.DarkHint": "Behaves as the base environmental settings, but applies as the scene's darkness level gets closer to 1.",
-"SCENE.Environment.Reset": "Reset to Default Options",
-"SCENE.FogOfWar": "Fog of War",
+"SCENE.Environment.DarkHint": "基本環境設定と同様に動作しますが、シーンの暗さの度合いが1に近づくほど適用されます。",
+"SCENE.Environment.Reset": "デフォルトのオプションにリセット",
+"SCENE.FogOfWar": "探索マスク",
 "SCENE.GenerateThumb": "サムネイル画像を再生成",
 "SCENE.GenerateThumbNoCanvas": "「ゲームキャンバスの無効化」の設定を使用している場合シーンのサムネイルは生成されません。",
 "SCENE.GenerateThumbUploadDenied": "ユーザーがファイルをアップロードする権限がないため、シーンのサムネイルを生成できませんでした。",
 "SCENE.GenerateThumbProgress": "シーン「{name}」のサムネイル画像を生成中。",
 "SCENE.GenerateThumbSuccess": "シーン「{name}」のサムネイル画像を生成しました。",
-"SCENE.GlobalIllumination": "Global Illumination",
+"SCENE.GlobalIllumination": "見える範囲の無制限化",
 "SCENE.GridAppearance": "外観",
 "SCENE.GridAppearanceHint": "グリッド線の見た目を設定します。",
 "SCENE.GridConfigTool": "グリッド設定ツール",
@@ -2033,7 +2033,7 @@
 "SCENE.GridPosition": "シーン･オフセット",
 "SCENE.GridPositionHint": "矢印キーを使用して、シーン･オフセットを調整します。",
 "SCENE.GridReset": "変更をリセット",
-"SCENE.InheritedField": "This field's value is being inherited from the '{level}' level. Click here to edit it directly.",
+"SCENE.InheritedField": "この項目の値は「{level}」階層から継承されています。ここをクリックして直接編集できます。",
 "SCENE.InitialLevel": "初期階層",
 "SCENE.InitialView": "初期表示位置",
 "SCENE.InitialViewButton": "現在の表示位置を初期表示位置にする",
@@ -2041,15 +2041,15 @@
 "SCENE.InvalidDimension": "このサイズの変更により他のサイズ設定が整数ではない値になります。別のサイズに設定するか、縦横比の同期を解除してから設定してください。",
 "SCENE.Loading": "読み込み中 {name}",
 "SCENE.Notes": "シーンメモ",
-"SCENE.Perception": "Perception",
+"SCENE.Perception": "知覚",
 "SCENE.Preload": "先読み",
 "SCENE.Presentation": "表示",
 "SCENE.Properties": "シーンプロパティ",
 "SCENE.View": "表示",
-"SCENE.ShiftBG": "Shift",
-"SCENE.PullEveryone": "Pull Everyone",
+"SCENE.ShiftBG": "シフト",
+"SCENE.PullEveryone": "全員このシーンに集合",
 "SCENE.ToggleNav": "ナビゲーション切替",
-"SCENE.FogModeChangeMessage": "Fog exploration mode has changed. This will reload fog exploration and reset vision.",
+"SCENE.FogModeChangeMessage": "探索モードが変更されました。探索マスクを再読み込みし、視覚をリセットします。",
 "SCENE.Transition": {
   "Animation": "遷移アニメーション",
   "Preview": "プレビュー",
@@ -2072,7 +2072,7 @@
 },
 "SCENE.FIELDS": {
   "initialLevel": {
-    "hint": "If a User has visibility of this Level, they will be placed on it when the Scene is activated for the first time, or if the Scene is active when joining the game.",
+    "hint": "ユーザーがこの階層の可視性を持っている場合、シーンが初めて有効化されたとき、または参加時にシーンが有効な場合、その階層に配置されます。",
     "label": "初期階層"
   },
   "transition": {
@@ -2109,12 +2109,12 @@
     "type.label": "グリッド種別",
     "size": {
       "label" : "グリッドサイズ ",
-      "hint" : "The grid pixel size is the size of a single grid space. Use the Grid Configuration tool to visually adjust this."
+      "hint" : "グリッドのピクセルサイズは、1マスの大きさです。グリッド設定ツールで視覚的に調整できます。"
     },
     "thickness.label": "グリッドの幅",
     "color.label": "グリッドの色",
     "alpha.label": "グリッドの不透明度",
-    "distance.hint": "The distance each grid space represents on this scene, in units appropriate to the game system.",
+    "distance.hint": "このシーンで各マスが表す距離を、ゲームシステムに適した単位で表します。",
     "distance.label": "距離",
     "units.label": "単位",
     "style.label": "グリッド種別"
@@ -2123,9 +2123,9 @@
     "label" : "マップ余白",
     "hint": "シーンの周囲に表示する余分な空間やマス目を設定します。"
   },
-  "shiftX.hint": "The offset applied to the Scene's playable area, which is centered on the canvas by default.",
-  "shiftX.label": "X-Shift",
-  "shiftY.label": "Y-Shift",
+  "shiftX.hint": "シーンのプレイ可能領域に適用されるオフセット。デフォルトではキャンバスの中央に配置されます。",
+  "shiftX.label": "Xシフト",
+  "shiftY.label": "Yシフト",
   "tokenVision": {
     "label": "コマの視覚",
     "hint": "操作するコマに設定された視覚に基づいて、シーン内で見通せる距離を制限します。無効にすると、シーン全体が表示されます。"
@@ -2137,8 +2137,8 @@
       "SHARED": "共有"
     },
     "mode": {
-      "label" : "Exploration Mode",
-      "hint" : "Controls Fog of War mode: \"None\" disables exploration (tokens only see what they currently can), \"Individual\" tracks exploration separately for each user, and \"Shared\" uses a single exploration state contributed to by all users."
+      "label" : "探索モード",
+      "hint" : "探索マスクのモードを制御します。「なし」は探索を無効化します（コマは現在見える範囲のみ）。「個別」はユーザーごとに探索を記録し、「共有」は全ユーザーが共有する単一の探索状態を使用します。"
     },
     "overlay": {
       "label" : "マスク画像",
@@ -2236,7 +2236,7 @@
 "SCENE_LEVEL": {
   "Actions": {
     "Add": {
-      "hint": "Scenes support more than one vertical level. Add a new Level to convert this Scene into a multi-level scene.",
+      "hint": "シーンは複数の垂直階層をサポートします。新しい階層を追加して、このシーンを多階層シーンに変換します。",
       "label": "階層を追加"
     },
     "Edit": "階層を編集",
@@ -2250,7 +2250,7 @@
       "tint.label": "色合い",
       "alphaThreshold": {
         "label": "アルファ閾値",
-        "hint": "Pixels in the background texture with alpha values below this threshold do not restrict light or weather."
+        "hint": "この閾値未満のアルファ値を持つ背景テクスチャのピクセルは、ライトや天候を制限しません。"
       }
     },
     "elevation": {
@@ -2265,9 +2265,9 @@
       "alphaThreshold.label": "アルファ閾値"
     },
     "fog": {
-      "label": "Fog Exploration",
-      "src.label": "Unexplored Texture",
-      "tint.label": "Texture Tint"
+      "label": "探索マスク",
+      "src.label": "未探索テクスチャ",
+      "tint.label": "テクスチャの色合い"
     },
     "textures": {
       "label": "位置",
@@ -2284,14 +2284,14 @@
       "rotation.label": "回転"
     },
     "visibility": {
-      "label": "Level Visibility",
+      "label": "階層の可視性",
       "levels": {
-        "label": "Visible Levels",
-        "hint": "Configure the set of other Levels which are fully or partially visible from this one."
+        "label": "表示する階層",
+        "hint": "この階層から完全または部分的に見える、他の階層のリストを設定します。"
       }
     }
   },
-  "CannotDeleteOnlyLevel": "You cannot delete the only Level in this Scene."
+  "CannotDeleteOnlyLevel": "このシーンに唯一の階層は削除できません。"
 },
 
 "SCENE_NAVIGATION": {
@@ -2615,9 +2615,9 @@
   "WorldCreate": "ワールド作成",
   "WorldCreating": "ワールドを作成中...",
   "WorldCreateCancel": "ワールド作成をキャンセル",
-  "WorldCreateDependencyFail": "The World could not be created as required dependencies were not installed.",
-  "WorldCreateNoSystem": "You must select a Game System for the World before continuing.",
-  "WorldCreateNoTitle": "You must provide a title for the World before continuing.",
+  "WorldCreateDependencyFail": "必要な依存先がインストールされていないため、ワールドを作成できませんでした。",
+  "WorldCreateNoSystem": "続行する前に、ワールドのゲームシステムを選択する必要があります。",
+  "WorldCreateNoTitle": "続行する前に、ワールドのタイトルを入力する必要があります。",
   "WorldCreateSuccess": "作成完了、起動中...",
   "WorldDelete": "ワールド削除",
   "WorldEdit": "ワールド設定",
@@ -3077,9 +3077,9 @@
       }
     },
     "compatibility": {
-      "minimum.label": "最小（Minimum）バージョン",
-      "verified.label": "動作保証（Verified）バージョン",
-      "maximum.label": "最大（Maximum）バージョン"
+      "minimum.label": "最小バージョン",
+      "verified.label": "動作保証バージョン",
+      "maximum.label": "最大バージョン"
     },
     "dataPath.label": "データパス"
   }
@@ -3112,7 +3112,7 @@
   "ErrorInvalidPassword": "{user}のために提供されたパスワードが無効です！",
   "ErrorBanned": "{user}はこのワールドにアクセスする権限がありません！",
   "LoginSuccess": "{user}としてのログインに成功しました。ゲームに参加しています！",
-  "WorldPendingSetup": "This World is not ready yet. Please wait for the Gamemaster to log in and complete setup before attempting to join."
+  "WorldPendingSetup": "このワールドはまだ準備ができていません。参加を試みる前に、ゲームマスターがログインしてセットアップを完了するのをお待ちください。"
 },
 
 "SHEETS.ConfigureSheet": "シート設定",
@@ -3258,8 +3258,8 @@
 
 "PLACEABLE_PALETTE": {
   "Apply": "適用",
-  "CannotApplyToLocked": "You cannot apply the palette to locked objects.",
-  "CloneSettings": "Clone",
+  "CannotApplyToLocked": "ロックされたオブジェクトにパレットを適用することはできません。",
+  "CloneSettings": "複製",
   "MultipleValues": "<複数の値>",
   "Selected": "{document}パレット [{count}]",
   "Title": "{document}パレット"
@@ -3297,14 +3297,14 @@
         "hint": "高度範囲の上端。"
       },
       "topInclusive": {
-        "label": "Top Inclusive",
-        "hint": "Is the top included in the elevation range?"
+        "label": "上端を含む",
+        "hint": "高度範囲に上端を含めますか？"
       }
     },
     "attachment": {
       "token": {
         "label": "コマに追従",
-        "hint": "The Token the Region is attached to. When this Token is moved, the Region is moved with it."
+        "hint": "リージョンが追従するコマ。このコマが移動すると、リージョンも一緒に移動します。"
       }
     },
     "restriction": {
@@ -3368,8 +3368,8 @@
     }
   },
   "RESTRICTION_TYPES": {
-    "light.label": "優先度≥閾値 の光を遮る壁と暗闇",
-    "darkness.label": "優先度>閾値 の暗闇を遮る壁と光源",
+    "light.label": "優先度≥閾値 のライトを遮る壁と暗闇",
+    "darkness.label": "優先度>閾値 の暗さを遮る壁と光源",
     "sight.label": "優先度≥閾値 の視覚を遮る壁と暗闇",
     "sound.label": "音を遮る壁",
     "move.label": "移動を遮る壁"
@@ -3446,16 +3446,16 @@
   },
   "NOTIFICATIONS": {
     "PlacedRegionRotationNotAllowed": "配置済みのリージョンの形状は回転できません。",
-    "PlacedRegionNotAttachedToToken": "The placed Region must be attached to a Token.",
+    "PlacedRegionNotAttachedToToken": "配置したリージョンはコマに追従させる必要があります。",
     "CopiedShape": "リージョン形状をコピーしました。",
     "CutShape": "リージョン形状をカットしました。",
     "PastedShape": "リージョン形状をペーストしました。",
     "PastedShapeWithoutControlledRegion": "形状をペーストできるリージョンを選択していません。"
   },
   "TOOLTIPS": {
-    "CannotChangeLevelsIfAttached": "The Region must be on the same Level as the Token it's attached to.",
-    "CannotSelectMultipleLevelsIfRestricted": "This Region can't be included in multiple Levels while it's restricted.",
-    "CannotEnableRestriction": "This Region can't be restricted because it's included in more than one Level."
+    "CannotChangeLevelsIfAttached": "リージョンは、追従先のコマと同じ階層にある必要があります。",
+    "CannotSelectMultipleLevelsIfRestricted": "制限されている間、このリージョンを複数の階層に含めることはできません。",
+    "CannotEnableRestriction": "このリージョンは複数の階層に含まれているため、制限を有効にできません。"
   }
 },
 
@@ -3529,38 +3529,38 @@
     "changeLevel": {
       "FIELDS": {
         "movementActions": {
-          "label": "Allowed Movement Actions",
-          "hint": "Defines which movement actions the Token can use to change the Level. If no actions are selected, all movement actions are allowed."
+          "label": "許可する移動アクション",
+          "hint": "コマが階層を変更するために使用できる移動アクションを定義します。何も選択しない場合、すべての移動アクションが許可されます。"
         }
       },
-      "Level": "Destination Level",
-      "MovementAction": "Movement Action",
-      "Confirm": "Do you want to move {token} to {level}?",
-      "ConfirmSelect": "Select the level you want to move {token} to.",
-      "ConfirmDisabled": "{token} cannot be moved to another level from their current position.",
-      "Move": "Move",
-      "MoveDown": "Move Down",
-      "MoveUp": "Move Up",
-      "DoNotMove": "Don't Move"
+      "Level": "目的地の階層",
+      "MovementAction": "移動アクション",
+      "Confirm": "{token}を{level}に移動しますか？",
+      "ConfirmSelect": "{token}を移動する階層を選択してください。",
+      "ConfirmDisabled": "{token}は現在の位置から別の階層に移動できません。",
+      "Move": "移動",
+      "MoveDown": "下へ移動",
+      "MoveUp": "上へ移動",
+      "DoNotMove": "移動しない"
     },
     "defineSurface": {
       "FIELDS": {
-        "placement.label": "Placement",
-        "light.label": "Restricts Light and Darkness",
-        "move.label": "Restricts Movement",
-        "sight.label": "Restricts Sight",
-        "sound.label": "Restricts Sound",
+        "placement.label": "配置",
+        "light.label": "ライトと暗さを制限",
+        "move.label": "移動を制限",
+        "sight.label": "視覚を制限",
+        "sound.label": "音を制限",
         "occlusion": {
           "label": "干渉",
-          "hint": "When a controlled or detected Token is below a surface, Tiles using the \"Surface\" occlusion mode fade if they are at or above that surface, as do background and foreground textures. For surfaces at the top of a three-dimensional Region, fading only applies if the Token is also at or above the Region's bottom elevation. Hovering over the Region or pressing the \"Highlight Objects\" keybinding also triggers this effect."
+          "hint": "操作中または感知されたコマがサーフェスの下にある場合、「サーフェス」干渉モードのタイルは、そのサーフェスの上にあるときにフェードし、背景・前景テクスチャも同様です。3次元リージョンの上端にあるサーフェスでは、コマがリージョンの下端以上にある場合にのみフェードが適用されます。リージョンにホバーするか、「オブジェクトを強調表示」ショートカット入力で、この効果も発動します。"
         },
         "exposure": {
-          "label": "Reveal Elevated Surface",
-          "hint": "Partially reveal the visible area of this elevated surface to observers below and outside of it. The revealed area depends on the angle between the observer and the surface boundary, this area decreases as the angle becomes steeper. This option is useful for roofs, balconies, or other overhead platforms."
+          "label": "高所のサーフェスを見せる",
+          "hint": "この高所のサーフェスの見える範囲を、下や外側にいるコマに対して部分的に見せます。見せる範囲は、コマとサーフェス端のなす角度によって変わり、角度が急になるほど狭くなります。屋根、バルコニー、その他の頭上の足場向けの設定です。"
         },
         "culling": {
-          "label": "Cull Tokens",
-          "hint": "Hide uncontrolled Tokens outside the currently viewed Level in the GM view or when Token Vision is disabled. Surfaces in the background hide Tokens below them, while surfaces in the foreground hide Tokens on or above them."
+          "label": "コマを非表示",
+          "hint": "GMビューまたはコマの視覚が無効な場合、現在表示中の階層外の非操作コマを非表示にします。背景のサーフェスは下のコマを、前景のサーフェスは上または同じ高さのコマを非表示にします。"
         }
       },
       "PLACEMENTS": {
@@ -3589,7 +3589,7 @@
           "label": "GM"
         },
         "OBSERVER": {
-          "label": "閲覧者 (Observer)"
+          "label": "閲覧者"
         },
         "ANYONE": {
           "label": "全員"
@@ -3654,12 +3654,12 @@
           "hint": "目的地が非公開で、ユーザーがGMでない場合に確認ダイアログに表示されるテキスト。{token}はコマ名に置き換えられます。"
         },
         "transition.type": {
-          "label": "Transition Type",
-          "hint": "The type of transition animation that is played when a Token is teleported."
+          "label": "遷移の種別",
+          "hint": "コマが転送されたときに再生される遷移アニメーションの種別。"
         },
         "transition.duration": {
-          "label": "Transition Duration",
-          "hint": "The duration of the transition animation in milliseconds."
+          "label": "遷移の長さ",
+          "hint": "遷移アニメーションの長さ（ミリ秒）。"
         }
       },
       "PLACEMENTS": {
@@ -3674,7 +3674,7 @@
       "ConfirmSelectDifferentScene": "{token}を転送する目的地を選択してください。",
       "ConfirmSelectOption": "{scene}の{region}",
       "Teleport": "転送",
-      "DoNotTeleport": "転送禁止"
+      "DoNotTeleport": "転送しない"
     },
     "toggleBehavior": {
       "FIELDS": {
@@ -3745,22 +3745,22 @@
 
 "SIDEBAR.PLACEABLES": {
   "ACTIONS": {
-    "ChangeLevel": "Change Level",
+    "ChangeLevel": "階層を変更",
     "Clear": "解除",
     "Hidden": "非表示中",
     "Hide": "非表示",
-    "InLevel": "Included in Level",
+    "InLevel": "階層に含まれる",
     "Lock": "ロック",
     "Locked": "ロック中",
-    "NotInLevel": "Not Included in Level",
+    "NotInLevel": "階層に含まれない",
     "Show": "表示",
     "Unlock": "アンロック",
     "Unlocked": "アンロック中",
     "Visible": "表示中"
   },
   "Categories": {
-    "NoAuthor": "No Author",
-    "NoLevel": "No Level"
+    "NoAuthor": "作成者なし",
+    "NoLevel": "階層なし"
   },
   "Meta": {
     "empty": "空",
@@ -3772,11 +3772,11 @@
     "ACTIONS": {
       "Clear": "解除"
     },
-    "Bottom": "Bottom",
+    "Bottom": "下端",
     "Title": "詳細な絞り込み",
     "Level": "階層で絞り込み",
     "Tooltip": "詳細な絞り込み。右クリックで解除",
-    "Top": "Top"
+    "Top": "上端"
   },
   "Search": {
     "placeholder": "{name}を検索"
@@ -3852,8 +3852,8 @@
   "WorldData": "ワールドデータ",
   "CompendiumData": "辞典データ",
   "ActiveModules": "有効モジュール",
-  "Errors": "Errors",
-  "Warnings": "Warnings",
+  "Errors": "エラー",
+  "Warnings": "警告",
   "TABS": {
     "support": "サポート詳細",
     "documents": "ドキュメントの問題",
@@ -3927,7 +3927,7 @@
 "TILE.ScaleHint": "XとY軸で画像の縮尺を調整します。設定のよってはコマの枠からあふれる可能性があります。負の値は画像をその軸で反転させます。",
 "TILE.OcclusionModeNone": "なし（常に見える）",
 "TILE.OcclusionModeFade": "減衰（全タイル）",
-"TILE.OcclusionModeSurface": "Surface",
+"TILE.OcclusionModeSurface": "サーフェス",
 "TILE.OcclusionModeRadial": "放射（コマの周囲）",
 "TILE.OcclusionModeVision": "視覚（コマの視覚範囲）",
 "TILE.VideoOptions": "ビデオオプション",
@@ -3943,7 +3943,7 @@
   "position": "位置",
   "appearance": "外観",
   "overhead": "前景",
-  "video": "Video"
+  "video": "動画"
 },
 "TILE.FIELDS": {
   "sort.label": "ソート",
@@ -3954,7 +3954,7 @@
     "tint.label": "色合い",
     "alphaThreshold": {
       "label": "アルファ閾値",
-      "hint": "Pixels in the Tile image with alpha values below this threshold do not restrict light or weather and do not trigger hover fading."
+      "hint": "この閾値未満のアルファ値を持つタイル画像のピクセルは、ライトや天候を制限せず、ホバー時のフェードも発生しません。"
     }
   },
   "alpha.label": "タイルの不透明度",
@@ -3967,14 +3967,14 @@
     "alpha.label": "干渉アルファ値"
   },
   "OCCLUSION_MODES": {
-    "FADE.label": "Fade",
-    "NONE.label": "None",
-    "RADIAL.label": "Radial",
-    "SURFACE.label": "Surface",
-    "VISION.label": "Vision"
+    "FADE.label": "減衰",
+    "NONE.label": "なし",
+    "RADIAL.label": "放射",
+    "SURFACE.label": "サーフェス",
+    "VISION.label": "視覚"
   },
   "restrictions": {
-    "label": "Restrictions",
+    "label": "制限",
     "light": {
       "label": "ライトを遮る",
       "hint": "このタイルは同じ高度以下の高度を持つ光源を遮りますか？"
@@ -4050,7 +4050,7 @@
 "TOKEN.BarAttributes": "バー",
 "TOKEN.BarValues": "値",
 "TOKEN.DeleteCombatantWarning": "戦闘中のコマを削除しようとしています。その戦闘参加キャラは永久に削除されます。",
-"TOKEN.DeleteAttachedRegionWarning": "You are deleting a Token that has a Region attached to it. Its attached Region(s) will be permanently deleted.",
+"TOKEN.DeleteAttachedRegionWarning": "追従リージョンの付いたコマを削除しようとしています。追従リージョンも完全に削除されます。",
 "TOKEN.Size": "サイズ",
 "TOKEN.Anchor": "アンカー",
 "TOKEN.AnchorHint": "デフォルトのアンカー (0.5, 0.5) はコマ画像の中心です。",
@@ -4058,7 +4058,7 @@
 "TOKEN.ImageCycleNext": "次のコマ画像",
 "TOKEN.ImageCyclePrev": "前のコマ画像",
 "TOKEN.ImagePreview": "コマ画像プレビュー",
-"TOKEN.ImagePathOverridden": "This image is overridden by the Dynamic Token Ring subject texture.",
+"TOKEN.ImagePathOverridden": "この画像はダイナミックリングのリング内画像によって上書きされています。",
 "TOKEN.Mirror": "画像の反転",
 "TOKEN.MirrorX": "左右",
 "TOKEN.MirrorY": "上下",
@@ -4069,7 +4069,7 @@
 "TOKEN.WarningNoActor": "このコマは、ワールド内に存在しなくなったキャラクターを参照しています。",
 "TOKEN.WarningNoVision": "このシーンには、あなたがエリアを見えるようにするコマがありません。",
 "TOKEN.PROTOTYPE": {
-  "OverridesWarning": "This field is defined by Prototype Token Overrides and cannot be edited directly."
+  "OverridesWarning": "この項目は初期コマの上書きで定義されているため、直接編集できません。"
 },
 "TOKEN.TABS": {
   "identity": "基本",
@@ -4084,7 +4084,7 @@
   "advanced": "高度なオプション"
 },
 "TOKEN.NOTIFICATIONS": {
-  "PlacedTokenRotationNotAllowed": "You are not allowed to rotate the placed Token."
+  "PlacedTokenRotationNotAllowed": "配置済みのコマを回転する権限がありません。"
 },
 "TOKEN.FIELDS": {
   "name.label": "コマ名",
@@ -4092,7 +4092,7 @@
   "width.label": "Xサイズ",
   "height.label": "Yサイズ",
   "depth.label": "Zサイズ",
-  "level.label": "Level",
+  "level.label": "階層",
   "movementAction.label": "移動アクション",
   "actorId.label": "元データ",
   "actorLink.label": "コマとデータをリンク",
@@ -4149,7 +4149,7 @@
         "hint": "リングの中に配置される画像の縮尺を調整できます。この値を大きくすると、リングに対して画像が大きくなります。画像が目立ちすぎる場合は、値を小さくしてサイズを小さくしてください。"
       },
       "texture": {
-        "label": "コマ画像",
+        "label": "リング内画像",
         "hint": "ダイナミックリング使用時の画像を指定することができます。空の場合は元のコマ画像が使用されます。"
       }
     }
@@ -4391,11 +4391,11 @@
   },
   "NOTIFICATIONS": {
     "PLAN": {
-      "DirectViolation": "You are not allowed to place waypoints while planning this movement.",
-      "MinCostViolation": "The planned movement path does not meet the minimum required cost.",
-      "MaxCostViolation": "The planned movement path exceeds the maximum allowed cost.",
-      "MinDistanceViolation": "The planned movement path does not meet the minimum required distance.",
-      "MaxDistanceViolation": "The planned movement path exceeds the maximum allowed distance."
+      "DirectViolation": "この移動のプラン中に中間点を配置することは許可されていません。",
+      "MinCostViolation": "プランした移動経路は、必要最小の移動コストを満たしていません。",
+      "MaxCostViolation": "プランした移動経路は、許可された最大移動コストを超えています。",
+      "MinDistanceViolation": "プランした移動経路は、必要最小の移動距離を満たしていません。",
+      "MaxDistanceViolation": "プランした移動経路は、許可された最大移動距離を超えています。"
     }
   }
 },
@@ -4420,8 +4420,8 @@
   "RegionBehavior": {
     "adjustDarknessLevel": "暗さの度合いの調整",
     "applyActiveEffect": "アクティブ効果を適用",
-    "changeLevel": "Change Level",
-    "defineSurface": "Define Surface",
+    "changeLevel": "階層を変更",
+    "defineSurface": "サーフェスを定義",
     "displayScrollingText": "スクロールテキストを表示",
     "executeMacro": "マクロを実行",
     "executeScript": "スクリプトを実行",
@@ -4437,18 +4437,18 @@
   },
   "HINTS": {
     "RegionBehavior": {
-      "adjustDarknessLevel": "Override, brighten, or darken the Scene's Darkness Level within the Region.",
-      "applyActiveEffect": "Apply Active Effects to Tokens while they are within the Region.",
-      "changeLevel": "Allow Tokens that move into the Region to move to another Level the Region is included in.",
-      "defineSurface": "Define a surface that can restrict light, movement, sight, and sound.",
-      "displayScrollingText": "Display a scrolling text above a Token when it triggers one of the subscribed events.",
-      "executeMacro": "Execute a Macro when one of the subscribed events occurs.",
-      "executeScript": "Execute a script when one of the subscribed events occurs.",
-      "modifyMovementCost": "Modify the movement cost of Tokens within the Region.",
-      "pauseGame": "Pause the game when a Token is moved into the Region by a player.",
-      "suppressWeather": "Suppress weather effects within the Region.",
-      "teleportToken": "Teleport Tokens that are moved into the Region to another Region.",
-      "toggleBehavior": "Enable/disable other Region Behaviors when one of the subscribed events occurs."
+      "adjustDarknessLevel": "リージョン内でシーンの暗さの度合いを上書き、明るく、または暗くします。",
+      "applyActiveEffect": "コマがリージョン内にいる間、アクティブ効果を適用します。",
+      "changeLevel": "リージョンに入ったコマが、リージョンが含まれる別の階層へ移動できるようにします。",
+      "defineSurface": "ライト、移動、視覚、音を制限できるサーフェスを定義します。",
+      "displayScrollingText": "登録したイベントのいずれかが発生したとき、コマの上にスクロールテキストを表示します。",
+      "executeMacro": "登録したイベントのいずれかが発生したとき、マクロを実行します。",
+      "executeScript": "登録したイベントのいずれかが発生したとき、スクリプトを実行します。",
+      "modifyMovementCost": "リージョン内のコマの移動コストを修正します。",
+      "pauseGame": "プレイヤーがコマをリージョンに移動したとき、ゲームを一時停止します。",
+      "suppressWeather": "リージョン内の天候効果を抑制します。",
+      "teleportToken": "リージョンに移動したコマを、別のリージョンへ転送します。",
+      "toggleBehavior": "登録したイベントのいずれかが発生したとき、他のリージョン効果を有効/無効にします。"
     }
   }
 },
@@ -4543,7 +4543,7 @@
 "USERS.Create": "ユーザーの新規追加",
 "USERS.Delete": "ユーザー削除",
 "USERS.LoginAs": "ユーザーとしてログイン",
-"USERS.LoginAsGMRequired": "You must be a Gamemaster to log in as another user.",
+"USERS.LoginAsGMRequired": "別のユーザーとしてログインするには、ゲームマスターである必要があります。",
 "USERS.DeleteName": "ユーザー削除: {name}",
 "USERS.Launch": "保存して戻る",
 "USERS.FirstLaunch": "保存して続ける",
@@ -4552,7 +4552,7 @@
 "USERS.NoGMError": "ワールド内には最低1名のゲームマスターユーザーが必要です。",
 "USERS.DeleteWarning": "このユーザーはワールドから削除されます",
 "USERS.DeleteGMWarning": "あなたはゲームマスターを削除しようとしています！",
-"USERS.PasswordWarning": "Setting a password for the Gamemaster account is strongly recommended.",
+"USERS.PasswordWarning": "ゲームマスターアカウントにパスワードを設定することを強く推奨します。",
 
 "VISION.ModeBlindness": "盲目",
 "VISION.ModeBasicVision": "基本視覚",
@@ -4892,10 +4892,10 @@
       "size.label": "サイズ"
     },
     "grid": {
-      "name": "Grid Spaces",
+      "name": "マス目",
       "FIELDS": {
         "offsets.label": "グリッド･オフセット",
-        "origin.label": "Origin"
+        "origin.label": "原点"
       }
     }
   },
